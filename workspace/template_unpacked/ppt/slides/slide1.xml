@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="ascii"?>
+<p:sld xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+  <p:cSld>
+    <p:spTree>
+      <p:nvGrpSpPr>
+        <p:cNvPr id="1" name=""/>
+        <p:cNvGrpSpPr/>
+        <p:nvPr/>
+      </p:nvGrpSpPr>
+      <p:grpSpPr>
+        <a:xfrm>
+          <a:off x="0" y="0"/>
+          <a:ext cx="0" cy="0"/>
+          <a:chOff x="0" y="0"/>
+          <a:chExt cx="0" cy="0"/>
+        </a:xfrm>
+      </p:grpSpPr>
+      <p:graphicFrame>
+        <p:nvGraphicFramePr>
+          <p:cNvPr id="4" name="think-cell data - do not delete" hidden="1"/>
+          <p:cNvGraphicFramePr>
+            <a:graphicFrameLocks noChangeAspect="1"/>
+          </p:cNvGraphicFramePr>
+          <p:nvPr>
+            <p:custDataLst>
+              <p:tags r:id="rId2"/>
+            </p:custDataLst>
+            <p:extLst>
+              <p:ext uri="{D42A27DB-BD31-4B8C-83A1-F6EECF244321}">
+                <p14:modId xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main" val="3792587065"/>
+              </p:ext>
+            </p:extLst>
+          </p:nvPr>
+        </p:nvGraphicFramePr>
+        <p:xfrm>
+          <a:off x="1588" y="1588"/>
+          <a:ext cx="1588" cy="1588"/>
+        </p:xfrm>
+        <a:graphic>
+          <a:graphicData uri="http://schemas.openxmlformats.org/presentationml/2006/ole">
+            <mc:AlternateContent xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006">
+              <mc:Choice xmlns:v="urn:schemas-microsoft-com:vml" Requires="v">
+                <p:oleObj spid="_x0000_s191619" name="think-cell &#49836;&#46972;&#51060;&#46300;" r:id="rId4" imgW="381" imgH="381" progId="TCLayout.ActiveDocument.1">
+                  <p:embed/>
+                </p:oleObj>
+              </mc:Choice>
+              <mc:Fallback>
+                <p:oleObj name="think-cell &#49836;&#46972;&#51060;&#46300;" r:id="rId4" imgW="381" imgH="381" progId="TCLayout.ActiveDocument.1">
+                  <p:embed/>
+                  <p:pic>
+                    <p:nvPicPr>
+                      <p:cNvPr id="0" name=""/>
+                      <p:cNvPicPr/>
+                      <p:nvPr/>
+                    </p:nvPicPr>
+                    <p:blipFill>
+                      <a:blip r:embed="rId5"/>
+                      <a:stretch>
+                        <a:fillRect/>
+                      </a:stretch>
+                    </p:blipFill>
+                    <p:spPr>
+                      <a:xfrm>
+                        <a:off x="1588" y="1588"/>
+                        <a:ext cx="1588" cy="1588"/>
+                      </a:xfrm>
+                      <a:prstGeom prst="rect">
+                        <a:avLst/>
+                      </a:prstGeom>
+                    </p:spPr>
+                  </p:pic>
+                </p:oleObj>
+              </mc:Fallback>
+            </mc:AlternateContent>
+          </a:graphicData>
+        </a:graphic>
+      </p:graphicFrame>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="2" name="&#51228;&#47785; 1"/>
+          <p:cNvSpPr>
+            <a:spLocks noGrp="1"/>
+          </p:cNvSpPr>
+          <p:nvPr>
+            <p:ph type="title"/>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr/>
+        <p:txBody>
+          <a:bodyPr/>
+          <a:lstStyle/>
+          <a:p>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" dirty="0" smtClean="0"/>
+              <a:t>&#46041;&#44397;&#51228;&#44053; &#44277;&#51312;&#49444;&#48708; &#51221;&#48708;&#44288;&#47532;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="ko-KR" dirty="0" smtClean="0"/>
+              <a:t/>
+            </a:r>
+            <a:br>
+              <a:rPr lang="en-US" altLang="ko-KR" dirty="0" smtClean="0"/>
+            </a:br>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" dirty="0" smtClean="0"/>
+              <a:t>&#49884;&#49828;&#53596; &#44396;&#52629;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="ko-KR" dirty="0" smtClean="0"/>
+              <a:t> </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" dirty="0" smtClean="0"/>
+              <a:t>&#49324;&#51204; &#49444;&#47749;&#54924;</a:t>
+            </a:r>
+            <a:endParaRPr lang="ko-KR" altLang="en-US" dirty="0"/>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="3" name="&#53581;&#49828;&#53944; &#44060;&#52404; &#53952; 2"/>
+          <p:cNvSpPr>
+            <a:spLocks noGrp="1"/>
+          </p:cNvSpPr>
+          <p:nvPr>
+            <p:ph type="body" sz="quarter" idx="13"/>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr/>
+        <p:txBody>
+          <a:bodyPr/>
+          <a:lstStyle/>
+          <a:p>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" dirty="0" smtClean="0"/>
+              <a:t>&#46041;&#44397;&#49884;&#49828;&#53596;&#51592;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="ko-KR" dirty="0" smtClean="0"/>
+              <a:t>&#8544;2025.12.19</a:t>
+            </a:r>
+            <a:endParaRPr lang="ko-KR" altLang="en-US" dirty="0"/>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+    </p:spTree>
+    <p:extLst>
+      <p:ext uri="{BB962C8B-B14F-4D97-AF65-F5344CB8AC3E}">
+        <p14:creationId xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main" val="3561528540"/>
+      </p:ext>
+    </p:extLst>
+  </p:cSld>
+  <p:clrMapOvr>
+    <a:masterClrMapping/>
+  </p:clrMapOvr>
+  <p:timing>
+    <p:tnLst>
+      <p:par>
+        <p:cTn id="1" dur="indefinite" restart="never" nodeType="tmRoot"/>
+      </p:par>
+    </p:tnLst>
+  </p:timing>
+</p:sld>

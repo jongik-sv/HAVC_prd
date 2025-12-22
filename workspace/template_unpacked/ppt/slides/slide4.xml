@@ -1,0 +1,5073 @@
+<?xml version="1.0" encoding="ascii"?>
+<p:sld xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+  <p:cSld>
+    <p:spTree>
+      <p:nvGrpSpPr>
+        <p:cNvPr id="1" name=""/>
+        <p:cNvGrpSpPr/>
+        <p:nvPr/>
+      </p:nvGrpSpPr>
+      <p:grpSpPr>
+        <a:xfrm>
+          <a:off x="0" y="0"/>
+          <a:ext cx="0" cy="0"/>
+          <a:chOff x="0" y="0"/>
+          <a:chExt cx="0" cy="0"/>
+        </a:xfrm>
+      </p:grpSpPr>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="4" name="&#53581;&#49828;&#53944; &#44060;&#52404; &#53952; 3"/>
+          <p:cNvSpPr>
+            <a:spLocks noGrp="1"/>
+          </p:cNvSpPr>
+          <p:nvPr>
+            <p:ph type="body" sz="quarter" idx="19"/>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="272833" y="134345"/>
+            <a:ext cx="6172693" cy="443198"/>
+          </a:xfrm>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr/>
+          <a:lstStyle/>
+          <a:p>
+            <a:r>
+              <a:rPr lang="en-US" altLang="ko-KR" dirty="0"/>
+              <a:t>2</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="ko-KR" dirty="0" smtClean="0"/>
+              <a:t>. </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" dirty="0" smtClean="0"/>
+              <a:t>&#49884;&#49828;&#53596; &#54532;&#47196;&#49464;&#49828; </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="ko-KR" dirty="0" smtClean="0"/>
+              <a:t>Flow(</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" dirty="0" smtClean="0"/>
+              <a:t>&#50836;&#50557;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="ko-KR" dirty="0" smtClean="0"/>
+              <a:t>)</a:t>
+            </a:r>
+            <a:endParaRPr lang="ko-KR" altLang="en-US" dirty="0"/>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="5" name="&#49836;&#46972;&#51060;&#46300; &#48264;&#54840; &#44060;&#52404; &#53952; 4"/>
+          <p:cNvSpPr>
+            <a:spLocks noGrp="1"/>
+          </p:cNvSpPr>
+          <p:nvPr>
+            <p:ph type="sldNum" sz="quarter" idx="4"/>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr/>
+        <p:txBody>
+          <a:bodyPr/>
+          <a:lstStyle/>
+          <a:p>
+            <a:fld id="{34650854-40C0-43E7-BFE1-FF212316D624}" type="slidenum">
+              <a:rPr lang="ko-KR" altLang="en-US" smtClean="0"/>
+              <a:pPr/>
+              <a:t>4</a:t>
+            </a:fld>
+            <a:endParaRPr lang="ko-KR" altLang="en-US" dirty="0"/>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="6" name="&#48148;&#45797;&#44544; &#44060;&#52404; &#53952; 5"/>
+          <p:cNvSpPr>
+            <a:spLocks noGrp="1"/>
+          </p:cNvSpPr>
+          <p:nvPr>
+            <p:ph type="ftr" sz="quarter" idx="3"/>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr/>
+        <p:txBody>
+          <a:bodyPr/>
+          <a:lstStyle/>
+          <a:p>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" dirty="0" smtClean="0"/>
+              <a:t>&#46041;&#44397;&#49884;&#49828;&#53596;&#51592;</a:t>
+            </a:r>
+            <a:endParaRPr lang="ko-KR" altLang="en-US" dirty="0"/>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:pic>
+        <p:nvPicPr>
+          <p:cNvPr id="34" name="&#44536;&#47548; 33"/>
+          <p:cNvPicPr>
+            <a:picLocks noChangeAspect="1"/>
+          </p:cNvPicPr>
+          <p:nvPr/>
+        </p:nvPicPr>
+        <p:blipFill>
+          <a:blip r:embed="rId2"/>
+          <a:stretch>
+            <a:fillRect/>
+          </a:stretch>
+        </p:blipFill>
+        <p:spPr>
+          <a:xfrm flipH="1">
+            <a:off x="1704131" y="800241"/>
+            <a:ext cx="547364" cy="575206"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+        </p:spPr>
+      </p:pic>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="35" name="TextBox 34"/>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="1389755" y="1373869"/>
+            <a:ext cx="1221736" cy="211203"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:noFill/>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr wrap="none" lIns="36000" tIns="36000" rIns="36000" bIns="36000" rtlCol="0" anchor="t" anchorCtr="0">
+            <a:spAutoFit/>
+          </a:bodyPr>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr marL="108000" indent="-144000">
+              <a:spcBef>
+                <a:spcPts val="300"/>
+              </a:spcBef>
+              <a:buFont typeface="Wingdings" pitchFamily="2" charset="2"/>
+              <a:buChar char="&#252;"/>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#54788;&#51109;&#45812;&#45817;&#51088; &#44256;&#51109; &#48156;&#44204;</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+              <a:latin typeface="+mn-ea"/>
+            </a:endParaRPr>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="36" name="TextBox 35"/>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="2767117" y="1403573"/>
+            <a:ext cx="984491" cy="388174"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:noFill/>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr wrap="none" lIns="36000" tIns="36000" rIns="36000" bIns="36000" rtlCol="0" anchor="t" anchorCtr="0">
+            <a:spAutoFit/>
+          </a:bodyPr>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr marL="108000" indent="-144000">
+              <a:spcBef>
+                <a:spcPts val="300"/>
+              </a:spcBef>
+              <a:buFont typeface="Wingdings" pitchFamily="2" charset="2"/>
+              <a:buChar char="&#252;"/>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#49888;&#44256;&#44032;&#45733; &#45812;&#45817;&#51088;</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+              <a:latin typeface="+mn-ea"/>
+            </a:endParaRPr>
+          </a:p>
+          <a:p>
+            <a:pPr>
+              <a:spcBef>
+                <a:spcPts val="300"/>
+              </a:spcBef>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="en-US" altLang="ko-KR" sz="900" dirty="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t> </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>       QR </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#49828;&#52884; &#49892;&#49884;</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+              <a:latin typeface="+mn-ea"/>
+            </a:endParaRPr>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:grpSp>
+        <p:nvGrpSpPr>
+          <p:cNvPr id="39" name="&#44536;&#47353; 38"/>
+          <p:cNvGrpSpPr/>
+          <p:nvPr/>
+        </p:nvGrpSpPr>
+        <p:grpSpPr>
+          <a:xfrm>
+            <a:off x="4444796" y="810027"/>
+            <a:ext cx="422695" cy="630591"/>
+            <a:chOff x="4364965" y="1034307"/>
+            <a:chExt cx="465826" cy="660817"/>
+          </a:xfrm>
+        </p:grpSpPr>
+        <p:pic>
+          <p:nvPicPr>
+            <p:cNvPr id="40" name="&#44536;&#47548; 39"/>
+            <p:cNvPicPr>
+              <a:picLocks noChangeAspect="1"/>
+            </p:cNvPicPr>
+            <p:nvPr/>
+          </p:nvPicPr>
+          <p:blipFill>
+            <a:blip r:embed="rId3"/>
+            <a:stretch>
+              <a:fillRect/>
+            </a:stretch>
+          </p:blipFill>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="4373227" y="1034307"/>
+              <a:ext cx="423060" cy="660817"/>
+            </a:xfrm>
+            <a:prstGeom prst="rect">
+              <a:avLst/>
+            </a:prstGeom>
+          </p:spPr>
+        </p:pic>
+        <p:sp>
+          <p:nvSpPr>
+            <p:cNvPr id="41" name="TextBox 40"/>
+            <p:cNvSpPr txBox="1"/>
+            <p:nvPr/>
+          </p:nvSpPr>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="4364965" y="1086933"/>
+              <a:ext cx="465826" cy="507831"/>
+            </a:xfrm>
+            <a:prstGeom prst="rect">
+              <a:avLst/>
+            </a:prstGeom>
+            <a:noFill/>
+          </p:spPr>
+          <p:txBody>
+            <a:bodyPr wrap="square" rtlCol="0">
+              <a:spAutoFit/>
+            </a:bodyPr>
+            <a:lstStyle/>
+            <a:p>
+              <a:r>
+                <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0"/>
+                <a:t>&#44256;&#51109;</a:t>
+              </a:r>
+              <a:endParaRPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0"/>
+            </a:p>
+            <a:p>
+              <a:r>
+                <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0"/>
+                <a:t>&#49888;&#44256;</a:t>
+              </a:r>
+              <a:endParaRPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0"/>
+            </a:p>
+            <a:p>
+              <a:r>
+                <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0"/>
+                <a:t>&#54868;&#47732;</a:t>
+              </a:r>
+              <a:endParaRPr lang="ko-KR" altLang="en-US" sz="900" dirty="0"/>
+            </a:p>
+          </p:txBody>
+        </p:sp>
+      </p:grpSp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="61" name="TextBox 60"/>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="3995448" y="1498191"/>
+            <a:ext cx="1231675" cy="388174"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:noFill/>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr wrap="none" lIns="36000" tIns="36000" rIns="36000" bIns="36000" rtlCol="0" anchor="t" anchorCtr="0">
+            <a:spAutoFit/>
+          </a:bodyPr>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr marL="108000" indent="-144000">
+              <a:spcBef>
+                <a:spcPts val="300"/>
+              </a:spcBef>
+              <a:buFont typeface="Wingdings" pitchFamily="2" charset="2"/>
+              <a:buChar char="&#252;"/>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#44256;&#51109;&#49888;&#44256;&#54868;&#47732;</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" altLang="ko-KR" sz="900" dirty="0">
+              <a:latin typeface="+mn-ea"/>
+            </a:endParaRPr>
+          </a:p>
+          <a:p>
+            <a:pPr>
+              <a:spcBef>
+                <a:spcPts val="300"/>
+              </a:spcBef>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="en-US" altLang="ko-KR" sz="900" dirty="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t> </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>     </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#44256;&#51109;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="ko-KR" sz="900" dirty="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>/ Overhaul </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#50836;&#52397;</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+              <a:latin typeface="+mn-ea"/>
+            </a:endParaRPr>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:pic>
+        <p:nvPicPr>
+          <p:cNvPr id="62" name="&#44536;&#47548; 61"/>
+          <p:cNvPicPr>
+            <a:picLocks noChangeAspect="1"/>
+          </p:cNvPicPr>
+          <p:nvPr/>
+        </p:nvPicPr>
+        <p:blipFill>
+          <a:blip r:embed="rId4" cstate="print">
+            <a:extLst>
+              <a:ext uri="{28A0092B-C50C-407E-A947-70E740481C1C}">
+                <a14:useLocalDpi xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main"/>
+              </a:ext>
+            </a:extLst>
+          </a:blip>
+          <a:stretch>
+            <a:fillRect/>
+          </a:stretch>
+        </p:blipFill>
+        <p:spPr>
+          <a:xfrm flipH="1">
+            <a:off x="5615860" y="795034"/>
+            <a:ext cx="720000" cy="611078"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+        </p:spPr>
+      </p:pic>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="63" name="TextBox 62"/>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="5495957" y="1498232"/>
+            <a:ext cx="1035787" cy="388174"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:noFill/>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr wrap="none" lIns="36000" tIns="36000" rIns="36000" bIns="36000" rtlCol="0" anchor="t" anchorCtr="0">
+            <a:spAutoFit/>
+          </a:bodyPr>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr marL="108000" indent="-144000">
+              <a:spcBef>
+                <a:spcPts val="300"/>
+              </a:spcBef>
+              <a:buFont typeface="Wingdings" pitchFamily="2" charset="2"/>
+              <a:buChar char="&#252;"/>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#44288;&#47532;&#51088;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>(</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#49849;&#51064;&#44428;&#51088;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>)</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" altLang="ko-KR" sz="900" dirty="0">
+              <a:latin typeface="+mn-ea"/>
+            </a:endParaRPr>
+          </a:p>
+          <a:p>
+            <a:pPr>
+              <a:spcBef>
+                <a:spcPts val="300"/>
+              </a:spcBef>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>        </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#54869;&#51064; &#48143; &#44160;&#53664;</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+              <a:latin typeface="+mn-ea"/>
+            </a:endParaRPr>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="64" name="TextBox 63"/>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="6781778" y="1509242"/>
+            <a:ext cx="1298680" cy="388174"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:noFill/>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr wrap="none" lIns="36000" tIns="36000" rIns="36000" bIns="36000" rtlCol="0" anchor="t" anchorCtr="0">
+            <a:spAutoFit/>
+          </a:bodyPr>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr marL="108000" indent="-144000">
+              <a:spcBef>
+                <a:spcPts val="300"/>
+              </a:spcBef>
+              <a:buFont typeface="Wingdings" pitchFamily="2" charset="2"/>
+              <a:buChar char="&#252;"/>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#49849;&#51064; </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>or </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#48152;&#47140; &#52376;&#47532;</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+              <a:latin typeface="+mn-ea"/>
+            </a:endParaRPr>
+          </a:p>
+          <a:p>
+            <a:pPr marL="108000" indent="-144000">
+              <a:spcBef>
+                <a:spcPts val="300"/>
+              </a:spcBef>
+              <a:buFont typeface="Wingdings" pitchFamily="2" charset="2"/>
+              <a:buChar char="&#252;"/>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="en-US" altLang="ko-KR" sz="900" dirty="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>(</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#51593;&#49884;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="ko-KR" sz="900" dirty="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>) </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#48169;&#47928;&#50836;&#52397;&#51068; &#51648;&#51221;</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" altLang="ko-KR" sz="900" dirty="0">
+              <a:latin typeface="+mn-ea"/>
+            </a:endParaRPr>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="65" name="TextBox 64"/>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="1492133" y="2987847"/>
+            <a:ext cx="1221736" cy="388174"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:noFill/>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr wrap="none" lIns="36000" tIns="36000" rIns="36000" bIns="36000" rtlCol="0" anchor="t" anchorCtr="0">
+            <a:spAutoFit/>
+          </a:bodyPr>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr marL="108000" indent="-144000">
+              <a:spcBef>
+                <a:spcPts val="300"/>
+              </a:spcBef>
+              <a:buFont typeface="Wingdings" pitchFamily="2" charset="2"/>
+              <a:buChar char="&#252;"/>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#51221;&#48708;&#51217;&#49688;&#51088; &#49688;&#47532; &#50836;&#52397;</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+              <a:latin typeface="+mn-ea"/>
+            </a:endParaRPr>
+          </a:p>
+          <a:p>
+            <a:pPr>
+              <a:spcBef>
+                <a:spcPts val="300"/>
+              </a:spcBef>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>     </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#47532;&#49828;&#53944; &#45236;&#50669; &#54869;&#51064;</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+              <a:latin typeface="+mn-ea"/>
+            </a:endParaRPr>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:grpSp>
+        <p:nvGrpSpPr>
+          <p:cNvPr id="66" name="&#44536;&#47353; 65"/>
+          <p:cNvGrpSpPr/>
+          <p:nvPr/>
+        </p:nvGrpSpPr>
+        <p:grpSpPr>
+          <a:xfrm>
+            <a:off x="3453416" y="2316244"/>
+            <a:ext cx="383889" cy="630591"/>
+            <a:chOff x="4100398" y="4076025"/>
+            <a:chExt cx="383889" cy="630591"/>
+          </a:xfrm>
+        </p:grpSpPr>
+        <p:pic>
+          <p:nvPicPr>
+            <p:cNvPr id="67" name="&#44536;&#47548; 66"/>
+            <p:cNvPicPr>
+              <a:picLocks noChangeAspect="1"/>
+            </p:cNvPicPr>
+            <p:nvPr/>
+          </p:nvPicPr>
+          <p:blipFill>
+            <a:blip r:embed="rId3"/>
+            <a:stretch>
+              <a:fillRect/>
+            </a:stretch>
+          </p:blipFill>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="4100398" y="4076025"/>
+              <a:ext cx="383889" cy="630591"/>
+            </a:xfrm>
+            <a:prstGeom prst="rect">
+              <a:avLst/>
+            </a:prstGeom>
+          </p:spPr>
+        </p:pic>
+        <p:pic>
+          <p:nvPicPr>
+            <p:cNvPr id="68" name="&#44536;&#47548; 67"/>
+            <p:cNvPicPr>
+              <a:picLocks noChangeAspect="1"/>
+            </p:cNvPicPr>
+            <p:nvPr/>
+          </p:nvPicPr>
+          <p:blipFill>
+            <a:blip r:embed="rId5"/>
+            <a:stretch>
+              <a:fillRect/>
+            </a:stretch>
+          </p:blipFill>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="4151256" y="4242252"/>
+              <a:ext cx="274091" cy="304538"/>
+            </a:xfrm>
+            <a:prstGeom prst="rect">
+              <a:avLst/>
+            </a:prstGeom>
+          </p:spPr>
+        </p:pic>
+      </p:grpSp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="69" name="TextBox 68"/>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="3094567" y="2995340"/>
+            <a:ext cx="1098625" cy="388174"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:noFill/>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr wrap="none" lIns="36000" tIns="36000" rIns="36000" bIns="36000" rtlCol="0" anchor="t" anchorCtr="0">
+            <a:spAutoFit/>
+          </a:bodyPr>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr marL="108000" indent="-144000">
+              <a:spcBef>
+                <a:spcPts val="300"/>
+              </a:spcBef>
+              <a:buFont typeface="Wingdings" pitchFamily="2" charset="2"/>
+              <a:buChar char="&#252;"/>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#51221;&#48708; &#45812;&#45817;&#51088; &#51648;&#51221; </a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+              <a:latin typeface="+mn-ea"/>
+            </a:endParaRPr>
+          </a:p>
+          <a:p>
+            <a:pPr>
+              <a:spcBef>
+                <a:spcPts val="300"/>
+              </a:spcBef>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="en-US" altLang="ko-KR" sz="900" dirty="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t> </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>    </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#48143; &#48169;&#47928;&#50696;&#51221;&#51068; &#51077;&#47141;</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+              <a:latin typeface="+mn-ea"/>
+            </a:endParaRPr>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="70" name="TextBox 69"/>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="7160885" y="3049966"/>
+            <a:ext cx="2060107" cy="388174"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:noFill/>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr wrap="none" lIns="36000" tIns="36000" rIns="36000" bIns="36000" rtlCol="0" anchor="t" anchorCtr="0">
+            <a:spAutoFit/>
+          </a:bodyPr>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr marL="108000" indent="-144000">
+              <a:spcBef>
+                <a:spcPts val="300"/>
+              </a:spcBef>
+              <a:buFont typeface="Wingdings" pitchFamily="2" charset="2"/>
+              <a:buChar char="&#252;"/>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#51221;&#48708;&#45812;&#45817;&#51088; </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+                <a:sym typeface="Wingdings" panose="05000000000000000000" pitchFamily="2" charset="2"/>
+              </a:rPr>
+              <a:t>&#61663;&#61664; </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#46041;&#44397;&#51228;&#44053; &#45812;&#45817;&#51088; &#50672;&#46973;</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+              <a:latin typeface="+mn-ea"/>
+            </a:endParaRPr>
+          </a:p>
+          <a:p>
+            <a:pPr>
+              <a:spcBef>
+                <a:spcPts val="300"/>
+              </a:spcBef>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>        </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#50937; &#54868;&#47732;&#50640;&#49436; &#49324;&#50976; &#46321;&#47197; &#54980; &#48320;&#44221;</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+              <a:latin typeface="+mn-ea"/>
+            </a:endParaRPr>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:pic>
+        <p:nvPicPr>
+          <p:cNvPr id="76" name="&#44536;&#47548; 75"/>
+          <p:cNvPicPr>
+            <a:picLocks noChangeAspect="1"/>
+          </p:cNvPicPr>
+          <p:nvPr/>
+        </p:nvPicPr>
+        <p:blipFill>
+          <a:blip r:embed="rId6" cstate="print">
+            <a:extLst>
+              <a:ext uri="{28A0092B-C50C-407E-A947-70E740481C1C}">
+                <a14:useLocalDpi xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main" val="0"/>
+              </a:ext>
+            </a:extLst>
+          </a:blip>
+          <a:stretch>
+            <a:fillRect/>
+          </a:stretch>
+        </p:blipFill>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="1602870" y="3964136"/>
+            <a:ext cx="483715" cy="515586"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+        </p:spPr>
+      </p:pic>
+      <p:grpSp>
+        <p:nvGrpSpPr>
+          <p:cNvPr id="77" name="&#44536;&#47353; 76"/>
+          <p:cNvGrpSpPr/>
+          <p:nvPr/>
+        </p:nvGrpSpPr>
+        <p:grpSpPr>
+          <a:xfrm>
+            <a:off x="5200280" y="3950418"/>
+            <a:ext cx="752290" cy="618834"/>
+            <a:chOff x="5993567" y="1969698"/>
+            <a:chExt cx="1271644" cy="977749"/>
+          </a:xfrm>
+        </p:grpSpPr>
+        <p:pic>
+          <p:nvPicPr>
+            <p:cNvPr id="78" name="&#44536;&#47548; 77"/>
+            <p:cNvPicPr>
+              <a:picLocks noChangeAspect="1"/>
+            </p:cNvPicPr>
+            <p:nvPr/>
+          </p:nvPicPr>
+          <p:blipFill>
+            <a:blip r:embed="rId7"/>
+            <a:stretch>
+              <a:fillRect/>
+            </a:stretch>
+          </p:blipFill>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="6702955" y="2385191"/>
+              <a:ext cx="562256" cy="562256"/>
+            </a:xfrm>
+            <a:prstGeom prst="rect">
+              <a:avLst/>
+            </a:prstGeom>
+          </p:spPr>
+        </p:pic>
+        <p:pic>
+          <p:nvPicPr>
+            <p:cNvPr id="79" name="&#44536;&#47548; 78"/>
+            <p:cNvPicPr>
+              <a:picLocks noChangeAspect="1"/>
+            </p:cNvPicPr>
+            <p:nvPr/>
+          </p:nvPicPr>
+          <p:blipFill>
+            <a:blip r:embed="rId8"/>
+            <a:stretch>
+              <a:fillRect/>
+            </a:stretch>
+          </p:blipFill>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="5993567" y="1969698"/>
+              <a:ext cx="911133" cy="911133"/>
+            </a:xfrm>
+            <a:prstGeom prst="rect">
+              <a:avLst/>
+            </a:prstGeom>
+          </p:spPr>
+        </p:pic>
+      </p:grpSp>
+      <p:grpSp>
+        <p:nvGrpSpPr>
+          <p:cNvPr id="80" name="&#44536;&#47353; 79"/>
+          <p:cNvGrpSpPr/>
+          <p:nvPr/>
+        </p:nvGrpSpPr>
+        <p:grpSpPr>
+          <a:xfrm>
+            <a:off x="4079828" y="3934437"/>
+            <a:ext cx="422695" cy="630591"/>
+            <a:chOff x="4364965" y="1034307"/>
+            <a:chExt cx="465826" cy="660817"/>
+          </a:xfrm>
+        </p:grpSpPr>
+        <p:pic>
+          <p:nvPicPr>
+            <p:cNvPr id="81" name="&#44536;&#47548; 80"/>
+            <p:cNvPicPr>
+              <a:picLocks noChangeAspect="1"/>
+            </p:cNvPicPr>
+            <p:nvPr/>
+          </p:nvPicPr>
+          <p:blipFill>
+            <a:blip r:embed="rId3"/>
+            <a:stretch>
+              <a:fillRect/>
+            </a:stretch>
+          </p:blipFill>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="4373227" y="1034307"/>
+              <a:ext cx="423060" cy="660817"/>
+            </a:xfrm>
+            <a:prstGeom prst="rect">
+              <a:avLst/>
+            </a:prstGeom>
+          </p:spPr>
+        </p:pic>
+        <p:sp>
+          <p:nvSpPr>
+            <p:cNvPr id="82" name="TextBox 81"/>
+            <p:cNvSpPr txBox="1"/>
+            <p:nvPr/>
+          </p:nvSpPr>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="4364965" y="1086933"/>
+              <a:ext cx="465826" cy="532173"/>
+            </a:xfrm>
+            <a:prstGeom prst="rect">
+              <a:avLst/>
+            </a:prstGeom>
+            <a:noFill/>
+          </p:spPr>
+          <p:txBody>
+            <a:bodyPr wrap="square" rtlCol="0">
+              <a:spAutoFit/>
+            </a:bodyPr>
+            <a:lstStyle/>
+            <a:p>
+              <a:r>
+                <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0"/>
+                <a:t>&#51089;&#50629;</a:t>
+              </a:r>
+              <a:endParaRPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0"/>
+            </a:p>
+            <a:p>
+              <a:r>
+                <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0"/>
+                <a:t>&#51648;&#49884;</a:t>
+              </a:r>
+              <a:endParaRPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0"/>
+            </a:p>
+            <a:p>
+              <a:r>
+                <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0"/>
+                <a:t>&#54868;&#47732;</a:t>
+              </a:r>
+              <a:endParaRPr lang="ko-KR" altLang="en-US" sz="900" dirty="0"/>
+            </a:p>
+          </p:txBody>
+        </p:sp>
+      </p:grpSp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="83" name="TextBox 82"/>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="3820257" y="4613975"/>
+            <a:ext cx="861381" cy="388174"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:noFill/>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr wrap="none" lIns="36000" tIns="36000" rIns="36000" bIns="36000" rtlCol="0" anchor="t" anchorCtr="0">
+            <a:spAutoFit/>
+          </a:bodyPr>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr marL="108000" indent="-144000">
+              <a:spcBef>
+                <a:spcPts val="300"/>
+              </a:spcBef>
+              <a:buFont typeface="Wingdings" pitchFamily="2" charset="2"/>
+              <a:buChar char="&#252;"/>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#51089;&#50629;&#51648;&#49884;&#54868;&#47732;</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" altLang="ko-KR" sz="900" dirty="0">
+              <a:latin typeface="+mn-ea"/>
+            </a:endParaRPr>
+          </a:p>
+          <a:p>
+            <a:pPr>
+              <a:spcBef>
+                <a:spcPts val="300"/>
+              </a:spcBef>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="en-US" altLang="ko-KR" sz="900" dirty="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t> </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>     </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#51089;&#50629;&#49884;&#51089;&#46321;&#47197;</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+              <a:latin typeface="+mn-ea"/>
+            </a:endParaRPr>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="84" name="TextBox 83"/>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="1334094" y="4511954"/>
+            <a:ext cx="747247" cy="388174"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:noFill/>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr wrap="none" lIns="36000" tIns="36000" rIns="36000" bIns="36000" rtlCol="0" anchor="t" anchorCtr="0">
+            <a:spAutoFit/>
+          </a:bodyPr>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr marL="108000" indent="-144000">
+              <a:spcBef>
+                <a:spcPts val="300"/>
+              </a:spcBef>
+              <a:buFont typeface="Wingdings" pitchFamily="2" charset="2"/>
+              <a:buChar char="&#252;"/>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#51221;&#48708;&#45812;&#45817;&#51088;</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+              <a:latin typeface="+mn-ea"/>
+            </a:endParaRPr>
+          </a:p>
+          <a:p>
+            <a:pPr>
+              <a:spcBef>
+                <a:spcPts val="300"/>
+              </a:spcBef>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="en-US" altLang="ko-KR" sz="900" dirty="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t> </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>      </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#54788;&#51109;&#46020;&#52265;</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+              <a:latin typeface="+mn-ea"/>
+            </a:endParaRPr>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="85" name="TextBox 84"/>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="2577960" y="4537695"/>
+            <a:ext cx="835733" cy="388174"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:noFill/>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr wrap="none" lIns="36000" tIns="36000" rIns="36000" bIns="36000" rtlCol="0" anchor="t" anchorCtr="0">
+            <a:spAutoFit/>
+          </a:bodyPr>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr marL="108000" indent="-144000">
+              <a:spcBef>
+                <a:spcPts val="300"/>
+              </a:spcBef>
+              <a:buFont typeface="Wingdings" pitchFamily="2" charset="2"/>
+              <a:buChar char="&#252;"/>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>QR </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#49828;&#52884;&#51004;&#47196;</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+              <a:latin typeface="+mn-ea"/>
+            </a:endParaRPr>
+          </a:p>
+          <a:p>
+            <a:pPr>
+              <a:spcBef>
+                <a:spcPts val="300"/>
+              </a:spcBef>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>     </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#51089;&#50629;&#45824;&#49345;&#51312;&#54924;</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+              <a:latin typeface="+mn-ea"/>
+            </a:endParaRPr>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="86" name="TextBox 85"/>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="5060850" y="4606706"/>
+            <a:ext cx="1160822" cy="211203"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:noFill/>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr wrap="none" lIns="36000" tIns="36000" rIns="36000" bIns="36000" rtlCol="0" anchor="t" anchorCtr="0">
+            <a:spAutoFit/>
+          </a:bodyPr>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr marL="108000" indent="-144000">
+              <a:spcBef>
+                <a:spcPts val="300"/>
+              </a:spcBef>
+              <a:buFont typeface="Wingdings" pitchFamily="2" charset="2"/>
+              <a:buChar char="&#252;"/>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#49688;&#47532;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>/</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#51221;&#48708; &#51089;&#50629; &#51652;&#54665;</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+              <a:latin typeface="+mn-ea"/>
+            </a:endParaRPr>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:grpSp>
+        <p:nvGrpSpPr>
+          <p:cNvPr id="87" name="&#44536;&#47353; 86"/>
+          <p:cNvGrpSpPr/>
+          <p:nvPr/>
+        </p:nvGrpSpPr>
+        <p:grpSpPr>
+          <a:xfrm>
+            <a:off x="8220126" y="3930422"/>
+            <a:ext cx="422695" cy="630591"/>
+            <a:chOff x="4364965" y="1034307"/>
+            <a:chExt cx="465826" cy="660817"/>
+          </a:xfrm>
+        </p:grpSpPr>
+        <p:pic>
+          <p:nvPicPr>
+            <p:cNvPr id="88" name="&#44536;&#47548; 87"/>
+            <p:cNvPicPr>
+              <a:picLocks noChangeAspect="1"/>
+            </p:cNvPicPr>
+            <p:nvPr/>
+          </p:nvPicPr>
+          <p:blipFill>
+            <a:blip r:embed="rId3"/>
+            <a:stretch>
+              <a:fillRect/>
+            </a:stretch>
+          </p:blipFill>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="4373227" y="1034307"/>
+              <a:ext cx="423060" cy="660817"/>
+            </a:xfrm>
+            <a:prstGeom prst="rect">
+              <a:avLst/>
+            </a:prstGeom>
+          </p:spPr>
+        </p:pic>
+        <p:sp>
+          <p:nvSpPr>
+            <p:cNvPr id="89" name="TextBox 88"/>
+            <p:cNvSpPr txBox="1"/>
+            <p:nvPr/>
+          </p:nvSpPr>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="4364965" y="1086933"/>
+              <a:ext cx="465826" cy="532173"/>
+            </a:xfrm>
+            <a:prstGeom prst="rect">
+              <a:avLst/>
+            </a:prstGeom>
+            <a:noFill/>
+          </p:spPr>
+          <p:txBody>
+            <a:bodyPr wrap="square" rtlCol="0">
+              <a:spAutoFit/>
+            </a:bodyPr>
+            <a:lstStyle/>
+            <a:p>
+              <a:r>
+                <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0"/>
+                <a:t>&#51089;&#50629;</a:t>
+              </a:r>
+              <a:endParaRPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0"/>
+            </a:p>
+            <a:p>
+              <a:r>
+                <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0"/>
+                <a:t>&#51648;&#49884;&#54868;&#47732;</a:t>
+              </a:r>
+              <a:endParaRPr lang="ko-KR" altLang="en-US" sz="900" dirty="0"/>
+            </a:p>
+          </p:txBody>
+        </p:sp>
+      </p:grpSp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="90" name="TextBox 89"/>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="7926051" y="4592708"/>
+            <a:ext cx="861381" cy="388174"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:noFill/>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr wrap="none" lIns="36000" tIns="36000" rIns="36000" bIns="36000" rtlCol="0" anchor="t" anchorCtr="0">
+            <a:spAutoFit/>
+          </a:bodyPr>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr marL="108000" indent="-144000">
+              <a:spcBef>
+                <a:spcPts val="300"/>
+              </a:spcBef>
+              <a:buFont typeface="Wingdings" pitchFamily="2" charset="2"/>
+              <a:buChar char="&#252;"/>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#51089;&#50629;&#51648;&#49884;&#54868;&#47732;</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" altLang="ko-KR" sz="900" dirty="0">
+              <a:latin typeface="+mn-ea"/>
+            </a:endParaRPr>
+          </a:p>
+          <a:p>
+            <a:pPr>
+              <a:spcBef>
+                <a:spcPts val="300"/>
+              </a:spcBef>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="en-US" altLang="ko-KR" sz="900" dirty="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t> </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>     </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#51089;&#50629;&#50756;&#47308;&#46321;&#47197;</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+              <a:latin typeface="+mn-ea"/>
+            </a:endParaRPr>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="91" name="TextBox 90"/>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="6688757" y="4491865"/>
+            <a:ext cx="835733" cy="388174"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:noFill/>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr wrap="none" lIns="36000" tIns="36000" rIns="36000" bIns="36000" rtlCol="0" anchor="t" anchorCtr="0">
+            <a:spAutoFit/>
+          </a:bodyPr>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr marL="108000" indent="-144000">
+              <a:spcBef>
+                <a:spcPts val="300"/>
+              </a:spcBef>
+              <a:buFont typeface="Wingdings" pitchFamily="2" charset="2"/>
+              <a:buChar char="&#252;"/>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>QR </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#49828;&#52884;&#51004;&#47196;</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+              <a:latin typeface="+mn-ea"/>
+            </a:endParaRPr>
+          </a:p>
+          <a:p>
+            <a:pPr>
+              <a:spcBef>
+                <a:spcPts val="300"/>
+              </a:spcBef>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>     </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#51089;&#50629;&#45824;&#49345;&#51312;&#54924;</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+              <a:latin typeface="+mn-ea"/>
+            </a:endParaRPr>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:cxnSp>
+        <p:nvCxnSpPr>
+          <p:cNvPr id="92" name="&#51649;&#49440; &#50672;&#44208;&#49440; 91"/>
+          <p:cNvCxnSpPr/>
+          <p:nvPr/>
+        </p:nvCxnSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="237626" y="2070340"/>
+            <a:ext cx="9360000" cy="0"/>
+          </a:xfrm>
+          <a:prstGeom prst="line">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:ln w="19050">
+            <a:prstDash val="sysDot"/>
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="1">
+            <a:schemeClr val="accent1"/>
+          </a:lnRef>
+          <a:fillRef idx="0">
+            <a:schemeClr val="accent1"/>
+          </a:fillRef>
+          <a:effectRef idx="0">
+            <a:schemeClr val="accent1"/>
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="tx1"/>
+          </a:fontRef>
+        </p:style>
+      </p:cxnSp>
+      <p:pic>
+        <p:nvPicPr>
+          <p:cNvPr id="93" name="&#44536;&#47548; 92"/>
+          <p:cNvPicPr>
+            <a:picLocks noChangeAspect="1"/>
+          </p:cNvPicPr>
+          <p:nvPr/>
+        </p:nvPicPr>
+        <p:blipFill>
+          <a:blip r:embed="rId4" cstate="print">
+            <a:extLst>
+              <a:ext uri="{28A0092B-C50C-407E-A947-70E740481C1C}">
+                <a14:useLocalDpi xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main"/>
+              </a:ext>
+            </a:extLst>
+          </a:blip>
+          <a:stretch>
+            <a:fillRect/>
+          </a:stretch>
+        </p:blipFill>
+        <p:spPr>
+          <a:xfrm flipH="1">
+            <a:off x="3037481" y="5508307"/>
+            <a:ext cx="720000" cy="611078"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+        </p:spPr>
+      </p:pic>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="94" name="&#47784;&#49436;&#47532;&#44032; &#46181;&#44540; &#51649;&#49324;&#44033;&#54805; 93"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="104289" y="694412"/>
+            <a:ext cx="1127650" cy="368775"/>
+          </a:xfrm>
+          <a:prstGeom prst="roundRect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:solidFill>
+            <a:schemeClr val="accent6">
+              <a:lumMod val="75000"/>
+            </a:schemeClr>
+          </a:solidFill>
+          <a:ln>
+            <a:solidFill>
+              <a:schemeClr val="bg2">
+                <a:lumMod val="75000"/>
+              </a:schemeClr>
+            </a:solidFill>
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="2">
+            <a:schemeClr val="accent1">
+              <a:shade val="50000"/>
+            </a:schemeClr>
+          </a:lnRef>
+          <a:fillRef idx="1">
+            <a:schemeClr val="accent1"/>
+          </a:fillRef>
+          <a:effectRef idx="0">
+            <a:schemeClr val="accent1"/>
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="lt1"/>
+          </a:fontRef>
+        </p:style>
+        <p:txBody>
+          <a:bodyPr rtlCol="0" anchor="ctr"/>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r>
+              <a:rPr lang="en-US" altLang="ko-KR" sz="1050" b="1" dirty="0" smtClean="0"/>
+              <a:t>Step1.</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="1050" b="1" dirty="0" smtClean="0"/>
+              <a:t>&#44256;&#51109;&#49888;&#44256;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="ko-KR" sz="1050" b="1" dirty="0" smtClean="0"/>
+              <a:t>&amp;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="1050" b="1" dirty="0" smtClean="0"/>
+              <a:t>&#49849;&#51064;</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" altLang="ko-KR" sz="1050" b="1" dirty="0" smtClean="0"/>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="95" name="&#47784;&#49436;&#47532;&#44032; &#46181;&#44540; &#51649;&#49324;&#44033;&#54805; 94"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="98556" y="2216527"/>
+            <a:ext cx="1127650" cy="368775"/>
+          </a:xfrm>
+          <a:prstGeom prst="roundRect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:solidFill>
+            <a:schemeClr val="accent6">
+              <a:lumMod val="75000"/>
+            </a:schemeClr>
+          </a:solidFill>
+          <a:ln>
+            <a:solidFill>
+              <a:schemeClr val="bg2">
+                <a:lumMod val="75000"/>
+              </a:schemeClr>
+            </a:solidFill>
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="2">
+            <a:schemeClr val="accent1">
+              <a:shade val="50000"/>
+            </a:schemeClr>
+          </a:lnRef>
+          <a:fillRef idx="1">
+            <a:schemeClr val="accent1"/>
+          </a:fillRef>
+          <a:effectRef idx="0">
+            <a:schemeClr val="accent1"/>
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="lt1"/>
+          </a:fontRef>
+        </p:style>
+        <p:txBody>
+          <a:bodyPr rtlCol="0" anchor="ctr"/>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r>
+              <a:rPr lang="en-US" altLang="ko-KR" sz="1050" b="1" dirty="0"/>
+              <a:t>Step2.</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="1050" b="1" dirty="0" smtClean="0"/>
+              <a:t>&#44256;&#51109;&#51217;&#49688;</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" altLang="ko-KR" sz="1050" b="1" dirty="0"/>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="96" name="&#47784;&#49436;&#47532;&#44032; &#46181;&#44540; &#51649;&#49324;&#44033;&#54805; 95"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="111719" y="3682954"/>
+            <a:ext cx="1127650" cy="368775"/>
+          </a:xfrm>
+          <a:prstGeom prst="roundRect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:solidFill>
+            <a:schemeClr val="accent6">
+              <a:lumMod val="75000"/>
+            </a:schemeClr>
+          </a:solidFill>
+          <a:ln>
+            <a:solidFill>
+              <a:schemeClr val="bg2">
+                <a:lumMod val="75000"/>
+              </a:schemeClr>
+            </a:solidFill>
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="2">
+            <a:schemeClr val="accent1">
+              <a:shade val="50000"/>
+            </a:schemeClr>
+          </a:lnRef>
+          <a:fillRef idx="1">
+            <a:schemeClr val="accent1"/>
+          </a:fillRef>
+          <a:effectRef idx="0">
+            <a:schemeClr val="accent1"/>
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="lt1"/>
+          </a:fontRef>
+        </p:style>
+        <p:txBody>
+          <a:bodyPr rtlCol="0" anchor="ctr"/>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r>
+              <a:rPr lang="en-US" altLang="ko-KR" sz="1050" b="1" dirty="0"/>
+              <a:t>Step3.</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="1050" b="1" dirty="0"/>
+              <a:t>&#51089;&#50629; &#49884;&#51089;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="ko-KR" sz="1050" b="1" dirty="0"/>
+              <a:t>&amp;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="1050" b="1" dirty="0"/>
+              <a:t>&#50756;&#47308;</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" altLang="ko-KR" sz="1050" b="1" dirty="0"/>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="97" name="&#47784;&#49436;&#47532;&#44032; &#46181;&#44540; &#51649;&#49324;&#44033;&#54805; 96"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="128741" y="5306671"/>
+            <a:ext cx="1127650" cy="368775"/>
+          </a:xfrm>
+          <a:prstGeom prst="roundRect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:solidFill>
+            <a:schemeClr val="accent6">
+              <a:lumMod val="75000"/>
+            </a:schemeClr>
+          </a:solidFill>
+          <a:ln>
+            <a:solidFill>
+              <a:schemeClr val="bg2">
+                <a:lumMod val="75000"/>
+              </a:schemeClr>
+            </a:solidFill>
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="2">
+            <a:schemeClr val="accent1">
+              <a:shade val="50000"/>
+            </a:schemeClr>
+          </a:lnRef>
+          <a:fillRef idx="1">
+            <a:schemeClr val="accent1"/>
+          </a:fillRef>
+          <a:effectRef idx="0">
+            <a:schemeClr val="accent1"/>
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="lt1"/>
+          </a:fontRef>
+        </p:style>
+        <p:txBody>
+          <a:bodyPr rtlCol="0" anchor="ctr"/>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r>
+              <a:rPr lang="en-US" altLang="ko-KR" sz="1050" b="1" dirty="0"/>
+              <a:t>Step4.</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="1050" b="1" dirty="0"/>
+              <a:t>&#51089;&#50629; &#51333;&#47308;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="ko-KR" sz="1050" b="1" dirty="0"/>
+              <a:t>&amp;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="1050" b="1" dirty="0"/>
+              <a:t>&#54217;&#44032;</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" altLang="ko-KR" sz="1050" b="1" dirty="0"/>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:cxnSp>
+        <p:nvCxnSpPr>
+          <p:cNvPr id="98" name="&#51649;&#49440; &#50672;&#44208;&#49440; 97"/>
+          <p:cNvCxnSpPr/>
+          <p:nvPr/>
+        </p:nvCxnSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="226126" y="3559830"/>
+            <a:ext cx="9360000" cy="0"/>
+          </a:xfrm>
+          <a:prstGeom prst="line">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:ln w="19050">
+            <a:prstDash val="sysDot"/>
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="1">
+            <a:schemeClr val="accent1"/>
+          </a:lnRef>
+          <a:fillRef idx="0">
+            <a:schemeClr val="accent1"/>
+          </a:fillRef>
+          <a:effectRef idx="0">
+            <a:schemeClr val="accent1"/>
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="tx1"/>
+          </a:fontRef>
+        </p:style>
+      </p:cxnSp>
+      <p:cxnSp>
+        <p:nvCxnSpPr>
+          <p:cNvPr id="99" name="&#51649;&#49440; &#50672;&#44208;&#49440; 98"/>
+          <p:cNvCxnSpPr/>
+          <p:nvPr/>
+        </p:nvCxnSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="240506" y="5204598"/>
+            <a:ext cx="9360000" cy="0"/>
+          </a:xfrm>
+          <a:prstGeom prst="line">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:ln w="19050">
+            <a:prstDash val="sysDot"/>
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="1">
+            <a:schemeClr val="accent1"/>
+          </a:lnRef>
+          <a:fillRef idx="0">
+            <a:schemeClr val="accent1"/>
+          </a:fillRef>
+          <a:effectRef idx="0">
+            <a:schemeClr val="accent1"/>
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="tx1"/>
+          </a:fontRef>
+        </p:style>
+      </p:cxnSp>
+      <p:cxnSp>
+        <p:nvCxnSpPr>
+          <p:cNvPr id="100" name="&#51649;&#49440; &#54868;&#49332;&#54364; &#50672;&#44208;&#49440; 99"/>
+          <p:cNvCxnSpPr>
+            <a:stCxn id="34" idx="1"/>
+            <a:endCxn id="109" idx="1"/>
+          </p:cNvCxnSpPr>
+          <p:nvPr/>
+        </p:nvCxnSpPr>
+        <p:spPr>
+          <a:xfrm flipV="1">
+            <a:off x="2251495" y="1085295"/>
+            <a:ext cx="652378" cy="2549"/>
+          </a:xfrm>
+          <a:prstGeom prst="straightConnector1">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:ln>
+            <a:tailEnd type="triangle"/>
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="1">
+            <a:schemeClr val="accent1"/>
+          </a:lnRef>
+          <a:fillRef idx="0">
+            <a:schemeClr val="accent1"/>
+          </a:fillRef>
+          <a:effectRef idx="0">
+            <a:schemeClr val="accent1"/>
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="tx1"/>
+          </a:fontRef>
+        </p:style>
+      </p:cxnSp>
+      <p:cxnSp>
+        <p:nvCxnSpPr>
+          <p:cNvPr id="101" name="&#51649;&#49440; &#54868;&#49332;&#54364; &#50672;&#44208;&#49440; 100"/>
+          <p:cNvCxnSpPr>
+            <a:stCxn id="110" idx="3"/>
+            <a:endCxn id="41" idx="1"/>
+          </p:cNvCxnSpPr>
+          <p:nvPr/>
+        </p:nvCxnSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="3777123" y="1101138"/>
+            <a:ext cx="667673" cy="1410"/>
+          </a:xfrm>
+          <a:prstGeom prst="straightConnector1">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:ln>
+            <a:tailEnd type="triangle"/>
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="1">
+            <a:schemeClr val="accent1"/>
+          </a:lnRef>
+          <a:fillRef idx="0">
+            <a:schemeClr val="accent1"/>
+          </a:fillRef>
+          <a:effectRef idx="0">
+            <a:schemeClr val="accent1"/>
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="tx1"/>
+          </a:fontRef>
+        </p:style>
+      </p:cxnSp>
+      <p:cxnSp>
+        <p:nvCxnSpPr>
+          <p:cNvPr id="102" name="&#51649;&#49440; &#54868;&#49332;&#54364; &#50672;&#44208;&#49440; 101"/>
+          <p:cNvCxnSpPr>
+            <a:stCxn id="41" idx="3"/>
+            <a:endCxn id="62" idx="3"/>
+          </p:cNvCxnSpPr>
+          <p:nvPr/>
+        </p:nvCxnSpPr>
+        <p:spPr>
+          <a:xfrm flipV="1">
+            <a:off x="4867491" y="1100573"/>
+            <a:ext cx="748369" cy="1975"/>
+          </a:xfrm>
+          <a:prstGeom prst="straightConnector1">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:ln>
+            <a:tailEnd type="triangle"/>
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="1">
+            <a:schemeClr val="accent1"/>
+          </a:lnRef>
+          <a:fillRef idx="0">
+            <a:schemeClr val="accent1"/>
+          </a:fillRef>
+          <a:effectRef idx="0">
+            <a:schemeClr val="accent1"/>
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="tx1"/>
+          </a:fontRef>
+        </p:style>
+      </p:cxnSp>
+      <p:grpSp>
+        <p:nvGrpSpPr>
+          <p:cNvPr id="103" name="&#44536;&#47353; 102"/>
+          <p:cNvGrpSpPr/>
+          <p:nvPr/>
+        </p:nvGrpSpPr>
+        <p:grpSpPr>
+          <a:xfrm>
+            <a:off x="8601677" y="1374956"/>
+            <a:ext cx="610707" cy="396594"/>
+            <a:chOff x="8601677" y="2185846"/>
+            <a:chExt cx="610707" cy="396594"/>
+          </a:xfrm>
+        </p:grpSpPr>
+        <p:pic>
+          <p:nvPicPr>
+            <p:cNvPr id="104" name="&#44536;&#47548; 103"/>
+            <p:cNvPicPr>
+              <a:picLocks noChangeAspect="1"/>
+            </p:cNvPicPr>
+            <p:nvPr/>
+          </p:nvPicPr>
+          <p:blipFill>
+            <a:blip r:embed="rId2"/>
+            <a:stretch>
+              <a:fillRect/>
+            </a:stretch>
+          </p:blipFill>
+          <p:spPr>
+            <a:xfrm flipH="1">
+              <a:off x="8834986" y="2185846"/>
+              <a:ext cx="377398" cy="396594"/>
+            </a:xfrm>
+            <a:prstGeom prst="rect">
+              <a:avLst/>
+            </a:prstGeom>
+          </p:spPr>
+        </p:pic>
+        <p:grpSp>
+          <p:nvGrpSpPr>
+            <p:cNvPr id="105" name="&#44536;&#47353; 104"/>
+            <p:cNvGrpSpPr/>
+            <p:nvPr/>
+          </p:nvGrpSpPr>
+          <p:grpSpPr>
+            <a:xfrm>
+              <a:off x="8601677" y="2283868"/>
+              <a:ext cx="252000" cy="252000"/>
+              <a:chOff x="6505564" y="4318936"/>
+              <a:chExt cx="339866" cy="318139"/>
+            </a:xfrm>
+          </p:grpSpPr>
+          <p:pic>
+            <p:nvPicPr>
+              <p:cNvPr id="106" name="&#44536;&#47548; 105"/>
+              <p:cNvPicPr>
+                <a:picLocks noChangeAspect="1"/>
+              </p:cNvPicPr>
+              <p:nvPr/>
+            </p:nvPicPr>
+            <p:blipFill>
+              <a:blip r:embed="rId9"/>
+              <a:stretch>
+                <a:fillRect/>
+              </a:stretch>
+            </p:blipFill>
+            <p:spPr>
+              <a:xfrm>
+                <a:off x="6505564" y="4318936"/>
+                <a:ext cx="339866" cy="318139"/>
+              </a:xfrm>
+              <a:prstGeom prst="rect">
+                <a:avLst/>
+              </a:prstGeom>
+            </p:spPr>
+          </p:pic>
+          <p:pic>
+            <p:nvPicPr>
+              <p:cNvPr id="107" name="&#44536;&#47548; 106"/>
+              <p:cNvPicPr>
+                <a:picLocks noChangeAspect="1"/>
+              </p:cNvPicPr>
+              <p:nvPr/>
+            </p:nvPicPr>
+            <p:blipFill>
+              <a:blip r:embed="rId10"/>
+              <a:stretch>
+                <a:fillRect/>
+              </a:stretch>
+            </p:blipFill>
+            <p:spPr>
+              <a:xfrm>
+                <a:off x="6608841" y="4404178"/>
+                <a:ext cx="130665" cy="159070"/>
+              </a:xfrm>
+              <a:prstGeom prst="rect">
+                <a:avLst/>
+              </a:prstGeom>
+            </p:spPr>
+          </p:pic>
+        </p:grpSp>
+      </p:grpSp>
+      <p:grpSp>
+        <p:nvGrpSpPr>
+          <p:cNvPr id="108" name="&#44536;&#47353; 107"/>
+          <p:cNvGrpSpPr/>
+          <p:nvPr/>
+        </p:nvGrpSpPr>
+        <p:grpSpPr>
+          <a:xfrm>
+            <a:off x="2903873" y="796959"/>
+            <a:ext cx="873250" cy="576672"/>
+            <a:chOff x="2869369" y="719325"/>
+            <a:chExt cx="873250" cy="576672"/>
+          </a:xfrm>
+        </p:grpSpPr>
+        <p:pic>
+          <p:nvPicPr>
+            <p:cNvPr id="109" name="&#44536;&#47548; 108"/>
+            <p:cNvPicPr>
+              <a:picLocks noChangeAspect="1"/>
+            </p:cNvPicPr>
+            <p:nvPr/>
+          </p:nvPicPr>
+          <p:blipFill>
+            <a:blip r:embed="rId8"/>
+            <a:stretch>
+              <a:fillRect/>
+            </a:stretch>
+          </p:blipFill>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="2869369" y="719325"/>
+              <a:ext cx="539016" cy="576672"/>
+            </a:xfrm>
+            <a:prstGeom prst="rect">
+              <a:avLst/>
+            </a:prstGeom>
+          </p:spPr>
+        </p:pic>
+        <p:pic>
+          <p:nvPicPr>
+            <p:cNvPr id="110" name="&#44536;&#47548; 109"/>
+            <p:cNvPicPr>
+              <a:picLocks noChangeAspect="1"/>
+            </p:cNvPicPr>
+            <p:nvPr/>
+          </p:nvPicPr>
+          <p:blipFill rotWithShape="1">
+            <a:blip r:embed="rId11" cstate="print">
+              <a:extLst>
+                <a:ext uri="{28A0092B-C50C-407E-A947-70E740481C1C}">
+                  <a14:useLocalDpi xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main" val="0"/>
+                </a:ext>
+              </a:extLst>
+            </a:blip>
+            <a:srcRect l="18134" r="9431"/>
+            <a:stretch/>
+          </p:blipFill>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="3278261" y="793027"/>
+              <a:ext cx="464358" cy="460953"/>
+            </a:xfrm>
+            <a:prstGeom prst="rect">
+              <a:avLst/>
+            </a:prstGeom>
+          </p:spPr>
+        </p:pic>
+      </p:grpSp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="111" name="TextBox 110"/>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="8304772" y="1087038"/>
+            <a:ext cx="1221736" cy="211203"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:noFill/>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr wrap="none" lIns="36000" tIns="36000" rIns="36000" bIns="36000" rtlCol="0" anchor="t" anchorCtr="0">
+            <a:spAutoFit/>
+          </a:bodyPr>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr marL="108000" indent="-144000">
+              <a:spcBef>
+                <a:spcPts val="300"/>
+              </a:spcBef>
+              <a:buFont typeface="Wingdings" pitchFamily="2" charset="2"/>
+              <a:buChar char="&#252;"/>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#51221;&#48708;&#51217;&#49688;&#51088; &#50508;&#47548; </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#51204;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#49569;</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+              <a:latin typeface="+mn-ea"/>
+            </a:endParaRPr>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="112" name="TextBox 111"/>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="8361996" y="1749021"/>
+            <a:ext cx="1141585" cy="211203"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:noFill/>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr wrap="none" lIns="36000" tIns="36000" rIns="36000" bIns="36000" rtlCol="0" anchor="t" anchorCtr="0">
+            <a:spAutoFit/>
+          </a:bodyPr>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr marL="108000" indent="-144000">
+              <a:spcBef>
+                <a:spcPts val="300"/>
+              </a:spcBef>
+              <a:buFont typeface="Wingdings" pitchFamily="2" charset="2"/>
+              <a:buChar char="&#252;"/>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#48152;&#47140; &#49324;&#50976; &#50508;&#47548; </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#51204;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#49569;</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+              <a:latin typeface="+mn-ea"/>
+            </a:endParaRPr>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:cxnSp>
+        <p:nvCxnSpPr>
+          <p:cNvPr id="113" name="&#51649;&#49440; &#54868;&#49332;&#54364; &#50672;&#44208;&#49440; 112"/>
+          <p:cNvCxnSpPr>
+            <a:stCxn id="160" idx="3"/>
+            <a:endCxn id="67" idx="1"/>
+          </p:cNvCxnSpPr>
+          <p:nvPr/>
+        </p:nvCxnSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="2514180" y="2629699"/>
+            <a:ext cx="939236" cy="1841"/>
+          </a:xfrm>
+          <a:prstGeom prst="straightConnector1">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:ln>
+            <a:tailEnd type="triangle"/>
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="1">
+            <a:schemeClr val="accent1"/>
+          </a:lnRef>
+          <a:fillRef idx="0">
+            <a:schemeClr val="accent1"/>
+          </a:fillRef>
+          <a:effectRef idx="0">
+            <a:schemeClr val="accent1"/>
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="tx1"/>
+          </a:fontRef>
+        </p:style>
+      </p:cxnSp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="115" name="TextBox 114"/>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="4502190" y="3207655"/>
+            <a:ext cx="1247384" cy="211203"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:noFill/>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr wrap="none" lIns="36000" tIns="36000" rIns="36000" bIns="36000" rtlCol="0" anchor="t" anchorCtr="0">
+            <a:spAutoFit/>
+          </a:bodyPr>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr marL="108000" indent="-144000">
+              <a:spcBef>
+                <a:spcPts val="300"/>
+              </a:spcBef>
+              <a:buFont typeface="Wingdings" pitchFamily="2" charset="2"/>
+              <a:buChar char="&#252;"/>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#44256;&#51109; &#49888;&#44256;&#51088; &#50508;&#47548; </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#51204;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#49569;</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+              <a:latin typeface="+mn-ea"/>
+            </a:endParaRPr>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:grpSp>
+        <p:nvGrpSpPr>
+          <p:cNvPr id="116" name="&#44536;&#47353; 115"/>
+          <p:cNvGrpSpPr/>
+          <p:nvPr/>
+        </p:nvGrpSpPr>
+        <p:grpSpPr>
+          <a:xfrm>
+            <a:off x="6267796" y="2011680"/>
+            <a:ext cx="969022" cy="726613"/>
+            <a:chOff x="6404868" y="2061599"/>
+            <a:chExt cx="900950" cy="650816"/>
+          </a:xfrm>
+        </p:grpSpPr>
+        <p:sp>
+          <p:nvSpPr>
+            <p:cNvPr id="117" name="&#54253;&#48156; 2 116"/>
+            <p:cNvSpPr/>
+            <p:nvPr/>
+          </p:nvSpPr>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="6404868" y="2061599"/>
+              <a:ext cx="900950" cy="650816"/>
+            </a:xfrm>
+            <a:prstGeom prst="irregularSeal2">
+              <a:avLst/>
+            </a:prstGeom>
+            <a:solidFill>
+              <a:srgbClr val="FFFF00"/>
+            </a:solidFill>
+            <a:ln>
+              <a:solidFill>
+                <a:srgbClr val="C00000"/>
+              </a:solidFill>
+            </a:ln>
+          </p:spPr>
+          <p:style>
+            <a:lnRef idx="2">
+              <a:schemeClr val="accent1">
+                <a:shade val="50000"/>
+              </a:schemeClr>
+            </a:lnRef>
+            <a:fillRef idx="1">
+              <a:schemeClr val="accent1"/>
+            </a:fillRef>
+            <a:effectRef idx="0">
+              <a:schemeClr val="accent1"/>
+            </a:effectRef>
+            <a:fontRef idx="minor">
+              <a:schemeClr val="lt1"/>
+            </a:fontRef>
+          </p:style>
+          <p:txBody>
+            <a:bodyPr rtlCol="0" anchor="ctr"/>
+            <a:lstStyle/>
+            <a:p>
+              <a:pPr algn="ctr"/>
+              <a:endParaRPr lang="ko-KR" altLang="en-US" sz="900" dirty="0"/>
+            </a:p>
+          </p:txBody>
+        </p:sp>
+        <p:sp>
+          <p:nvSpPr>
+            <p:cNvPr id="118" name="TextBox 117"/>
+            <p:cNvSpPr txBox="1"/>
+            <p:nvPr/>
+          </p:nvSpPr>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="6524625" y="2238610"/>
+              <a:ext cx="645389" cy="369332"/>
+            </a:xfrm>
+            <a:prstGeom prst="rect">
+              <a:avLst/>
+            </a:prstGeom>
+            <a:noFill/>
+          </p:spPr>
+          <p:txBody>
+            <a:bodyPr wrap="square" rtlCol="0">
+              <a:spAutoFit/>
+            </a:bodyPr>
+            <a:lstStyle/>
+            <a:p>
+              <a:pPr algn="ctr"/>
+              <a:r>
+                <a:rPr lang="ko-KR" altLang="en-US" sz="900" b="1" dirty="0" smtClean="0"/>
+                <a:t>&#51068;&#51221; &#48320;&#44221;</a:t>
+              </a:r>
+              <a:endParaRPr lang="en-US" altLang="ko-KR" sz="900" b="1" dirty="0" smtClean="0"/>
+            </a:p>
+            <a:p>
+              <a:pPr algn="ctr"/>
+              <a:r>
+                <a:rPr lang="ko-KR" altLang="en-US" sz="900" b="1" dirty="0" smtClean="0"/>
+                <a:t>&#54596;&#50836; &#49884;</a:t>
+              </a:r>
+              <a:endParaRPr lang="ko-KR" altLang="en-US" sz="900" b="1" dirty="0"/>
+            </a:p>
+          </p:txBody>
+        </p:sp>
+      </p:grpSp>
+      <p:pic>
+        <p:nvPicPr>
+          <p:cNvPr id="119" name="&#44536;&#47548; 118"/>
+          <p:cNvPicPr>
+            <a:picLocks noChangeAspect="1"/>
+          </p:cNvPicPr>
+          <p:nvPr/>
+        </p:nvPicPr>
+        <p:blipFill>
+          <a:blip r:embed="rId6" cstate="print">
+            <a:extLst>
+              <a:ext uri="{28A0092B-C50C-407E-A947-70E740481C1C}">
+                <a14:useLocalDpi xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main" val="0"/>
+              </a:ext>
+            </a:extLst>
+          </a:blip>
+          <a:stretch>
+            <a:fillRect/>
+          </a:stretch>
+        </p:blipFill>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="7083257" y="2489038"/>
+            <a:ext cx="483715" cy="515586"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+        </p:spPr>
+      </p:pic>
+      <p:cxnSp>
+        <p:nvCxnSpPr>
+          <p:cNvPr id="120" name="&#51649;&#49440; &#54868;&#49332;&#54364; &#50672;&#44208;&#49440; 119"/>
+          <p:cNvCxnSpPr>
+            <a:stCxn id="119" idx="3"/>
+            <a:endCxn id="165" idx="1"/>
+          </p:cNvCxnSpPr>
+          <p:nvPr/>
+        </p:nvCxnSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="7566972" y="2746831"/>
+            <a:ext cx="424704" cy="5850"/>
+          </a:xfrm>
+          <a:prstGeom prst="straightConnector1">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:ln>
+            <a:headEnd type="triangle"/>
+            <a:tailEnd type="triangle"/>
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="1">
+            <a:schemeClr val="accent1"/>
+          </a:lnRef>
+          <a:fillRef idx="0">
+            <a:schemeClr val="accent1"/>
+          </a:fillRef>
+          <a:effectRef idx="0">
+            <a:schemeClr val="accent1"/>
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="tx1"/>
+          </a:fontRef>
+        </p:style>
+      </p:cxnSp>
+      <p:grpSp>
+        <p:nvGrpSpPr>
+          <p:cNvPr id="121" name="&#44536;&#47353; 120"/>
+          <p:cNvGrpSpPr/>
+          <p:nvPr/>
+        </p:nvGrpSpPr>
+        <p:grpSpPr>
+          <a:xfrm>
+            <a:off x="2576892" y="3933490"/>
+            <a:ext cx="873250" cy="576672"/>
+            <a:chOff x="2869369" y="719325"/>
+            <a:chExt cx="873250" cy="576672"/>
+          </a:xfrm>
+        </p:grpSpPr>
+        <p:pic>
+          <p:nvPicPr>
+            <p:cNvPr id="122" name="&#44536;&#47548; 121"/>
+            <p:cNvPicPr>
+              <a:picLocks noChangeAspect="1"/>
+            </p:cNvPicPr>
+            <p:nvPr/>
+          </p:nvPicPr>
+          <p:blipFill>
+            <a:blip r:embed="rId8"/>
+            <a:stretch>
+              <a:fillRect/>
+            </a:stretch>
+          </p:blipFill>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="2869369" y="719325"/>
+              <a:ext cx="539016" cy="576672"/>
+            </a:xfrm>
+            <a:prstGeom prst="rect">
+              <a:avLst/>
+            </a:prstGeom>
+          </p:spPr>
+        </p:pic>
+        <p:pic>
+          <p:nvPicPr>
+            <p:cNvPr id="123" name="&#44536;&#47548; 122"/>
+            <p:cNvPicPr>
+              <a:picLocks noChangeAspect="1"/>
+            </p:cNvPicPr>
+            <p:nvPr/>
+          </p:nvPicPr>
+          <p:blipFill rotWithShape="1">
+            <a:blip r:embed="rId11" cstate="print">
+              <a:extLst>
+                <a:ext uri="{28A0092B-C50C-407E-A947-70E740481C1C}">
+                  <a14:useLocalDpi xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main" val="0"/>
+                </a:ext>
+              </a:extLst>
+            </a:blip>
+            <a:srcRect l="18134" r="9431"/>
+            <a:stretch/>
+          </p:blipFill>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="3278261" y="793027"/>
+              <a:ext cx="464358" cy="460953"/>
+            </a:xfrm>
+            <a:prstGeom prst="rect">
+              <a:avLst/>
+            </a:prstGeom>
+          </p:spPr>
+        </p:pic>
+      </p:grpSp>
+      <p:cxnSp>
+        <p:nvCxnSpPr>
+          <p:cNvPr id="124" name="&#51649;&#49440; &#54868;&#49332;&#54364; &#50672;&#44208;&#49440; 123"/>
+          <p:cNvCxnSpPr>
+            <a:stCxn id="76" idx="3"/>
+            <a:endCxn id="122" idx="1"/>
+          </p:cNvCxnSpPr>
+          <p:nvPr/>
+        </p:nvCxnSpPr>
+        <p:spPr>
+          <a:xfrm flipV="1">
+            <a:off x="2086585" y="4221826"/>
+            <a:ext cx="490307" cy="103"/>
+          </a:xfrm>
+          <a:prstGeom prst="straightConnector1">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:ln>
+            <a:tailEnd type="triangle"/>
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="1">
+            <a:schemeClr val="accent1"/>
+          </a:lnRef>
+          <a:fillRef idx="0">
+            <a:schemeClr val="accent1"/>
+          </a:fillRef>
+          <a:effectRef idx="0">
+            <a:schemeClr val="accent1"/>
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="tx1"/>
+          </a:fontRef>
+        </p:style>
+      </p:cxnSp>
+      <p:cxnSp>
+        <p:nvCxnSpPr>
+          <p:cNvPr id="125" name="&#51649;&#49440; &#54868;&#49332;&#54364; &#50672;&#44208;&#49440; 124"/>
+          <p:cNvCxnSpPr>
+            <a:stCxn id="123" idx="3"/>
+            <a:endCxn id="82" idx="1"/>
+          </p:cNvCxnSpPr>
+          <p:nvPr/>
+        </p:nvCxnSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="3450142" y="4237669"/>
+            <a:ext cx="629686" cy="903"/>
+          </a:xfrm>
+          <a:prstGeom prst="straightConnector1">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:ln>
+            <a:tailEnd type="triangle"/>
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="1">
+            <a:schemeClr val="accent1"/>
+          </a:lnRef>
+          <a:fillRef idx="0">
+            <a:schemeClr val="accent1"/>
+          </a:fillRef>
+          <a:effectRef idx="0">
+            <a:schemeClr val="accent1"/>
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="tx1"/>
+          </a:fontRef>
+        </p:style>
+      </p:cxnSp>
+      <p:cxnSp>
+        <p:nvCxnSpPr>
+          <p:cNvPr id="126" name="&#51649;&#49440; &#54868;&#49332;&#54364; &#50672;&#44208;&#49440; 125"/>
+          <p:cNvCxnSpPr>
+            <a:stCxn id="82" idx="3"/>
+            <a:endCxn id="79" idx="1"/>
+          </p:cNvCxnSpPr>
+          <p:nvPr/>
+        </p:nvCxnSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="4502523" y="4238572"/>
+            <a:ext cx="697757" cy="182"/>
+          </a:xfrm>
+          <a:prstGeom prst="straightConnector1">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:ln>
+            <a:tailEnd type="triangle"/>
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="1">
+            <a:schemeClr val="accent1"/>
+          </a:lnRef>
+          <a:fillRef idx="0">
+            <a:schemeClr val="accent1"/>
+          </a:fillRef>
+          <a:effectRef idx="0">
+            <a:schemeClr val="accent1"/>
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="tx1"/>
+          </a:fontRef>
+        </p:style>
+      </p:cxnSp>
+      <p:grpSp>
+        <p:nvGrpSpPr>
+          <p:cNvPr id="127" name="&#44536;&#47353; 126"/>
+          <p:cNvGrpSpPr/>
+          <p:nvPr/>
+        </p:nvGrpSpPr>
+        <p:grpSpPr>
+          <a:xfrm>
+            <a:off x="6675605" y="3930370"/>
+            <a:ext cx="873250" cy="576672"/>
+            <a:chOff x="2869369" y="719325"/>
+            <a:chExt cx="873250" cy="576672"/>
+          </a:xfrm>
+        </p:grpSpPr>
+        <p:pic>
+          <p:nvPicPr>
+            <p:cNvPr id="128" name="&#44536;&#47548; 127"/>
+            <p:cNvPicPr>
+              <a:picLocks noChangeAspect="1"/>
+            </p:cNvPicPr>
+            <p:nvPr/>
+          </p:nvPicPr>
+          <p:blipFill>
+            <a:blip r:embed="rId8"/>
+            <a:stretch>
+              <a:fillRect/>
+            </a:stretch>
+          </p:blipFill>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="2869369" y="719325"/>
+              <a:ext cx="539016" cy="576672"/>
+            </a:xfrm>
+            <a:prstGeom prst="rect">
+              <a:avLst/>
+            </a:prstGeom>
+          </p:spPr>
+        </p:pic>
+        <p:pic>
+          <p:nvPicPr>
+            <p:cNvPr id="129" name="&#44536;&#47548; 128"/>
+            <p:cNvPicPr>
+              <a:picLocks noChangeAspect="1"/>
+            </p:cNvPicPr>
+            <p:nvPr/>
+          </p:nvPicPr>
+          <p:blipFill rotWithShape="1">
+            <a:blip r:embed="rId11" cstate="print">
+              <a:extLst>
+                <a:ext uri="{28A0092B-C50C-407E-A947-70E740481C1C}">
+                  <a14:useLocalDpi xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main" val="0"/>
+                </a:ext>
+              </a:extLst>
+            </a:blip>
+            <a:srcRect l="18134" r="9431"/>
+            <a:stretch/>
+          </p:blipFill>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="3278261" y="793027"/>
+              <a:ext cx="464358" cy="460953"/>
+            </a:xfrm>
+            <a:prstGeom prst="rect">
+              <a:avLst/>
+            </a:prstGeom>
+          </p:spPr>
+        </p:pic>
+      </p:grpSp>
+      <p:cxnSp>
+        <p:nvCxnSpPr>
+          <p:cNvPr id="130" name="&#51649;&#49440; &#54868;&#49332;&#54364; &#50672;&#44208;&#49440; 129"/>
+          <p:cNvCxnSpPr>
+            <a:stCxn id="78" idx="0"/>
+            <a:endCxn id="128" idx="1"/>
+          </p:cNvCxnSpPr>
+          <p:nvPr/>
+        </p:nvCxnSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="5786258" y="4213391"/>
+            <a:ext cx="889347" cy="5315"/>
+          </a:xfrm>
+          <a:prstGeom prst="straightConnector1">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:ln>
+            <a:tailEnd type="triangle"/>
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="1">
+            <a:schemeClr val="accent1"/>
+          </a:lnRef>
+          <a:fillRef idx="0">
+            <a:schemeClr val="accent1"/>
+          </a:fillRef>
+          <a:effectRef idx="0">
+            <a:schemeClr val="accent1"/>
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="tx1"/>
+          </a:fontRef>
+        </p:style>
+      </p:cxnSp>
+      <p:pic>
+        <p:nvPicPr>
+          <p:cNvPr id="131" name="&#44536;&#47548; 130"/>
+          <p:cNvPicPr>
+            <a:picLocks noChangeAspect="1"/>
+          </p:cNvPicPr>
+          <p:nvPr/>
+        </p:nvPicPr>
+        <p:blipFill>
+          <a:blip r:embed="rId6" cstate="print">
+            <a:extLst>
+              <a:ext uri="{28A0092B-C50C-407E-A947-70E740481C1C}">
+                <a14:useLocalDpi xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main" val="0"/>
+              </a:ext>
+            </a:extLst>
+          </a:blip>
+          <a:stretch>
+            <a:fillRect/>
+          </a:stretch>
+        </p:blipFill>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="5626676" y="3879749"/>
+            <a:ext cx="325894" cy="371634"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+        </p:spPr>
+      </p:pic>
+      <p:cxnSp>
+        <p:nvCxnSpPr>
+          <p:cNvPr id="132" name="&#51649;&#49440; &#54868;&#49332;&#54364; &#50672;&#44208;&#49440; 131"/>
+          <p:cNvCxnSpPr>
+            <a:stCxn id="129" idx="3"/>
+            <a:endCxn id="89" idx="1"/>
+          </p:cNvCxnSpPr>
+          <p:nvPr/>
+        </p:nvCxnSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="7548855" y="4234549"/>
+            <a:ext cx="671271" cy="8"/>
+          </a:xfrm>
+          <a:prstGeom prst="straightConnector1">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:ln>
+            <a:tailEnd type="triangle"/>
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="1">
+            <a:schemeClr val="accent1"/>
+          </a:lnRef>
+          <a:fillRef idx="0">
+            <a:schemeClr val="accent1"/>
+          </a:fillRef>
+          <a:effectRef idx="0">
+            <a:schemeClr val="accent1"/>
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="tx1"/>
+          </a:fontRef>
+        </p:style>
+      </p:cxnSp>
+      <p:grpSp>
+        <p:nvGrpSpPr>
+          <p:cNvPr id="133" name="&#44536;&#47353; 132"/>
+          <p:cNvGrpSpPr/>
+          <p:nvPr/>
+        </p:nvGrpSpPr>
+        <p:grpSpPr>
+          <a:xfrm>
+            <a:off x="1553152" y="5525559"/>
+            <a:ext cx="907908" cy="576672"/>
+            <a:chOff x="1251230" y="5525559"/>
+            <a:chExt cx="907908" cy="576672"/>
+          </a:xfrm>
+        </p:grpSpPr>
+        <p:pic>
+          <p:nvPicPr>
+            <p:cNvPr id="134" name="&#44536;&#47548; 133"/>
+            <p:cNvPicPr>
+              <a:picLocks noChangeAspect="1"/>
+            </p:cNvPicPr>
+            <p:nvPr/>
+          </p:nvPicPr>
+          <p:blipFill>
+            <a:blip r:embed="rId8"/>
+            <a:stretch>
+              <a:fillRect/>
+            </a:stretch>
+          </p:blipFill>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="1620122" y="5525559"/>
+              <a:ext cx="539016" cy="576672"/>
+            </a:xfrm>
+            <a:prstGeom prst="rect">
+              <a:avLst/>
+            </a:prstGeom>
+          </p:spPr>
+        </p:pic>
+        <p:pic>
+          <p:nvPicPr>
+            <p:cNvPr id="135" name="Picture 28" descr="&#45224;&#51088; &#50500;&#51060;&#53080; - 149,414&#51333;&#51032; &#47924;&#47308; &#50500;&#51060;&#53080;"/>
+            <p:cNvPicPr>
+              <a:picLocks noChangeAspect="1" noChangeArrowheads="1"/>
+            </p:cNvPicPr>
+            <p:nvPr/>
+          </p:nvPicPr>
+          <p:blipFill>
+            <a:blip r:embed="rId12" cstate="print">
+              <a:extLst>
+                <a:ext uri="{28A0092B-C50C-407E-A947-70E740481C1C}">
+                  <a14:useLocalDpi xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main" val="0"/>
+                </a:ext>
+              </a:extLst>
+            </a:blip>
+            <a:srcRect/>
+            <a:stretch>
+              <a:fillRect/>
+            </a:stretch>
+          </p:blipFill>
+          <p:spPr bwMode="auto">
+            <a:xfrm>
+              <a:off x="1251230" y="5561895"/>
+              <a:ext cx="504000" cy="504000"/>
+            </a:xfrm>
+            <a:prstGeom prst="rect">
+              <a:avLst/>
+            </a:prstGeom>
+            <a:noFill/>
+            <a:extLst>
+              <a:ext uri="{909E8E84-426E-40DD-AFC4-6F175D3DCCD1}">
+                <a14:hiddenFill xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main">
+                  <a:solidFill>
+                    <a:srgbClr val="FFFFFF"/>
+                  </a:solidFill>
+                </a14:hiddenFill>
+              </a:ext>
+            </a:extLst>
+          </p:spPr>
+        </p:pic>
+      </p:grpSp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="136" name="TextBox 135"/>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="1390198" y="6156721"/>
+            <a:ext cx="1141585" cy="211203"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:noFill/>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr wrap="none" lIns="36000" tIns="36000" rIns="36000" bIns="36000" rtlCol="0" anchor="t" anchorCtr="0">
+            <a:spAutoFit/>
+          </a:bodyPr>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr marL="108000" indent="-144000">
+              <a:spcBef>
+                <a:spcPts val="300"/>
+              </a:spcBef>
+              <a:buFont typeface="Wingdings" pitchFamily="2" charset="2"/>
+              <a:buChar char="&#252;"/>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#51089;&#50629; &#50756;&#47308; &#45824;&#49345; &#54869;&#51064;</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+              <a:latin typeface="+mn-ea"/>
+            </a:endParaRPr>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:cxnSp>
+        <p:nvCxnSpPr>
+          <p:cNvPr id="137" name="&#51649;&#49440; &#54868;&#49332;&#54364; &#50672;&#44208;&#49440; 136"/>
+          <p:cNvCxnSpPr>
+            <a:stCxn id="134" idx="3"/>
+            <a:endCxn id="93" idx="3"/>
+          </p:cNvCxnSpPr>
+          <p:nvPr/>
+        </p:nvCxnSpPr>
+        <p:spPr>
+          <a:xfrm flipV="1">
+            <a:off x="2461060" y="5813846"/>
+            <a:ext cx="576421" cy="49"/>
+          </a:xfrm>
+          <a:prstGeom prst="straightConnector1">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:ln>
+            <a:tailEnd type="triangle"/>
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="1">
+            <a:schemeClr val="accent1"/>
+          </a:lnRef>
+          <a:fillRef idx="0">
+            <a:schemeClr val="accent1"/>
+          </a:fillRef>
+          <a:effectRef idx="0">
+            <a:schemeClr val="accent1"/>
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="tx1"/>
+          </a:fontRef>
+        </p:style>
+      </p:cxnSp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="138" name="TextBox 137"/>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="2846400" y="6166528"/>
+            <a:ext cx="1141585" cy="211203"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:noFill/>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr wrap="none" lIns="36000" tIns="36000" rIns="36000" bIns="36000" rtlCol="0" anchor="t" anchorCtr="0">
+            <a:spAutoFit/>
+          </a:bodyPr>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr marL="108000" indent="-144000">
+              <a:spcBef>
+                <a:spcPts val="300"/>
+              </a:spcBef>
+              <a:buFont typeface="Wingdings" pitchFamily="2" charset="2"/>
+              <a:buChar char="&#252;"/>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#51333;&#47308; &#52376;&#47532; &#45824;&#49345; &#51312;&#54924;</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+              <a:latin typeface="+mn-ea"/>
+            </a:endParaRPr>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:cxnSp>
+        <p:nvCxnSpPr>
+          <p:cNvPr id="139" name="&#51649;&#49440; &#54868;&#49332;&#54364; &#50672;&#44208;&#49440; 138"/>
+          <p:cNvCxnSpPr>
+            <a:stCxn id="93" idx="1"/>
+            <a:endCxn id="173" idx="1"/>
+          </p:cNvCxnSpPr>
+          <p:nvPr/>
+        </p:nvCxnSpPr>
+        <p:spPr>
+          <a:xfrm flipV="1">
+            <a:off x="3757481" y="5813589"/>
+            <a:ext cx="684181" cy="257"/>
+          </a:xfrm>
+          <a:prstGeom prst="straightConnector1">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:ln>
+            <a:tailEnd type="triangle"/>
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="1">
+            <a:schemeClr val="accent1"/>
+          </a:lnRef>
+          <a:fillRef idx="0">
+            <a:schemeClr val="accent1"/>
+          </a:fillRef>
+          <a:effectRef idx="0">
+            <a:schemeClr val="accent1"/>
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="tx1"/>
+          </a:fontRef>
+        </p:style>
+      </p:cxnSp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="140" name="TextBox 139"/>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="4182987" y="6196279"/>
+            <a:ext cx="1600365" cy="388174"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:noFill/>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr wrap="none" lIns="36000" tIns="36000" rIns="36000" bIns="36000" rtlCol="0" anchor="t" anchorCtr="0">
+            <a:spAutoFit/>
+          </a:bodyPr>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr marL="108000" indent="-144000">
+              <a:spcBef>
+                <a:spcPts val="300"/>
+              </a:spcBef>
+              <a:buFont typeface="Wingdings" pitchFamily="2" charset="2"/>
+              <a:buChar char="&#252;"/>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#47564;&#51313;&#46020; &#54217;&#44032; &#48143; &#51333;&#47308; &#52376;&#47532;</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+              <a:latin typeface="+mn-ea"/>
+            </a:endParaRPr>
+          </a:p>
+          <a:p>
+            <a:pPr>
+              <a:spcBef>
+                <a:spcPts val="300"/>
+              </a:spcBef>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>      (</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#45800;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>, </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#54217;&#44032;&#45716; &#54596;&#49688; &#49324;&#54637;&#51008; &#50500;&#45784;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>)</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:grpSp>
+        <p:nvGrpSpPr>
+          <p:cNvPr id="141" name="&#44536;&#47353; 140"/>
+          <p:cNvGrpSpPr/>
+          <p:nvPr/>
+        </p:nvGrpSpPr>
+        <p:grpSpPr>
+          <a:xfrm>
+            <a:off x="6863598" y="782500"/>
+            <a:ext cx="1003754" cy="639217"/>
+            <a:chOff x="6863598" y="782500"/>
+            <a:chExt cx="1003754" cy="639217"/>
+          </a:xfrm>
+        </p:grpSpPr>
+        <p:pic>
+          <p:nvPicPr>
+            <p:cNvPr id="142" name="&#44536;&#47548; 141"/>
+            <p:cNvPicPr>
+              <a:picLocks noChangeAspect="1"/>
+            </p:cNvPicPr>
+            <p:nvPr/>
+          </p:nvPicPr>
+          <p:blipFill>
+            <a:blip r:embed="rId3"/>
+            <a:stretch>
+              <a:fillRect/>
+            </a:stretch>
+          </p:blipFill>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="6863598" y="782500"/>
+              <a:ext cx="383889" cy="630591"/>
+            </a:xfrm>
+            <a:prstGeom prst="rect">
+              <a:avLst/>
+            </a:prstGeom>
+          </p:spPr>
+        </p:pic>
+        <p:pic>
+          <p:nvPicPr>
+            <p:cNvPr id="143" name="&#44536;&#47548; 142"/>
+            <p:cNvPicPr>
+              <a:picLocks noChangeAspect="1"/>
+            </p:cNvPicPr>
+            <p:nvPr/>
+          </p:nvPicPr>
+          <p:blipFill>
+            <a:blip r:embed="rId13"/>
+            <a:stretch>
+              <a:fillRect/>
+            </a:stretch>
+          </p:blipFill>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="7251786" y="791126"/>
+              <a:ext cx="615566" cy="630591"/>
+            </a:xfrm>
+            <a:prstGeom prst="rect">
+              <a:avLst/>
+            </a:prstGeom>
+          </p:spPr>
+        </p:pic>
+        <p:sp>
+          <p:nvSpPr>
+            <p:cNvPr id="144" name="&#47784;&#49436;&#47532;&#44032; &#46181;&#44540; &#51649;&#49324;&#44033;&#54805; 143"/>
+            <p:cNvSpPr/>
+            <p:nvPr/>
+          </p:nvSpPr>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="7319191" y="849776"/>
+              <a:ext cx="479385" cy="154031"/>
+            </a:xfrm>
+            <a:prstGeom prst="roundRect">
+              <a:avLst/>
+            </a:prstGeom>
+            <a:solidFill>
+              <a:srgbClr val="92D050"/>
+            </a:solidFill>
+            <a:ln>
+              <a:solidFill>
+                <a:srgbClr val="00734A"/>
+              </a:solidFill>
+            </a:ln>
+          </p:spPr>
+          <p:style>
+            <a:lnRef idx="2">
+              <a:schemeClr val="accent1">
+                <a:shade val="50000"/>
+              </a:schemeClr>
+            </a:lnRef>
+            <a:fillRef idx="1">
+              <a:schemeClr val="accent1"/>
+            </a:fillRef>
+            <a:effectRef idx="0">
+              <a:schemeClr val="accent1"/>
+            </a:effectRef>
+            <a:fontRef idx="minor">
+              <a:schemeClr val="lt1"/>
+            </a:fontRef>
+          </p:style>
+          <p:txBody>
+            <a:bodyPr rtlCol="0" anchor="ctr"/>
+            <a:lstStyle/>
+            <a:p>
+              <a:pPr algn="ctr"/>
+              <a:r>
+                <a:rPr lang="ko-KR" altLang="en-US" sz="1000" dirty="0" smtClean="0"/>
+                <a:t>&#49849;&#51064;</a:t>
+              </a:r>
+              <a:endParaRPr lang="ko-KR" altLang="en-US" sz="1000" dirty="0"/>
+            </a:p>
+          </p:txBody>
+        </p:sp>
+        <p:sp>
+          <p:nvSpPr>
+            <p:cNvPr id="145" name="&#47784;&#49436;&#47532;&#44032; &#46181;&#44540; &#51649;&#49324;&#44033;&#54805; 144"/>
+            <p:cNvSpPr/>
+            <p:nvPr/>
+          </p:nvSpPr>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="7324098" y="1038439"/>
+              <a:ext cx="479386" cy="154031"/>
+            </a:xfrm>
+            <a:prstGeom prst="roundRect">
+              <a:avLst/>
+            </a:prstGeom>
+            <a:solidFill>
+              <a:schemeClr val="accent4">
+                <a:lumMod val="40000"/>
+                <a:lumOff val="60000"/>
+              </a:schemeClr>
+            </a:solidFill>
+            <a:ln>
+              <a:solidFill>
+                <a:schemeClr val="accent4">
+                  <a:lumMod val="60000"/>
+                  <a:lumOff val="40000"/>
+                </a:schemeClr>
+              </a:solidFill>
+            </a:ln>
+          </p:spPr>
+          <p:style>
+            <a:lnRef idx="2">
+              <a:schemeClr val="accent1">
+                <a:shade val="50000"/>
+              </a:schemeClr>
+            </a:lnRef>
+            <a:fillRef idx="1">
+              <a:schemeClr val="accent1"/>
+            </a:fillRef>
+            <a:effectRef idx="0">
+              <a:schemeClr val="accent1"/>
+            </a:effectRef>
+            <a:fontRef idx="minor">
+              <a:schemeClr val="lt1"/>
+            </a:fontRef>
+          </p:style>
+          <p:txBody>
+            <a:bodyPr rtlCol="0" anchor="ctr"/>
+            <a:lstStyle/>
+            <a:p>
+              <a:pPr algn="ctr"/>
+              <a:r>
+                <a:rPr lang="ko-KR" altLang="en-US" sz="1000" dirty="0" smtClean="0"/>
+                <a:t>&#48152;&#47140;</a:t>
+              </a:r>
+              <a:endParaRPr lang="ko-KR" altLang="en-US" sz="1000" dirty="0"/>
+            </a:p>
+          </p:txBody>
+        </p:sp>
+        <p:sp>
+          <p:nvSpPr>
+            <p:cNvPr id="146" name="&#47784;&#49436;&#47532;&#44032; &#46181;&#44540; &#51649;&#49324;&#44033;&#54805; 145"/>
+            <p:cNvSpPr/>
+            <p:nvPr/>
+          </p:nvSpPr>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="6884988" y="881405"/>
+              <a:ext cx="324000" cy="154031"/>
+            </a:xfrm>
+            <a:prstGeom prst="roundRect">
+              <a:avLst/>
+            </a:prstGeom>
+            <a:solidFill>
+              <a:srgbClr val="92D050"/>
+            </a:solidFill>
+            <a:ln>
+              <a:solidFill>
+                <a:srgbClr val="00734A"/>
+              </a:solidFill>
+            </a:ln>
+          </p:spPr>
+          <p:style>
+            <a:lnRef idx="2">
+              <a:schemeClr val="accent1">
+                <a:shade val="50000"/>
+              </a:schemeClr>
+            </a:lnRef>
+            <a:fillRef idx="1">
+              <a:schemeClr val="accent1"/>
+            </a:fillRef>
+            <a:effectRef idx="0">
+              <a:schemeClr val="accent1"/>
+            </a:effectRef>
+            <a:fontRef idx="minor">
+              <a:schemeClr val="lt1"/>
+            </a:fontRef>
+          </p:style>
+          <p:txBody>
+            <a:bodyPr rtlCol="0" anchor="ctr"/>
+            <a:lstStyle/>
+            <a:p>
+              <a:pPr algn="ctr"/>
+              <a:r>
+                <a:rPr lang="ko-KR" altLang="en-US" sz="500" dirty="0" smtClean="0"/>
+                <a:t>&#49849;&#51064;</a:t>
+              </a:r>
+              <a:endParaRPr lang="ko-KR" altLang="en-US" sz="500" dirty="0"/>
+            </a:p>
+          </p:txBody>
+        </p:sp>
+        <p:sp>
+          <p:nvSpPr>
+            <p:cNvPr id="147" name="&#47784;&#49436;&#47532;&#44032; &#46181;&#44540; &#51649;&#49324;&#44033;&#54805; 146"/>
+            <p:cNvSpPr/>
+            <p:nvPr/>
+          </p:nvSpPr>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="6889895" y="1070068"/>
+              <a:ext cx="324000" cy="154031"/>
+            </a:xfrm>
+            <a:prstGeom prst="roundRect">
+              <a:avLst/>
+            </a:prstGeom>
+            <a:solidFill>
+              <a:schemeClr val="accent4">
+                <a:lumMod val="40000"/>
+                <a:lumOff val="60000"/>
+              </a:schemeClr>
+            </a:solidFill>
+            <a:ln>
+              <a:solidFill>
+                <a:schemeClr val="accent4">
+                  <a:lumMod val="60000"/>
+                  <a:lumOff val="40000"/>
+                </a:schemeClr>
+              </a:solidFill>
+            </a:ln>
+          </p:spPr>
+          <p:style>
+            <a:lnRef idx="2">
+              <a:schemeClr val="accent1">
+                <a:shade val="50000"/>
+              </a:schemeClr>
+            </a:lnRef>
+            <a:fillRef idx="1">
+              <a:schemeClr val="accent1"/>
+            </a:fillRef>
+            <a:effectRef idx="0">
+              <a:schemeClr val="accent1"/>
+            </a:effectRef>
+            <a:fontRef idx="minor">
+              <a:schemeClr val="lt1"/>
+            </a:fontRef>
+          </p:style>
+          <p:txBody>
+            <a:bodyPr rtlCol="0" anchor="ctr"/>
+            <a:lstStyle/>
+            <a:p>
+              <a:pPr algn="ctr"/>
+              <a:r>
+                <a:rPr lang="ko-KR" altLang="en-US" sz="500" dirty="0" smtClean="0"/>
+                <a:t>&#48152;&#47140;</a:t>
+              </a:r>
+              <a:endParaRPr lang="ko-KR" altLang="en-US" sz="500" dirty="0"/>
+            </a:p>
+          </p:txBody>
+        </p:sp>
+      </p:grpSp>
+      <p:cxnSp>
+        <p:nvCxnSpPr>
+          <p:cNvPr id="148" name="&#51649;&#49440; &#54868;&#49332;&#54364; &#50672;&#44208;&#49440; 147"/>
+          <p:cNvCxnSpPr>
+            <a:stCxn id="144" idx="3"/>
+            <a:endCxn id="154" idx="1"/>
+          </p:cNvCxnSpPr>
+          <p:nvPr/>
+        </p:nvCxnSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="7798576" y="926792"/>
+            <a:ext cx="745595" cy="2219"/>
+          </a:xfrm>
+          <a:prstGeom prst="straightConnector1">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:ln w="19050">
+            <a:solidFill>
+              <a:srgbClr val="00B050"/>
+            </a:solidFill>
+            <a:prstDash val="dash"/>
+            <a:tailEnd type="triangle"/>
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="1">
+            <a:schemeClr val="accent1"/>
+          </a:lnRef>
+          <a:fillRef idx="0">
+            <a:schemeClr val="accent1"/>
+          </a:fillRef>
+          <a:effectRef idx="0">
+            <a:schemeClr val="accent1"/>
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="tx1"/>
+          </a:fontRef>
+        </p:style>
+      </p:cxnSp>
+      <p:cxnSp>
+        <p:nvCxnSpPr>
+          <p:cNvPr id="149" name="&#44734;&#51064; &#50672;&#44208;&#49440; 148"/>
+          <p:cNvCxnSpPr>
+            <a:stCxn id="145" idx="3"/>
+          </p:cNvCxnSpPr>
+          <p:nvPr/>
+        </p:nvCxnSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="7803484" y="1115455"/>
+            <a:ext cx="755063" cy="500775"/>
+          </a:xfrm>
+          <a:prstGeom prst="bentConnector3">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:ln w="19050">
+            <a:solidFill>
+              <a:schemeClr val="accent4">
+                <a:lumMod val="60000"/>
+                <a:lumOff val="40000"/>
+              </a:schemeClr>
+            </a:solidFill>
+            <a:prstDash val="dash"/>
+            <a:tailEnd type="triangle"/>
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="1">
+            <a:schemeClr val="accent1"/>
+          </a:lnRef>
+          <a:fillRef idx="0">
+            <a:schemeClr val="accent1"/>
+          </a:fillRef>
+          <a:effectRef idx="0">
+            <a:schemeClr val="accent1"/>
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="tx1"/>
+          </a:fontRef>
+        </p:style>
+      </p:cxnSp>
+      <p:cxnSp>
+        <p:nvCxnSpPr>
+          <p:cNvPr id="150" name="&#51649;&#49440; &#54868;&#49332;&#54364; &#50672;&#44208;&#49440; 149"/>
+          <p:cNvCxnSpPr>
+            <a:stCxn id="62" idx="1"/>
+            <a:endCxn id="142" idx="1"/>
+          </p:cNvCxnSpPr>
+          <p:nvPr/>
+        </p:nvCxnSpPr>
+        <p:spPr>
+          <a:xfrm flipV="1">
+            <a:off x="6335860" y="1097796"/>
+            <a:ext cx="527738" cy="2777"/>
+          </a:xfrm>
+          <a:prstGeom prst="straightConnector1">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:ln>
+            <a:tailEnd type="triangle"/>
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="1">
+            <a:schemeClr val="accent1"/>
+          </a:lnRef>
+          <a:fillRef idx="0">
+            <a:schemeClr val="accent1"/>
+          </a:fillRef>
+          <a:effectRef idx="0">
+            <a:schemeClr val="accent1"/>
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="tx1"/>
+          </a:fontRef>
+        </p:style>
+      </p:cxnSp>
+      <p:grpSp>
+        <p:nvGrpSpPr>
+          <p:cNvPr id="151" name="&#44536;&#47353; 150"/>
+          <p:cNvGrpSpPr/>
+          <p:nvPr/>
+        </p:nvGrpSpPr>
+        <p:grpSpPr>
+          <a:xfrm>
+            <a:off x="8544171" y="712432"/>
+            <a:ext cx="585480" cy="382300"/>
+            <a:chOff x="8544171" y="755562"/>
+            <a:chExt cx="585480" cy="382300"/>
+          </a:xfrm>
+        </p:grpSpPr>
+        <p:grpSp>
+          <p:nvGrpSpPr>
+            <p:cNvPr id="152" name="&#44536;&#47353; 151"/>
+            <p:cNvGrpSpPr/>
+            <p:nvPr/>
+          </p:nvGrpSpPr>
+          <p:grpSpPr>
+            <a:xfrm>
+              <a:off x="8544171" y="846141"/>
+              <a:ext cx="252000" cy="252000"/>
+              <a:chOff x="6505564" y="4318936"/>
+              <a:chExt cx="339866" cy="318139"/>
+            </a:xfrm>
+          </p:grpSpPr>
+          <p:pic>
+            <p:nvPicPr>
+              <p:cNvPr id="154" name="&#44536;&#47548; 153"/>
+              <p:cNvPicPr>
+                <a:picLocks noChangeAspect="1"/>
+              </p:cNvPicPr>
+              <p:nvPr/>
+            </p:nvPicPr>
+            <p:blipFill>
+              <a:blip r:embed="rId9"/>
+              <a:stretch>
+                <a:fillRect/>
+              </a:stretch>
+            </p:blipFill>
+            <p:spPr>
+              <a:xfrm>
+                <a:off x="6505564" y="4318936"/>
+                <a:ext cx="339866" cy="318139"/>
+              </a:xfrm>
+              <a:prstGeom prst="rect">
+                <a:avLst/>
+              </a:prstGeom>
+            </p:spPr>
+          </p:pic>
+          <p:pic>
+            <p:nvPicPr>
+              <p:cNvPr id="155" name="&#44536;&#47548; 154"/>
+              <p:cNvPicPr>
+                <a:picLocks noChangeAspect="1"/>
+              </p:cNvPicPr>
+              <p:nvPr/>
+            </p:nvPicPr>
+            <p:blipFill>
+              <a:blip r:embed="rId10"/>
+              <a:stretch>
+                <a:fillRect/>
+              </a:stretch>
+            </p:blipFill>
+            <p:spPr>
+              <a:xfrm>
+                <a:off x="6608841" y="4404178"/>
+                <a:ext cx="130665" cy="159070"/>
+              </a:xfrm>
+              <a:prstGeom prst="rect">
+                <a:avLst/>
+              </a:prstGeom>
+            </p:spPr>
+          </p:pic>
+        </p:grpSp>
+        <p:pic>
+          <p:nvPicPr>
+            <p:cNvPr id="153" name="&#44536;&#47548; 152"/>
+            <p:cNvPicPr>
+              <a:picLocks noChangeAspect="1"/>
+            </p:cNvPicPr>
+            <p:nvPr/>
+          </p:nvPicPr>
+          <p:blipFill>
+            <a:blip r:embed="rId14"/>
+            <a:stretch>
+              <a:fillRect/>
+            </a:stretch>
+          </p:blipFill>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="8825118" y="755562"/>
+              <a:ext cx="304533" cy="382300"/>
+            </a:xfrm>
+            <a:prstGeom prst="rect">
+              <a:avLst/>
+            </a:prstGeom>
+          </p:spPr>
+        </p:pic>
+      </p:grpSp>
+      <p:grpSp>
+        <p:nvGrpSpPr>
+          <p:cNvPr id="156" name="&#44536;&#47353; 155"/>
+          <p:cNvGrpSpPr/>
+          <p:nvPr/>
+        </p:nvGrpSpPr>
+        <p:grpSpPr>
+          <a:xfrm>
+            <a:off x="1707564" y="2325564"/>
+            <a:ext cx="806616" cy="630591"/>
+            <a:chOff x="1707564" y="2325564"/>
+            <a:chExt cx="806616" cy="630591"/>
+          </a:xfrm>
+        </p:grpSpPr>
+        <p:grpSp>
+          <p:nvGrpSpPr>
+            <p:cNvPr id="157" name="&#44536;&#47353; 156"/>
+            <p:cNvGrpSpPr/>
+            <p:nvPr/>
+          </p:nvGrpSpPr>
+          <p:grpSpPr>
+            <a:xfrm>
+              <a:off x="2091485" y="2325564"/>
+              <a:ext cx="422695" cy="630591"/>
+              <a:chOff x="4364965" y="1034307"/>
+              <a:chExt cx="465826" cy="660817"/>
+            </a:xfrm>
+          </p:grpSpPr>
+          <p:pic>
+            <p:nvPicPr>
+              <p:cNvPr id="159" name="&#44536;&#47548; 158"/>
+              <p:cNvPicPr>
+                <a:picLocks noChangeAspect="1"/>
+              </p:cNvPicPr>
+              <p:nvPr/>
+            </p:nvPicPr>
+            <p:blipFill>
+              <a:blip r:embed="rId3"/>
+              <a:stretch>
+                <a:fillRect/>
+              </a:stretch>
+            </p:blipFill>
+            <p:spPr>
+              <a:xfrm>
+                <a:off x="4373227" y="1034307"/>
+                <a:ext cx="423060" cy="660817"/>
+              </a:xfrm>
+              <a:prstGeom prst="rect">
+                <a:avLst/>
+              </a:prstGeom>
+            </p:spPr>
+          </p:pic>
+          <p:sp>
+            <p:nvSpPr>
+              <p:cNvPr id="160" name="TextBox 159"/>
+              <p:cNvSpPr txBox="1"/>
+              <p:nvPr/>
+            </p:nvSpPr>
+            <p:spPr>
+              <a:xfrm>
+                <a:off x="4364965" y="1086933"/>
+                <a:ext cx="465826" cy="532173"/>
+              </a:xfrm>
+              <a:prstGeom prst="rect">
+                <a:avLst/>
+              </a:prstGeom>
+              <a:noFill/>
+            </p:spPr>
+            <p:txBody>
+              <a:bodyPr wrap="square" rtlCol="0">
+                <a:spAutoFit/>
+              </a:bodyPr>
+              <a:lstStyle/>
+              <a:p>
+                <a:r>
+                  <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0"/>
+                  <a:t>&#44256;&#51109;</a:t>
+                </a:r>
+                <a:endParaRPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0"/>
+              </a:p>
+              <a:p>
+                <a:r>
+                  <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0"/>
+                  <a:t>&#51217;&#49688;&#54868;&#47732;</a:t>
+                </a:r>
+                <a:endParaRPr lang="ko-KR" altLang="en-US" sz="900" dirty="0"/>
+              </a:p>
+            </p:txBody>
+          </p:sp>
+        </p:grpSp>
+        <p:pic>
+          <p:nvPicPr>
+            <p:cNvPr id="158" name="&#44536;&#47548; 157"/>
+            <p:cNvPicPr>
+              <a:picLocks noChangeAspect="1"/>
+            </p:cNvPicPr>
+            <p:nvPr/>
+          </p:nvPicPr>
+          <p:blipFill>
+            <a:blip r:embed="rId14"/>
+            <a:stretch>
+              <a:fillRect/>
+            </a:stretch>
+          </p:blipFill>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="1707564" y="2399927"/>
+              <a:ext cx="347353" cy="481162"/>
+            </a:xfrm>
+            <a:prstGeom prst="rect">
+              <a:avLst/>
+            </a:prstGeom>
+          </p:spPr>
+        </p:pic>
+      </p:grpSp>
+      <p:grpSp>
+        <p:nvGrpSpPr>
+          <p:cNvPr id="161" name="&#44536;&#47353; 160"/>
+          <p:cNvGrpSpPr/>
+          <p:nvPr/>
+        </p:nvGrpSpPr>
+        <p:grpSpPr>
+          <a:xfrm>
+            <a:off x="7991676" y="2368615"/>
+            <a:ext cx="1511905" cy="639217"/>
+            <a:chOff x="7991676" y="2368615"/>
+            <a:chExt cx="1511905" cy="639217"/>
+          </a:xfrm>
+        </p:grpSpPr>
+        <p:grpSp>
+          <p:nvGrpSpPr>
+            <p:cNvPr id="162" name="&#44536;&#47353; 161"/>
+            <p:cNvGrpSpPr/>
+            <p:nvPr/>
+          </p:nvGrpSpPr>
+          <p:grpSpPr>
+            <a:xfrm>
+              <a:off x="7991676" y="2368615"/>
+              <a:ext cx="1511905" cy="639217"/>
+              <a:chOff x="7991676" y="2368615"/>
+              <a:chExt cx="1511905" cy="639217"/>
+            </a:xfrm>
+          </p:grpSpPr>
+          <p:pic>
+            <p:nvPicPr>
+              <p:cNvPr id="165" name="Picture 28" descr="&#45224;&#51088; &#50500;&#51060;&#53080; - 149,414&#51333;&#51032; &#47924;&#47308; &#50500;&#51060;&#53080;"/>
+              <p:cNvPicPr>
+                <a:picLocks noChangeAspect="1" noChangeArrowheads="1"/>
+              </p:cNvPicPr>
+              <p:nvPr/>
+            </p:nvPicPr>
+            <p:blipFill>
+              <a:blip r:embed="rId12" cstate="print">
+                <a:extLst>
+                  <a:ext uri="{28A0092B-C50C-407E-A947-70E740481C1C}">
+                    <a14:useLocalDpi xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main" val="0"/>
+                  </a:ext>
+                </a:extLst>
+              </a:blip>
+              <a:srcRect/>
+              <a:stretch>
+                <a:fillRect/>
+              </a:stretch>
+            </p:blipFill>
+            <p:spPr bwMode="auto">
+              <a:xfrm>
+                <a:off x="7991676" y="2500681"/>
+                <a:ext cx="504000" cy="504000"/>
+              </a:xfrm>
+              <a:prstGeom prst="rect">
+                <a:avLst/>
+              </a:prstGeom>
+              <a:noFill/>
+              <a:extLst>
+                <a:ext uri="{909E8E84-426E-40DD-AFC4-6F175D3DCCD1}">
+                  <a14:hiddenFill xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main">
+                    <a:solidFill>
+                      <a:srgbClr val="FFFFFF"/>
+                    </a:solidFill>
+                  </a14:hiddenFill>
+                </a:ext>
+              </a:extLst>
+            </p:spPr>
+          </p:pic>
+          <p:grpSp>
+            <p:nvGrpSpPr>
+              <p:cNvPr id="166" name="&#44536;&#47353; 165"/>
+              <p:cNvGrpSpPr/>
+              <p:nvPr/>
+            </p:nvGrpSpPr>
+            <p:grpSpPr>
+              <a:xfrm>
+                <a:off x="8499827" y="2368615"/>
+                <a:ext cx="1003754" cy="639217"/>
+                <a:chOff x="6863598" y="782500"/>
+                <a:chExt cx="1003754" cy="639217"/>
+              </a:xfrm>
+            </p:grpSpPr>
+            <p:pic>
+              <p:nvPicPr>
+                <p:cNvPr id="167" name="&#44536;&#47548; 166"/>
+                <p:cNvPicPr>
+                  <a:picLocks noChangeAspect="1"/>
+                </p:cNvPicPr>
+                <p:nvPr/>
+              </p:nvPicPr>
+              <p:blipFill>
+                <a:blip r:embed="rId3"/>
+                <a:stretch>
+                  <a:fillRect/>
+                </a:stretch>
+              </p:blipFill>
+              <p:spPr>
+                <a:xfrm>
+                  <a:off x="6863598" y="782500"/>
+                  <a:ext cx="383889" cy="630591"/>
+                </a:xfrm>
+                <a:prstGeom prst="rect">
+                  <a:avLst/>
+                </a:prstGeom>
+              </p:spPr>
+            </p:pic>
+            <p:pic>
+              <p:nvPicPr>
+                <p:cNvPr id="168" name="&#44536;&#47548; 167"/>
+                <p:cNvPicPr>
+                  <a:picLocks noChangeAspect="1"/>
+                </p:cNvPicPr>
+                <p:nvPr/>
+              </p:nvPicPr>
+              <p:blipFill>
+                <a:blip r:embed="rId13"/>
+                <a:stretch>
+                  <a:fillRect/>
+                </a:stretch>
+              </p:blipFill>
+              <p:spPr>
+                <a:xfrm>
+                  <a:off x="7251786" y="791126"/>
+                  <a:ext cx="615566" cy="630591"/>
+                </a:xfrm>
+                <a:prstGeom prst="rect">
+                  <a:avLst/>
+                </a:prstGeom>
+              </p:spPr>
+            </p:pic>
+          </p:grpSp>
+        </p:grpSp>
+        <p:pic>
+          <p:nvPicPr>
+            <p:cNvPr id="163" name="&#44536;&#47548; 162"/>
+            <p:cNvPicPr>
+              <a:picLocks noChangeAspect="1"/>
+            </p:cNvPicPr>
+            <p:nvPr/>
+          </p:nvPicPr>
+          <p:blipFill>
+            <a:blip r:embed="rId5"/>
+            <a:stretch>
+              <a:fillRect/>
+            </a:stretch>
+          </p:blipFill>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="8559794" y="2552519"/>
+              <a:ext cx="262787" cy="255322"/>
+            </a:xfrm>
+            <a:prstGeom prst="rect">
+              <a:avLst/>
+            </a:prstGeom>
+          </p:spPr>
+        </p:pic>
+        <p:pic>
+          <p:nvPicPr>
+            <p:cNvPr id="164" name="&#44536;&#47548; 163"/>
+            <p:cNvPicPr>
+              <a:picLocks noChangeAspect="1"/>
+            </p:cNvPicPr>
+            <p:nvPr/>
+          </p:nvPicPr>
+          <p:blipFill>
+            <a:blip r:embed="rId5"/>
+            <a:stretch>
+              <a:fillRect/>
+            </a:stretch>
+          </p:blipFill>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="9041587" y="2454948"/>
+              <a:ext cx="336249" cy="326697"/>
+            </a:xfrm>
+            <a:prstGeom prst="rect">
+              <a:avLst/>
+            </a:prstGeom>
+          </p:spPr>
+        </p:pic>
+      </p:grpSp>
+      <p:grpSp>
+        <p:nvGrpSpPr>
+          <p:cNvPr id="169" name="&#44536;&#47353; 168"/>
+          <p:cNvGrpSpPr/>
+          <p:nvPr/>
+        </p:nvGrpSpPr>
+        <p:grpSpPr>
+          <a:xfrm>
+            <a:off x="4441662" y="5498293"/>
+            <a:ext cx="1003754" cy="639217"/>
+            <a:chOff x="6186880" y="6138881"/>
+            <a:chExt cx="1003754" cy="639217"/>
+          </a:xfrm>
+        </p:grpSpPr>
+        <p:grpSp>
+          <p:nvGrpSpPr>
+            <p:cNvPr id="170" name="&#44536;&#47353; 169"/>
+            <p:cNvGrpSpPr/>
+            <p:nvPr/>
+          </p:nvGrpSpPr>
+          <p:grpSpPr>
+            <a:xfrm>
+              <a:off x="6186880" y="6138881"/>
+              <a:ext cx="1003754" cy="639217"/>
+              <a:chOff x="6863598" y="782500"/>
+              <a:chExt cx="1003754" cy="639217"/>
+            </a:xfrm>
+          </p:grpSpPr>
+          <p:pic>
+            <p:nvPicPr>
+              <p:cNvPr id="173" name="&#44536;&#47548; 172"/>
+              <p:cNvPicPr>
+                <a:picLocks noChangeAspect="1"/>
+              </p:cNvPicPr>
+              <p:nvPr/>
+            </p:nvPicPr>
+            <p:blipFill>
+              <a:blip r:embed="rId3"/>
+              <a:stretch>
+                <a:fillRect/>
+              </a:stretch>
+            </p:blipFill>
+            <p:spPr>
+              <a:xfrm>
+                <a:off x="6863598" y="782500"/>
+                <a:ext cx="383889" cy="630591"/>
+              </a:xfrm>
+              <a:prstGeom prst="rect">
+                <a:avLst/>
+              </a:prstGeom>
+            </p:spPr>
+          </p:pic>
+          <p:pic>
+            <p:nvPicPr>
+              <p:cNvPr id="174" name="&#44536;&#47548; 173"/>
+              <p:cNvPicPr>
+                <a:picLocks noChangeAspect="1"/>
+              </p:cNvPicPr>
+              <p:nvPr/>
+            </p:nvPicPr>
+            <p:blipFill>
+              <a:blip r:embed="rId13"/>
+              <a:stretch>
+                <a:fillRect/>
+              </a:stretch>
+            </p:blipFill>
+            <p:spPr>
+              <a:xfrm>
+                <a:off x="7251786" y="791126"/>
+                <a:ext cx="615566" cy="630591"/>
+              </a:xfrm>
+              <a:prstGeom prst="rect">
+                <a:avLst/>
+              </a:prstGeom>
+            </p:spPr>
+          </p:pic>
+        </p:grpSp>
+        <p:pic>
+          <p:nvPicPr>
+            <p:cNvPr id="171" name="&#44536;&#47548; 170"/>
+            <p:cNvPicPr>
+              <a:picLocks noChangeAspect="1"/>
+            </p:cNvPicPr>
+            <p:nvPr/>
+          </p:nvPicPr>
+          <p:blipFill>
+            <a:blip r:embed="rId15"/>
+            <a:stretch>
+              <a:fillRect/>
+            </a:stretch>
+          </p:blipFill>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="6664209" y="6166528"/>
+              <a:ext cx="373427" cy="437962"/>
+            </a:xfrm>
+            <a:prstGeom prst="rect">
+              <a:avLst/>
+            </a:prstGeom>
+          </p:spPr>
+        </p:pic>
+        <p:pic>
+          <p:nvPicPr>
+            <p:cNvPr id="172" name="&#44536;&#47548; 171"/>
+            <p:cNvPicPr>
+              <a:picLocks noChangeAspect="1"/>
+            </p:cNvPicPr>
+            <p:nvPr/>
+          </p:nvPicPr>
+          <p:blipFill>
+            <a:blip r:embed="rId15"/>
+            <a:stretch>
+              <a:fillRect/>
+            </a:stretch>
+          </p:blipFill>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="6232405" y="6258112"/>
+              <a:ext cx="292999" cy="343634"/>
+            </a:xfrm>
+            <a:prstGeom prst="rect">
+              <a:avLst/>
+            </a:prstGeom>
+          </p:spPr>
+        </p:pic>
+      </p:grpSp>
+      <p:grpSp>
+        <p:nvGrpSpPr>
+          <p:cNvPr id="175" name="&#44536;&#47353; 174"/>
+          <p:cNvGrpSpPr/>
+          <p:nvPr/>
+        </p:nvGrpSpPr>
+        <p:grpSpPr>
+          <a:xfrm>
+            <a:off x="5926977" y="5231918"/>
+            <a:ext cx="1003635" cy="701217"/>
+            <a:chOff x="6404868" y="2061599"/>
+            <a:chExt cx="900950" cy="650816"/>
+          </a:xfrm>
+        </p:grpSpPr>
+        <p:sp>
+          <p:nvSpPr>
+            <p:cNvPr id="176" name="&#54253;&#48156; 2 175"/>
+            <p:cNvSpPr/>
+            <p:nvPr/>
+          </p:nvSpPr>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="6404868" y="2061599"/>
+              <a:ext cx="900950" cy="650816"/>
+            </a:xfrm>
+            <a:prstGeom prst="irregularSeal2">
+              <a:avLst/>
+            </a:prstGeom>
+            <a:solidFill>
+              <a:srgbClr val="FFFF00"/>
+            </a:solidFill>
+            <a:ln>
+              <a:solidFill>
+                <a:srgbClr val="C00000"/>
+              </a:solidFill>
+            </a:ln>
+          </p:spPr>
+          <p:style>
+            <a:lnRef idx="2">
+              <a:schemeClr val="accent1">
+                <a:shade val="50000"/>
+              </a:schemeClr>
+            </a:lnRef>
+            <a:fillRef idx="1">
+              <a:schemeClr val="accent1"/>
+            </a:fillRef>
+            <a:effectRef idx="0">
+              <a:schemeClr val="accent1"/>
+            </a:effectRef>
+            <a:fontRef idx="minor">
+              <a:schemeClr val="lt1"/>
+            </a:fontRef>
+          </p:style>
+          <p:txBody>
+            <a:bodyPr rtlCol="0" anchor="ctr"/>
+            <a:lstStyle/>
+            <a:p>
+              <a:pPr algn="ctr"/>
+              <a:endParaRPr lang="ko-KR" altLang="en-US" sz="900" dirty="0"/>
+            </a:p>
+          </p:txBody>
+        </p:sp>
+        <p:sp>
+          <p:nvSpPr>
+            <p:cNvPr id="177" name="TextBox 176"/>
+            <p:cNvSpPr txBox="1"/>
+            <p:nvPr/>
+          </p:nvSpPr>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="6524625" y="2238610"/>
+              <a:ext cx="645389" cy="369332"/>
+            </a:xfrm>
+            <a:prstGeom prst="rect">
+              <a:avLst/>
+            </a:prstGeom>
+            <a:noFill/>
+          </p:spPr>
+          <p:txBody>
+            <a:bodyPr wrap="square" rtlCol="0">
+              <a:spAutoFit/>
+            </a:bodyPr>
+            <a:lstStyle/>
+            <a:p>
+              <a:pPr algn="ctr"/>
+              <a:r>
+                <a:rPr lang="ko-KR" altLang="en-US" sz="900" b="1" dirty="0" smtClean="0"/>
+                <a:t>&#49849;&#51064; &#51060;&#54980;</a:t>
+              </a:r>
+              <a:endParaRPr lang="en-US" altLang="ko-KR" sz="900" b="1" dirty="0" smtClean="0"/>
+            </a:p>
+            <a:p>
+              <a:pPr algn="ctr"/>
+              <a:r>
+                <a:rPr lang="ko-KR" altLang="en-US" sz="900" b="1" dirty="0" smtClean="0"/>
+                <a:t>&#52712;&#49548; &#49884;</a:t>
+              </a:r>
+              <a:endParaRPr lang="ko-KR" altLang="en-US" sz="900" b="1" dirty="0"/>
+            </a:p>
+          </p:txBody>
+        </p:sp>
+      </p:grpSp>
+      <p:grpSp>
+        <p:nvGrpSpPr>
+          <p:cNvPr id="178" name="&#44536;&#47353; 177"/>
+          <p:cNvGrpSpPr/>
+          <p:nvPr/>
+        </p:nvGrpSpPr>
+        <p:grpSpPr>
+          <a:xfrm>
+            <a:off x="6751397" y="5467299"/>
+            <a:ext cx="1511905" cy="639217"/>
+            <a:chOff x="7991676" y="2368615"/>
+            <a:chExt cx="1511905" cy="639217"/>
+          </a:xfrm>
+        </p:grpSpPr>
+        <p:grpSp>
+          <p:nvGrpSpPr>
+            <p:cNvPr id="179" name="&#44536;&#47353; 178"/>
+            <p:cNvGrpSpPr/>
+            <p:nvPr/>
+          </p:nvGrpSpPr>
+          <p:grpSpPr>
+            <a:xfrm>
+              <a:off x="7991676" y="2368615"/>
+              <a:ext cx="1511905" cy="639217"/>
+              <a:chOff x="7991676" y="2368615"/>
+              <a:chExt cx="1511905" cy="639217"/>
+            </a:xfrm>
+          </p:grpSpPr>
+          <p:pic>
+            <p:nvPicPr>
+              <p:cNvPr id="182" name="Picture 28" descr="&#45224;&#51088; &#50500;&#51060;&#53080; - 149,414&#51333;&#51032; &#47924;&#47308; &#50500;&#51060;&#53080;"/>
+              <p:cNvPicPr>
+                <a:picLocks noChangeAspect="1" noChangeArrowheads="1"/>
+              </p:cNvPicPr>
+              <p:nvPr/>
+            </p:nvPicPr>
+            <p:blipFill>
+              <a:blip r:embed="rId12" cstate="print">
+                <a:extLst>
+                  <a:ext uri="{28A0092B-C50C-407E-A947-70E740481C1C}">
+                    <a14:useLocalDpi xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main" val="0"/>
+                  </a:ext>
+                </a:extLst>
+              </a:blip>
+              <a:srcRect/>
+              <a:stretch>
+                <a:fillRect/>
+              </a:stretch>
+            </p:blipFill>
+            <p:spPr bwMode="auto">
+              <a:xfrm>
+                <a:off x="7991676" y="2500681"/>
+                <a:ext cx="504000" cy="504000"/>
+              </a:xfrm>
+              <a:prstGeom prst="rect">
+                <a:avLst/>
+              </a:prstGeom>
+              <a:noFill/>
+              <a:extLst>
+                <a:ext uri="{909E8E84-426E-40DD-AFC4-6F175D3DCCD1}">
+                  <a14:hiddenFill xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main">
+                    <a:solidFill>
+                      <a:srgbClr val="FFFFFF"/>
+                    </a:solidFill>
+                  </a14:hiddenFill>
+                </a:ext>
+              </a:extLst>
+            </p:spPr>
+          </p:pic>
+          <p:grpSp>
+            <p:nvGrpSpPr>
+              <p:cNvPr id="183" name="&#44536;&#47353; 182"/>
+              <p:cNvGrpSpPr/>
+              <p:nvPr/>
+            </p:nvGrpSpPr>
+            <p:grpSpPr>
+              <a:xfrm>
+                <a:off x="8499827" y="2368615"/>
+                <a:ext cx="1003754" cy="639217"/>
+                <a:chOff x="6863598" y="782500"/>
+                <a:chExt cx="1003754" cy="639217"/>
+              </a:xfrm>
+            </p:grpSpPr>
+            <p:pic>
+              <p:nvPicPr>
+                <p:cNvPr id="184" name="&#44536;&#47548; 183"/>
+                <p:cNvPicPr>
+                  <a:picLocks noChangeAspect="1"/>
+                </p:cNvPicPr>
+                <p:nvPr/>
+              </p:nvPicPr>
+              <p:blipFill>
+                <a:blip r:embed="rId3"/>
+                <a:stretch>
+                  <a:fillRect/>
+                </a:stretch>
+              </p:blipFill>
+              <p:spPr>
+                <a:xfrm>
+                  <a:off x="6863598" y="782500"/>
+                  <a:ext cx="383889" cy="630591"/>
+                </a:xfrm>
+                <a:prstGeom prst="rect">
+                  <a:avLst/>
+                </a:prstGeom>
+              </p:spPr>
+            </p:pic>
+            <p:pic>
+              <p:nvPicPr>
+                <p:cNvPr id="185" name="&#44536;&#47548; 184"/>
+                <p:cNvPicPr>
+                  <a:picLocks noChangeAspect="1"/>
+                </p:cNvPicPr>
+                <p:nvPr/>
+              </p:nvPicPr>
+              <p:blipFill>
+                <a:blip r:embed="rId13"/>
+                <a:stretch>
+                  <a:fillRect/>
+                </a:stretch>
+              </p:blipFill>
+              <p:spPr>
+                <a:xfrm>
+                  <a:off x="7251786" y="791126"/>
+                  <a:ext cx="615566" cy="630591"/>
+                </a:xfrm>
+                <a:prstGeom prst="rect">
+                  <a:avLst/>
+                </a:prstGeom>
+              </p:spPr>
+            </p:pic>
+          </p:grpSp>
+        </p:grpSp>
+        <p:pic>
+          <p:nvPicPr>
+            <p:cNvPr id="180" name="&#44536;&#47548; 179"/>
+            <p:cNvPicPr>
+              <a:picLocks noChangeAspect="1"/>
+            </p:cNvPicPr>
+            <p:nvPr/>
+          </p:nvPicPr>
+          <p:blipFill>
+            <a:blip r:embed="rId5"/>
+            <a:stretch>
+              <a:fillRect/>
+            </a:stretch>
+          </p:blipFill>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="8559794" y="2552519"/>
+              <a:ext cx="262787" cy="255322"/>
+            </a:xfrm>
+            <a:prstGeom prst="rect">
+              <a:avLst/>
+            </a:prstGeom>
+          </p:spPr>
+        </p:pic>
+        <p:pic>
+          <p:nvPicPr>
+            <p:cNvPr id="181" name="&#44536;&#47548; 180"/>
+            <p:cNvPicPr>
+              <a:picLocks noChangeAspect="1"/>
+            </p:cNvPicPr>
+            <p:nvPr/>
+          </p:nvPicPr>
+          <p:blipFill>
+            <a:blip r:embed="rId5"/>
+            <a:stretch>
+              <a:fillRect/>
+            </a:stretch>
+          </p:blipFill>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="9041587" y="2454948"/>
+              <a:ext cx="336249" cy="326697"/>
+            </a:xfrm>
+            <a:prstGeom prst="rect">
+              <a:avLst/>
+            </a:prstGeom>
+          </p:spPr>
+        </p:pic>
+      </p:grpSp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="186" name="TextBox 185"/>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="6527542" y="6195835"/>
+            <a:ext cx="1959117" cy="388174"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:noFill/>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr wrap="none" lIns="36000" tIns="36000" rIns="36000" bIns="36000" rtlCol="0" anchor="t" anchorCtr="0">
+            <a:spAutoFit/>
+          </a:bodyPr>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr marL="108000" indent="-144000">
+              <a:spcBef>
+                <a:spcPts val="300"/>
+              </a:spcBef>
+              <a:buFont typeface="Wingdings" pitchFamily="2" charset="2"/>
+              <a:buChar char="&#252;"/>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#51333;&#47308; &#52376;&#47532; &#54868;&#47732;&#50640;&#49436; &#52712;&#49548; &#49324;&#50976; &#51077;&#47141; &#54980;</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+              <a:latin typeface="+mn-ea"/>
+            </a:endParaRPr>
+          </a:p>
+          <a:p>
+            <a:pPr>
+              <a:spcBef>
+                <a:spcPts val="300"/>
+              </a:spcBef>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>     </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#54644;&#45817; &#50836;&#52397; &#44148;&#51008; &#51333;&#47308;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>(</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#52712;&#49548;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>) </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#52376;&#47532;</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+              <a:latin typeface="+mn-ea"/>
+            </a:endParaRPr>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:grpSp>
+        <p:nvGrpSpPr>
+          <p:cNvPr id="187" name="&#44536;&#47353; 186"/>
+          <p:cNvGrpSpPr/>
+          <p:nvPr/>
+        </p:nvGrpSpPr>
+        <p:grpSpPr>
+          <a:xfrm>
+            <a:off x="8720771" y="5508162"/>
+            <a:ext cx="819028" cy="515586"/>
+            <a:chOff x="8745707" y="5591288"/>
+            <a:chExt cx="819028" cy="515586"/>
+          </a:xfrm>
+        </p:grpSpPr>
+        <p:grpSp>
+          <p:nvGrpSpPr>
+            <p:cNvPr id="188" name="&#44536;&#47353; 187"/>
+            <p:cNvGrpSpPr/>
+            <p:nvPr/>
+          </p:nvGrpSpPr>
+          <p:grpSpPr>
+            <a:xfrm>
+              <a:off x="8745707" y="5716980"/>
+              <a:ext cx="339866" cy="318139"/>
+              <a:chOff x="6505564" y="4318936"/>
+              <a:chExt cx="339866" cy="318139"/>
+            </a:xfrm>
+          </p:grpSpPr>
+          <p:pic>
+            <p:nvPicPr>
+              <p:cNvPr id="190" name="&#44536;&#47548; 189"/>
+              <p:cNvPicPr>
+                <a:picLocks noChangeAspect="1"/>
+              </p:cNvPicPr>
+              <p:nvPr/>
+            </p:nvPicPr>
+            <p:blipFill>
+              <a:blip r:embed="rId9"/>
+              <a:stretch>
+                <a:fillRect/>
+              </a:stretch>
+            </p:blipFill>
+            <p:spPr>
+              <a:xfrm>
+                <a:off x="6505564" y="4318936"/>
+                <a:ext cx="339866" cy="318139"/>
+              </a:xfrm>
+              <a:prstGeom prst="rect">
+                <a:avLst/>
+              </a:prstGeom>
+            </p:spPr>
+          </p:pic>
+          <p:pic>
+            <p:nvPicPr>
+              <p:cNvPr id="191" name="&#44536;&#47548; 190"/>
+              <p:cNvPicPr>
+                <a:picLocks noChangeAspect="1"/>
+              </p:cNvPicPr>
+              <p:nvPr/>
+            </p:nvPicPr>
+            <p:blipFill>
+              <a:blip r:embed="rId10"/>
+              <a:stretch>
+                <a:fillRect/>
+              </a:stretch>
+            </p:blipFill>
+            <p:spPr>
+              <a:xfrm>
+                <a:off x="6608841" y="4404178"/>
+                <a:ext cx="130665" cy="159070"/>
+              </a:xfrm>
+              <a:prstGeom prst="rect">
+                <a:avLst/>
+              </a:prstGeom>
+            </p:spPr>
+          </p:pic>
+        </p:grpSp>
+        <p:pic>
+          <p:nvPicPr>
+            <p:cNvPr id="189" name="&#44536;&#47548; 188"/>
+            <p:cNvPicPr>
+              <a:picLocks noChangeAspect="1"/>
+            </p:cNvPicPr>
+            <p:nvPr/>
+          </p:nvPicPr>
+          <p:blipFill>
+            <a:blip r:embed="rId6" cstate="print">
+              <a:extLst>
+                <a:ext uri="{28A0092B-C50C-407E-A947-70E740481C1C}">
+                  <a14:useLocalDpi xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main" val="0"/>
+                </a:ext>
+              </a:extLst>
+            </a:blip>
+            <a:stretch>
+              <a:fillRect/>
+            </a:stretch>
+          </p:blipFill>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="9081020" y="5591288"/>
+              <a:ext cx="483715" cy="515586"/>
+            </a:xfrm>
+            <a:prstGeom prst="rect">
+              <a:avLst/>
+            </a:prstGeom>
+          </p:spPr>
+        </p:pic>
+      </p:grpSp>
+      <p:cxnSp>
+        <p:nvCxnSpPr>
+          <p:cNvPr id="192" name="&#51649;&#49440; &#54868;&#49332;&#54364; &#50672;&#44208;&#49440; 191"/>
+          <p:cNvCxnSpPr>
+            <a:stCxn id="185" idx="3"/>
+            <a:endCxn id="190" idx="1"/>
+          </p:cNvCxnSpPr>
+          <p:nvPr/>
+        </p:nvCxnSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="8263302" y="5791221"/>
+            <a:ext cx="457469" cy="1703"/>
+          </a:xfrm>
+          <a:prstGeom prst="straightConnector1">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:ln>
+            <a:tailEnd type="triangle"/>
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="1">
+            <a:schemeClr val="accent1"/>
+          </a:lnRef>
+          <a:fillRef idx="0">
+            <a:schemeClr val="accent1"/>
+          </a:fillRef>
+          <a:effectRef idx="0">
+            <a:schemeClr val="accent1"/>
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="tx1"/>
+          </a:fontRef>
+        </p:style>
+      </p:cxnSp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="193" name="TextBox 192"/>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="8569377" y="6182250"/>
+            <a:ext cx="1221736" cy="211203"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:noFill/>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr wrap="none" lIns="36000" tIns="36000" rIns="36000" bIns="36000" rtlCol="0" anchor="t" anchorCtr="0">
+            <a:spAutoFit/>
+          </a:bodyPr>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr marL="108000" indent="-144000">
+              <a:spcBef>
+                <a:spcPts val="300"/>
+              </a:spcBef>
+              <a:buFont typeface="Wingdings" pitchFamily="2" charset="2"/>
+              <a:buChar char="&#252;"/>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#51221;&#48708;&#45812;&#45817;&#51088; &#50508;&#47548; &#51204;&#49569;</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+              <a:latin typeface="+mn-ea"/>
+            </a:endParaRPr>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:grpSp>
+        <p:nvGrpSpPr>
+          <p:cNvPr id="195" name="&#44536;&#47353; 194"/>
+          <p:cNvGrpSpPr/>
+          <p:nvPr/>
+        </p:nvGrpSpPr>
+        <p:grpSpPr>
+          <a:xfrm>
+            <a:off x="4724072" y="2833532"/>
+            <a:ext cx="610707" cy="396594"/>
+            <a:chOff x="8601677" y="2185846"/>
+            <a:chExt cx="610707" cy="396594"/>
+          </a:xfrm>
+        </p:grpSpPr>
+        <p:pic>
+          <p:nvPicPr>
+            <p:cNvPr id="196" name="&#44536;&#47548; 195"/>
+            <p:cNvPicPr>
+              <a:picLocks noChangeAspect="1"/>
+            </p:cNvPicPr>
+            <p:nvPr/>
+          </p:nvPicPr>
+          <p:blipFill>
+            <a:blip r:embed="rId2"/>
+            <a:stretch>
+              <a:fillRect/>
+            </a:stretch>
+          </p:blipFill>
+          <p:spPr>
+            <a:xfrm flipH="1">
+              <a:off x="8834986" y="2185846"/>
+              <a:ext cx="377398" cy="396594"/>
+            </a:xfrm>
+            <a:prstGeom prst="rect">
+              <a:avLst/>
+            </a:prstGeom>
+          </p:spPr>
+        </p:pic>
+        <p:grpSp>
+          <p:nvGrpSpPr>
+            <p:cNvPr id="197" name="&#44536;&#47353; 196"/>
+            <p:cNvGrpSpPr/>
+            <p:nvPr/>
+          </p:nvGrpSpPr>
+          <p:grpSpPr>
+            <a:xfrm>
+              <a:off x="8601677" y="2283868"/>
+              <a:ext cx="252000" cy="252000"/>
+              <a:chOff x="6505564" y="4318936"/>
+              <a:chExt cx="339866" cy="318139"/>
+            </a:xfrm>
+          </p:grpSpPr>
+          <p:pic>
+            <p:nvPicPr>
+              <p:cNvPr id="198" name="&#44536;&#47548; 197"/>
+              <p:cNvPicPr>
+                <a:picLocks noChangeAspect="1"/>
+              </p:cNvPicPr>
+              <p:nvPr/>
+            </p:nvPicPr>
+            <p:blipFill>
+              <a:blip r:embed="rId9"/>
+              <a:stretch>
+                <a:fillRect/>
+              </a:stretch>
+            </p:blipFill>
+            <p:spPr>
+              <a:xfrm>
+                <a:off x="6505564" y="4318936"/>
+                <a:ext cx="339866" cy="318139"/>
+              </a:xfrm>
+              <a:prstGeom prst="rect">
+                <a:avLst/>
+              </a:prstGeom>
+            </p:spPr>
+          </p:pic>
+          <p:pic>
+            <p:nvPicPr>
+              <p:cNvPr id="199" name="&#44536;&#47548; 198"/>
+              <p:cNvPicPr>
+                <a:picLocks noChangeAspect="1"/>
+              </p:cNvPicPr>
+              <p:nvPr/>
+            </p:nvPicPr>
+            <p:blipFill>
+              <a:blip r:embed="rId10"/>
+              <a:stretch>
+                <a:fillRect/>
+              </a:stretch>
+            </p:blipFill>
+            <p:spPr>
+              <a:xfrm>
+                <a:off x="6608841" y="4404178"/>
+                <a:ext cx="130665" cy="159070"/>
+              </a:xfrm>
+              <a:prstGeom prst="rect">
+                <a:avLst/>
+              </a:prstGeom>
+            </p:spPr>
+          </p:pic>
+        </p:grpSp>
+      </p:grpSp>
+      <p:grpSp>
+        <p:nvGrpSpPr>
+          <p:cNvPr id="7" name="&#44536;&#47353; 6"/>
+          <p:cNvGrpSpPr/>
+          <p:nvPr/>
+        </p:nvGrpSpPr>
+        <p:grpSpPr>
+          <a:xfrm>
+            <a:off x="4709666" y="2130335"/>
+            <a:ext cx="653787" cy="403681"/>
+            <a:chOff x="4510161" y="3003173"/>
+            <a:chExt cx="653787" cy="403681"/>
+          </a:xfrm>
+        </p:grpSpPr>
+        <p:pic>
+          <p:nvPicPr>
+            <p:cNvPr id="194" name="&#44536;&#47548; 193"/>
+            <p:cNvPicPr>
+              <a:picLocks noChangeAspect="1"/>
+            </p:cNvPicPr>
+            <p:nvPr/>
+          </p:nvPicPr>
+          <p:blipFill>
+            <a:blip r:embed="rId6" cstate="print">
+              <a:extLst>
+                <a:ext uri="{28A0092B-C50C-407E-A947-70E740481C1C}">
+                  <a14:useLocalDpi xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main" val="0"/>
+                </a:ext>
+              </a:extLst>
+            </a:blip>
+            <a:stretch>
+              <a:fillRect/>
+            </a:stretch>
+          </p:blipFill>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="4785221" y="3003173"/>
+              <a:ext cx="378727" cy="403681"/>
+            </a:xfrm>
+            <a:prstGeom prst="rect">
+              <a:avLst/>
+            </a:prstGeom>
+          </p:spPr>
+        </p:pic>
+        <p:grpSp>
+          <p:nvGrpSpPr>
+            <p:cNvPr id="202" name="&#44536;&#47353; 201"/>
+            <p:cNvGrpSpPr/>
+            <p:nvPr/>
+          </p:nvGrpSpPr>
+          <p:grpSpPr>
+            <a:xfrm>
+              <a:off x="4510161" y="3101196"/>
+              <a:ext cx="252000" cy="252000"/>
+              <a:chOff x="6505564" y="4318936"/>
+              <a:chExt cx="339866" cy="318139"/>
+            </a:xfrm>
+          </p:grpSpPr>
+          <p:pic>
+            <p:nvPicPr>
+              <p:cNvPr id="203" name="&#44536;&#47548; 202"/>
+              <p:cNvPicPr>
+                <a:picLocks noChangeAspect="1"/>
+              </p:cNvPicPr>
+              <p:nvPr/>
+            </p:nvPicPr>
+            <p:blipFill>
+              <a:blip r:embed="rId9"/>
+              <a:stretch>
+                <a:fillRect/>
+              </a:stretch>
+            </p:blipFill>
+            <p:spPr>
+              <a:xfrm>
+                <a:off x="6505564" y="4318936"/>
+                <a:ext cx="339866" cy="318139"/>
+              </a:xfrm>
+              <a:prstGeom prst="rect">
+                <a:avLst/>
+              </a:prstGeom>
+            </p:spPr>
+          </p:pic>
+          <p:pic>
+            <p:nvPicPr>
+              <p:cNvPr id="204" name="&#44536;&#47548; 203"/>
+              <p:cNvPicPr>
+                <a:picLocks noChangeAspect="1"/>
+              </p:cNvPicPr>
+              <p:nvPr/>
+            </p:nvPicPr>
+            <p:blipFill>
+              <a:blip r:embed="rId10"/>
+              <a:stretch>
+                <a:fillRect/>
+              </a:stretch>
+            </p:blipFill>
+            <p:spPr>
+              <a:xfrm>
+                <a:off x="6608841" y="4404178"/>
+                <a:ext cx="130665" cy="159070"/>
+              </a:xfrm>
+              <a:prstGeom prst="rect">
+                <a:avLst/>
+              </a:prstGeom>
+            </p:spPr>
+          </p:pic>
+        </p:grpSp>
+      </p:grpSp>
+      <p:cxnSp>
+        <p:nvCxnSpPr>
+          <p:cNvPr id="9" name="&#44734;&#51064; &#50672;&#44208;&#49440; 8"/>
+          <p:cNvCxnSpPr>
+            <a:stCxn id="67" idx="3"/>
+            <a:endCxn id="203" idx="1"/>
+          </p:cNvCxnSpPr>
+          <p:nvPr/>
+        </p:nvCxnSpPr>
+        <p:spPr>
+          <a:xfrm flipV="1">
+            <a:off x="3837305" y="2354358"/>
+            <a:ext cx="872361" cy="277182"/>
+          </a:xfrm>
+          <a:prstGeom prst="bentConnector3">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:ln>
+            <a:tailEnd type="triangle"/>
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="1">
+            <a:schemeClr val="accent1"/>
+          </a:lnRef>
+          <a:fillRef idx="0">
+            <a:schemeClr val="accent1"/>
+          </a:fillRef>
+          <a:effectRef idx="0">
+            <a:schemeClr val="accent1"/>
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="tx1"/>
+          </a:fontRef>
+        </p:style>
+      </p:cxnSp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="205" name="TextBox 204"/>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="4502537" y="2528062"/>
+            <a:ext cx="1247384" cy="211203"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:noFill/>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr wrap="none" lIns="36000" tIns="36000" rIns="36000" bIns="36000" rtlCol="0" anchor="t" anchorCtr="0">
+            <a:spAutoFit/>
+          </a:bodyPr>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr marL="108000" indent="-144000">
+              <a:spcBef>
+                <a:spcPts val="300"/>
+              </a:spcBef>
+              <a:buFont typeface="Wingdings" pitchFamily="2" charset="2"/>
+              <a:buChar char="&#252;"/>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#51221;&#48708; &#45812;&#45817;&#51088; &#50508;&#47548; </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#51204;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="ko-KR" altLang="en-US" sz="900" dirty="0" smtClean="0">
+                <a:latin typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#49569;</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" altLang="ko-KR" sz="900" dirty="0" smtClean="0">
+              <a:latin typeface="+mn-ea"/>
+            </a:endParaRPr>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:cxnSp>
+        <p:nvCxnSpPr>
+          <p:cNvPr id="206" name="&#44734;&#51064; &#50672;&#44208;&#49440; 205"/>
+          <p:cNvCxnSpPr>
+            <a:stCxn id="68" idx="3"/>
+            <a:endCxn id="198" idx="1"/>
+          </p:cNvCxnSpPr>
+          <p:nvPr/>
+        </p:nvCxnSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="3778365" y="2634740"/>
+            <a:ext cx="945707" cy="422814"/>
+          </a:xfrm>
+          <a:prstGeom prst="bentConnector3">
+            <a:avLst>
+              <a:gd name="adj1" fmla="val 52637"/>
+            </a:avLst>
+          </a:prstGeom>
+          <a:ln>
+            <a:tailEnd type="triangle"/>
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="1">
+            <a:schemeClr val="accent1"/>
+          </a:lnRef>
+          <a:fillRef idx="0">
+            <a:schemeClr val="accent1"/>
+          </a:fillRef>
+          <a:effectRef idx="0">
+            <a:schemeClr val="accent1"/>
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="tx1"/>
+          </a:fontRef>
+        </p:style>
+      </p:cxnSp>
+    </p:spTree>
+    <p:extLst>
+      <p:ext uri="{BB962C8B-B14F-4D97-AF65-F5344CB8AC3E}">
+        <p14:creationId xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main" val="3744332141"/>
+      </p:ext>
+    </p:extLst>
+  </p:cSld>
+  <p:clrMapOvr>
+    <a:masterClrMapping/>
+  </p:clrMapOvr>
+  <p:timing>
+    <p:tnLst>
+      <p:par>
+        <p:cTn id="1" dur="indefinite" restart="never" nodeType="tmRoot"/>
+      </p:par>
+    </p:tnLst>
+  </p:timing>
+</p:sld>

@@ -1,0 +1,703 @@
+{
+  "slide-0": {
+    "shape-0": {
+      "paragraphs": [
+        {
+          "text": "공조설비 정보관리 시스템\u000b기본설계서"
+        }
+      ]
+    },
+    "shape-1": {
+      "paragraphs": [
+        {
+          "text": "동국시스템즈Ⅰ2025.12.22"
+        }
+      ]
+    }
+  },
+  "slide-1": {
+    "shape-0": {
+      "paragraphs": [
+        {
+          "text": "01",
+          "font_name": "+mj-ea"
+        }
+      ]
+    },
+    "shape-1": {
+      "paragraphs": [
+        {
+          "text": "시스템 구축 범위",
+          "font_name": "본고딕 Medium",
+          "font_size": 16.0,
+          "theme_color": "TEXT_2",
+          "line_spacing": 32.0
+        },
+        {
+          "text": "시스템 아키텍처",
+          "font_name": "본고딕 Medium",
+          "font_size": 16.0,
+          "theme_color": "TEXT_2",
+          "line_spacing": 32.0
+        },
+        {
+          "text": "기술 스택 정의",
+          "font_name": "본고딕 Medium",
+          "font_size": 16.0,
+          "theme_color": "TEXT_2",
+          "line_spacing": 32.0
+        },
+        {
+          "text": "시스템 프로세스 Flow",
+          "font_name": "본고딕 Medium",
+          "font_size": 16.0,
+          "theme_color": "TEXT_2",
+          "line_spacing": 32.0
+        },
+        {
+          "text": "화면 설계",
+          "font_name": "본고딕 Medium",
+          "font_size": 16.0,
+          "theme_color": "TEXT_2",
+          "line_spacing": 32.0
+        }
+      ]
+    },
+    "shape-2": {
+      "paragraphs": [
+        {
+          "text": "03",
+          "font_name": "본고딕 Medium",
+          "font_size": 16.0,
+          "theme_color": "TEXT_2",
+          "line_spacing": 32.0
+        },
+        {
+          "text": "04",
+          "font_name": "본고딕 Medium",
+          "font_size": 16.0,
+          "theme_color": "TEXT_2",
+          "line_spacing": 32.0
+        },
+        {
+          "text": "05",
+          "font_name": "본고딕 Medium",
+          "font_size": 16.0,
+          "theme_color": "TEXT_2",
+          "line_spacing": 32.0
+        },
+        {
+          "text": "06",
+          "font_name": "본고딕 Medium",
+          "font_size": 16.0,
+          "theme_color": "TEXT_2",
+          "line_spacing": 32.0
+        },
+        {
+          "text": "07 - 11",
+          "font_name": "본고딕 Medium",
+          "font_size": 16.0,
+          "theme_color": "TEXT_2",
+          "line_spacing": 32.0
+        }
+      ]
+    },
+    "shape-3": {
+      "paragraphs": [
+        {
+          "text": "02",
+          "font_name": "+mj-ea"
+        }
+      ]
+    },
+    "shape-4": {
+      "paragraphs": [
+        {
+          "text": "03",
+          "font_name": "+mj-ea"
+        }
+      ]
+    },
+    "shape-5": {
+      "paragraphs": [
+        {
+          "text": "04",
+          "font_name": "+mj-ea"
+        }
+      ]
+    },
+    "shape-6": {
+      "paragraphs": [
+        {
+          "text": "05",
+          "font_name": "+mj-ea"
+        }
+      ]
+    },
+    "shape-7": {
+      "paragraphs": [
+        {
+          "text": "05",
+          "font_name": "+mj-ea"
+        }
+      ]
+    }
+  },
+  "slide-2": {
+    "shape-0": {
+      "paragraphs": [
+        {
+          "text": "1. 시스템 구축 범위"
+        }
+      ]
+    },
+    "shape-1": {
+      "paragraphs": [
+        {
+          "text": "공조설비 정보관리 시스템 구축 범위"
+        }
+      ]
+    },
+    "shape-2": {
+      "paragraphs": [
+        {
+          "text": "시스템 구성"
+        }
+      ]
+    },
+    "shape-3": {
+      "paragraphs": [
+        {
+          "text": "모바일 앱",
+          "alignment": "CENTER",
+          "font_name": "본고딕 Bold",
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        },
+        {
+          "text": "(Flutter)",
+          "alignment": "CENTER",
+          "font_name": "본고딕 Bold",
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        }
+      ]
+    },
+    "shape-4": {
+      "paragraphs": [
+        {
+          "text": "웹 어드민",
+          "alignment": "CENTER",
+          "font_name": "본고딕 Bold",
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        },
+        {
+          "text": "(React)",
+          "alignment": "CENTER",
+          "font_name": "본고딕 Bold",
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        }
+      ]
+    },
+    "shape-5": {
+      "paragraphs": [
+        {
+          "text": "백엔드 API",
+          "alignment": "CENTER",
+          "font_name": "본고딕 Bold",
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        },
+        {
+          "text": "(Spring Boot)",
+          "alignment": "CENTER",
+          "font_name": "본고딕 Bold",
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        }
+      ]
+    },
+    "shape-6": {
+      "paragraphs": [
+        {
+          "text": "QR 코드 스캔을 통한 설비 정보 조회",
+          "bullet": true,
+          "level": 1,
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        },
+        {
+          "text": "고장신고/작업시작/완료 처리 기능",
+          "bullet": true,
+          "level": 1,
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        }
+      ]
+    },
+    "shape-7": {
+      "paragraphs": [
+        {
+          "text": "대시보드 및 통계 현황 조회",
+          "bullet": true,
+          "level": 1,
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        },
+        {
+          "text": "정비이력조회/진행관리 기능",
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        },
+        {
+          "text": "설비/사용자/코드 관리 기능",
+          "bullet": true,
+          "level": 1,
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        }
+      ]
+    },
+    "shape-8": {
+      "paragraphs": [
+        {
+          "text": "RESTful API 설계 (JWT 인증)",
+          "bullet": true,
+          "level": 1,
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        },
+        {
+          "text": "Tibero DB 연동",
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        },
+        {
+          "text": "카카오톡 알림톡 연동",
+          "bullet": true,
+          "level": 1,
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        }
+      ]
+    },
+    "shape-9": {
+      "paragraphs": [
+        {
+          "text": "화면 구성"
+        }
+      ]
+    },
+    "shape-10": {
+      "paragraphs": [
+        {
+          "text": "※ 웹 8개 화면 + 모바일 12개 화면 = 총 20개 화면",
+          "font_size": 10.5,
+          "bold": true,
+          "color": "C00000"
+        }
+      ]
+    }
+  },
+  "slide-3": {
+    "shape-0": {
+      "paragraphs": [
+        {
+          "text": "2. 시스템 아키텍처"
+        }
+      ]
+    },
+    "shape-1": {
+      "paragraphs": [
+        {
+          "text": "공조설비 정보관리 시스템 전체 아키텍처"
+        }
+      ]
+    },
+    "shape-2": {
+      "paragraphs": [
+        {
+          "text": "시스템 구성도"
+        }
+      ]
+    },
+    "shape-3": {
+      "paragraphs": [
+        {
+          "text": "Presentation",
+          "alignment": "CENTER",
+          "font_name": "본고딕 Bold",
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        },
+        {
+          "text": "Layer",
+          "alignment": "CENTER",
+          "font_name": "본고딕 Bold",
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        }
+      ]
+    },
+    "shape-4": {
+      "paragraphs": [
+        {
+          "text": "Business",
+          "alignment": "CENTER",
+          "font_name": "본고딕 Bold",
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        },
+        {
+          "text": "Layer",
+          "alignment": "CENTER",
+          "font_name": "본고딕 Bold",
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        }
+      ]
+    },
+    "shape-5": {
+      "paragraphs": [
+        {
+          "text": "Data",
+          "alignment": "CENTER",
+          "font_name": "본고딕 Bold",
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        },
+        {
+          "text": "Layer",
+          "alignment": "CENTER",
+          "font_name": "본고딕 Bold",
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        }
+      ]
+    },
+    "shape-6": {
+      "paragraphs": [
+        {
+          "text": "Flutter 3.x 모바일 앱",
+          "bullet": true,
+          "level": 1,
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        },
+        {
+          "text": "React 18.x 웹 어드민 + TailwindCSS",
+          "bullet": true,
+          "level": 1,
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        }
+      ]
+    },
+    "shape-7": {
+      "paragraphs": [
+        {
+          "text": "Spring Boot 3.x + JPA",
+          "bullet": true,
+          "level": 1,
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        },
+        {
+          "text": "Jeus 8.x WAS 환경",
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        },
+        {
+          "text": "JWT 기반 인증/인가 처리",
+          "bullet": true,
+          "level": 1,
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        }
+      ]
+    },
+    "shape-8": {
+      "paragraphs": [
+        {
+          "text": "Tibero 6.x 데이터베이스",
+          "bullet": true,
+          "level": 1,
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        },
+        {
+          "text": "Oracle 호환 SQL",
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        },
+        {
+          "text": "JPA Repository 패턴 적용",
+          "bullet": true,
+          "level": 1,
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        }
+      ]
+    },
+    "shape-9": {
+      "paragraphs": [
+        {
+          "text": "아키텍처 패턴"
+        }
+      ]
+    },
+    "shape-10": {
+      "paragraphs": [
+        {
+          "text": "※ Clean Architecture (Mobile) + Modular Layered (Backend)",
+          "font_size": 10.5,
+          "bold": true,
+          "color": "C00000"
+        }
+      ]
+    }
+  },
+  "slide-4": {
+    "shape-0": {
+      "paragraphs": [
+        {
+          "text": "3. 기술 스택 정의"
+        }
+      ]
+    },
+    "shape-1": {
+      "paragraphs": [
+        {
+          "text": "공조설비 정보관리 시스템 기술 스택"
+        }
+      ]
+    },
+    "shape-2": {
+      "paragraphs": [
+        {
+          "text": "기술 스택 구성"
+        }
+      ]
+    },
+    "shape-3": {
+      "paragraphs": [
+        {
+          "text": "Mobile",
+          "alignment": "CENTER",
+          "font_name": "본고딕 Bold",
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        },
+        {
+          "text": "Flutter 3.x",
+          "alignment": "CENTER",
+          "font_name": "본고딕 Bold",
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        }
+      ]
+    },
+    "shape-4": {
+      "paragraphs": [
+        {
+          "text": "Web",
+          "alignment": "CENTER",
+          "font_name": "본고딕 Bold",
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        },
+        {
+          "text": "React 18.x",
+          "alignment": "CENTER",
+          "font_name": "본고딕 Bold",
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        }
+      ]
+    },
+    "shape-5": {
+      "paragraphs": [
+        {
+          "text": "Backend",
+          "alignment": "CENTER",
+          "font_name": "본고딕 Bold",
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        },
+        {
+          "text": "Spring Boot",
+          "alignment": "CENTER",
+          "font_name": "본고딕 Bold",
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        }
+      ]
+    },
+    "shape-6": {
+      "paragraphs": [
+        {
+          "text": "Dart 언어 + Riverpod 상태관리",
+          "bullet": true,
+          "level": 1,
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        },
+        {
+          "text": "Dio HTTP 클라이언트 + SecureStorage",
+          "bullet": true,
+          "level": 1,
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        }
+      ]
+    },
+    "shape-7": {
+      "paragraphs": [
+        {
+          "text": "TypeScript + TailwindCSS + Vite",
+          "bullet": true,
+          "level": 1,
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        },
+        {
+          "text": "TanStack Query + Zustand",
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        },
+        {
+          "text": "shadcn/ui 컴포넌트",
+          "bullet": true,
+          "level": 1,
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        }
+      ]
+    },
+    "shape-8": {
+      "paragraphs": [
+        {
+          "text": "Java 17 + Spring Boot 3.x",
+          "bullet": true,
+          "level": 1,
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        },
+        {
+          "text": "JPA + Hibernate",
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        },
+        {
+          "text": "Tibero 6.x + Jeus 8.x",
+          "bullet": true,
+          "level": 1,
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        }
+      ]
+    },
+    "shape-9": {
+      "paragraphs": [
+        {
+          "text": "인프라 환경"
+        }
+      ]
+    },
+    "shape-10": {
+      "paragraphs": [
+        {
+          "text": "※ WAS: Jeus 8.x / DB: Tibero 6.x / 인증: JWT Bearer Token",
+          "font_size": 10.5,
+          "bold": true,
+          "color": "C00000"
+        }
+      ]
+    }
+  },
+  "slide-6": {
+    "shape-0": {
+      "paragraphs": [
+        {
+          "text": "5. 화면 목록 - 웹"
+        }
+      ]
+    },
+    "shape-1": {
+      "paragraphs": [
+        {
+          "text": "웹 어드민 화면 목록 (총 8개 화면)"
+        }
+      ]
+    }
+  },
+  "slide-7": {
+    "shape-0": {
+      "paragraphs": [
+        {
+          "text": "5. 화면 목록 - 모바일"
+        }
+      ]
+    },
+    "shape-1": {
+      "paragraphs": [
+        {
+          "text": "모바일 앱 화면 목록 (총 12개 화면)"
+        }
+      ]
+    }
+  },
+  "slide-8": {
+    "shape-0": {
+      "paragraphs": [
+        {
+          "text": "6. 화면 설계 - 웹 대시보드"
+        }
+      ]
+    }
+  },
+  "slide-9": {
+    "shape-0": {
+      "paragraphs": [
+        {
+          "text": "6. 화면 설계 - 정비이력조회"
+        }
+      ]
+    }
+  },
+  "slide-10": {
+    "shape-0": {
+      "paragraphs": [
+        {
+          "text": "6. 화면 설계 - 정비진행관리"
+        }
+      ]
+    }
+  }
+}

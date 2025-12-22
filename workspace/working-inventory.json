@@ -1,0 +1,2692 @@
+{
+  "slide-0": {
+    "shape-0": {
+      "left": 0.48,
+      "top": 2.49,
+      "width": 5.9,
+      "height": 1.05,
+      "placeholder_type": "TITLE",
+      "default_font_size": 32.0,
+      "paragraphs": [
+        {
+          "text": "동국제강 공조설비 정비관리\u000b시스템 구축 사전 설명회"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.48,
+      "top": 4.02,
+      "width": 5.87,
+      "height": 0.27,
+      "placeholder_type": "BODY",
+      "default_font_size": 14.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.22
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "동국시스템즈Ⅰ2025.12.19"
+        }
+      ]
+    }
+  },
+  "slide-1": {
+    "shape-0": {
+      "left": 1.04,
+      "top": 2.74,
+      "width": 0.42,
+      "height": 0.29,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.2
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "01",
+          "font_name": "+mj-ea"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 1.64,
+      "top": 2.49,
+      "width": 4.63,
+      "height": 3.87,
+      "paragraphs": [
+        {
+          "text": "시스템 구축 개요",
+          "font_name": "본고딕 Medium",
+          "font_size": 16.0,
+          "theme_color": "TEXT_2",
+          "line_spacing": 32.0
+        },
+        {
+          "text": "시스템 프로세스 Flow(요약)",
+          "font_name": "본고딕 Medium",
+          "font_size": 16.0,
+          "theme_color": "TEXT_2",
+          "line_spacing": 32.0
+        },
+        {
+          "text": "프로세스 단계별 예시 화면",
+          "font_name": "본고딕 Medium",
+          "font_size": 16.0,
+          "theme_color": "TEXT_2",
+          "line_spacing": 32.0
+        },
+        {
+          "text": "업무 R & R",
+          "font_name": "본고딕 Medium",
+          "font_size": 16.0,
+          "theme_color": "TEXT_2",
+          "line_spacing": 32.0
+        },
+        {
+          "text": "Q & A",
+          "font_name": "본고딕 Medium",
+          "font_size": 16.0,
+          "theme_color": "TEXT_2",
+          "line_spacing": 32.0
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 7.35,
+      "top": 2.49,
+      "width": 0.98,
+      "height": 3.87,
+      "paragraphs": [
+        {
+          "text": "03",
+          "font_name": "본고딕 Medium",
+          "font_size": 16.0,
+          "theme_color": "TEXT_2",
+          "line_spacing": 32.0
+        },
+        {
+          "text": "04",
+          "font_name": "본고딕 Medium",
+          "font_size": 16.0,
+          "theme_color": "TEXT_2",
+          "line_spacing": 32.0
+        },
+        {
+          "text": "05 - 14",
+          "font_name": "본고딕 Medium",
+          "font_size": 16.0,
+          "theme_color": "TEXT_2",
+          "line_spacing": 32.0
+        },
+        {
+          "text": "15",
+          "font_name": "본고딕 Medium",
+          "font_size": 16.0,
+          "theme_color": "TEXT_2",
+          "line_spacing": 32.0
+        },
+        {
+          "text": "16",
+          "font_name": "본고딕 Medium",
+          "font_size": 16.0,
+          "theme_color": "TEXT_2",
+          "line_spacing": 32.0
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 1.04,
+      "top": 3.28,
+      "width": 0.42,
+      "height": 0.29,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.2
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "02",
+          "font_name": "+mj-ea"
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 1.04,
+      "top": 3.81,
+      "width": 0.42,
+      "height": 0.29,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.2
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "03",
+          "font_name": "+mj-ea"
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 1.03,
+      "top": 4.34,
+      "width": 0.42,
+      "height": 0.29,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.2
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "04",
+          "font_name": "+mj-ea"
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 1.04,
+      "top": 4.84,
+      "width": 0.42,
+      "height": 0.29,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.2
+        }
+      },
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-7": 0.11
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "05",
+          "font_name": "+mj-ea"
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 1.04,
+      "top": 4.86,
+      "width": 0.42,
+      "height": 0.29,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.2
+        }
+      },
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-6": 0.11
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "05",
+          "font_name": "+mj-ea"
+        }
+      ]
+    }
+  },
+  "slide-2": {
+    "shape-0": {
+      "left": 0.3,
+      "top": 0.15,
+      "width": 6.75,
+      "height": 0.48,
+      "placeholder_type": "BODY",
+      "default_font_size": 16.0,
+      "paragraphs": [
+        {
+          "text": "1. 시스템 구축 개요"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.3,
+      "top": 0.63,
+      "width": 10.23,
+      "height": 0.78,
+      "placeholder_type": "TITLE",
+      "default_font_size": 17.0,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-2": 2.46
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "동국제강 포항 공장 공조설비 정비관리 시스템 구축"
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 0.3,
+      "top": 1.17,
+      "width": 10.24,
+      "height": 0.96,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-1": 2.46,
+          "shape-3": 0.68,
+          "shape-4": 0.66,
+          "shape-5": 0.55
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "시스템 구축 목표"
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 1.73,
+      "top": 1.64,
+      "width": 1.38,
+      "height": 1.38,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-2": 0.68
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "공조설비 정비",
+          "alignment": "CENTER",
+          "font_name": "본고딕 Bold",
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        },
+        {
+          "text": "관리 프로세스",
+          "alignment": "CENTER",
+          "font_name": "본고딕 Bold",
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        },
+        {
+          "text": "구축",
+          "alignment": "CENTER",
+          "font_name": "본고딕 Bold",
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 4.75,
+      "top": 1.65,
+      "width": 1.38,
+      "height": 1.38,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-2": 0.66
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "모바일",
+          "alignment": "CENTER",
+          "font_name": "본고딕 Bold",
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        },
+        {
+          "text": "시스템 구현",
+          "alignment": "CENTER",
+          "font_name": "본고딕 Bold",
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 7.74,
+      "top": 1.71,
+      "width": 1.3,
+      "height": 1.3,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-2": 0.55
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "사용자 편의성",
+          "alignment": "CENTER",
+          "font_name": "본고딕 Bold",
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        },
+        {
+          "text": "향상",
+          "alignment": "CENTER",
+          "font_name": "본고딕 Bold",
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 1.29,
+      "top": 3.06,
+      "width": 2.2,
+      "height": 1.06,
+      "paragraphs": [
+        {
+          "text": "오프라인 관리로 인한  업무 누락 및 미처리 발생 현상 개선",
+          "bullet": true,
+          "level": 1,
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        },
+        {
+          "text": "고장신고 ~ 정비종료까지  관리 및 모니터링 가능한 시스템 구축",
+          "bullet": true,
+          "level": 1,
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 4.34,
+      "top": 3.06,
+      "width": 2.2,
+      "height": 1.06,
+      "paragraphs": [
+        {
+          "text": "모바일 QR 코드 스캔을 통한",
+          "bullet": true,
+          "level": 1,
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        },
+        {
+          "text": "신속/정확한 프로세스 체계 구축",
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        },
+        {
+          "text": "알림톡 정보 알림 기능을 통한",
+          "bullet": true,
+          "level": 1,
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        },
+        {
+          "text": "업무 편의성 지원",
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 7.34,
+      "top": 3.05,
+      "width": 2.2,
+      "height": 1.06,
+      "paragraphs": [
+        {
+          "text": "수기작업을 최소화 하고",
+          "bullet": true,
+          "level": 1,
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        },
+        {
+          "text": "편리한 UI 기능 제공",
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        },
+        {
+          "text": "풍부한 시각화 기능을 통해",
+          "bullet": true,
+          "level": 1,
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        },
+        {
+          "text": "사용자 만족도 향상",
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 0.3,
+      "top": 4.34,
+      "width": 7.44,
+      "height": 0.42,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.08
+        }
+      },
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-10": 0.22
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "구축일정"
+        }
+      ]
+    },
+    "shape-10": {
+      "left": 6.75,
+      "top": 4.54,
+      "width": 3.58,
+      "height": 0.29,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-9": 0.22
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "※ 시스템 본 가동은 진행 상황에 따라 조기 오픈 가능",
+          "font_size": 10.5,
+          "bold": true,
+          "color": "C00000"
+        }
+      ]
+    },
+    "shape-11": {
+      "left": 8.52,
+      "top": 7.22,
+      "width": 1.68,
+      "height": 0.16,
+      "placeholder_type": "FOOTER",
+      "default_font_size": 8.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.34
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "동국시스템즈"
+        }
+      ]
+    },
+    "shape-12": {
+      "left": 5.48,
+      "top": 11.77,
+      "width": 0.71,
+      "height": 0.71,
+      "overflow": {
+        "slide": {
+          "overflow_bottom": 4.98
+        }
+      },
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-13": 0.18
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "사전",
+          "alignment": "CENTER",
+          "font_name": "+mj-ea",
+          "font_size": 12.0,
+          "color": "FFFFFF",
+          "line_spacing": 12.0
+        },
+        {
+          "text": "준비",
+          "alignment": "CENTER",
+          "font_name": "+mj-ea",
+          "font_size": 12.0,
+          "color": "FFFFFF",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-13": {
+      "left": 5.82,
+      "top": 11.99,
+      "width": 0.71,
+      "height": 0.71,
+      "overflow": {
+        "slide": {
+          "overflow_bottom": 5.19
+        }
+      },
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-12": 0.18
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "시스템",
+          "alignment": "CENTER",
+          "font_name": "+mj-ea",
+          "font_size": 12.0,
+          "color": "FFFFFF"
+        },
+        {
+          "text": "개발",
+          "alignment": "CENTER",
+          "font_name": "+mj-ea",
+          "font_size": 12.0,
+          "color": "FFFFFF"
+        }
+      ]
+    },
+    "shape-14": {
+      "left": 6.91,
+      "top": 11.77,
+      "width": 0.71,
+      "height": 0.71,
+      "overflow": {
+        "slide": {
+          "overflow_bottom": 4.98
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "분석",
+          "alignment": "CENTER",
+          "font_name": "+mj-ea",
+          "font_size": 12.0,
+          "color": "FFFFFF",
+          "line_spacing": 12.0
+        },
+        {
+          "text": "설계",
+          "alignment": "CENTER",
+          "font_name": "+mj-ea",
+          "font_size": 12.0,
+          "color": "FFFFFF",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-15": {
+      "left": 7.8,
+      "top": 11.99,
+      "width": 0.71,
+      "height": 0.71,
+      "overflow": {
+        "slide": {
+          "overflow_bottom": 5.19
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "테스트",
+          "alignment": "CENTER",
+          "font_name": "+mj-ea",
+          "font_size": 12.0,
+          "color": "FFFFFF"
+        }
+      ]
+    },
+    "shape-16": {
+      "left": 8.71,
+      "top": 11.99,
+      "width": 0.71,
+      "height": 0.71,
+      "overflow": {
+        "slide": {
+          "overflow_bottom": 5.19
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "본가동",
+          "alignment": "CENTER",
+          "font_name": "+mj-ea",
+          "font_size": 12.0,
+          "color": "FFFFFF"
+        }
+      ]
+    },
+    "shape-17": {
+      "left": 10.03,
+      "top": 11.99,
+      "width": 0.71,
+      "height": 0.71,
+      "overflow": {
+        "slide": {
+          "overflow_bottom": 5.19
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "안정화",
+          "alignment": "CENTER",
+          "font_name": "+mj-ea",
+          "font_size": 12.0,
+          "color": "FFFFFF"
+        },
+        {
+          "text": "(개선)",
+          "alignment": "CENTER",
+          "font_name": "+mj-ea",
+          "font_size": 12.0,
+          "color": "FFFFFF"
+        }
+      ]
+    }
+  },
+  "slide-3": {
+    "shape-0": {
+      "left": 0.3,
+      "top": 0.15,
+      "width": 6.75,
+      "height": 0.48,
+      "placeholder_type": "BODY",
+      "default_font_size": 16.0,
+      "paragraphs": [
+        {
+          "text": "1. 시스템 구축 개요"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.3,
+      "top": 0.63,
+      "width": 10.23,
+      "height": 0.78,
+      "placeholder_type": "TITLE",
+      "default_font_size": 17.0,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-2": 2.46
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "동국제강 포항 공장 공조설비 정비관리 시스템 구축"
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 0.3,
+      "top": 1.17,
+      "width": 10.24,
+      "height": 0.96,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-1": 2.46,
+          "shape-3": 0.68,
+          "shape-4": 0.66,
+          "shape-5": 0.55
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "시스템 구축 목표"
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 1.73,
+      "top": 1.64,
+      "width": 1.38,
+      "height": 1.38,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-2": 0.68
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "공조설비 정비",
+          "alignment": "CENTER",
+          "font_name": "본고딕 Bold",
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        },
+        {
+          "text": "관리 프로세스",
+          "alignment": "CENTER",
+          "font_name": "본고딕 Bold",
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        },
+        {
+          "text": "구축",
+          "alignment": "CENTER",
+          "font_name": "본고딕 Bold",
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 4.75,
+      "top": 1.65,
+      "width": 1.38,
+      "height": 1.38,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-2": 0.66
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "모바일",
+          "alignment": "CENTER",
+          "font_name": "본고딕 Bold",
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        },
+        {
+          "text": "시스템 구현",
+          "alignment": "CENTER",
+          "font_name": "본고딕 Bold",
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 7.74,
+      "top": 1.71,
+      "width": 1.3,
+      "height": 1.3,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-2": 0.55
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "사용자 편의성",
+          "alignment": "CENTER",
+          "font_name": "본고딕 Bold",
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        },
+        {
+          "text": "향상",
+          "alignment": "CENTER",
+          "font_name": "본고딕 Bold",
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 1.29,
+      "top": 3.06,
+      "width": 2.2,
+      "height": 1.06,
+      "paragraphs": [
+        {
+          "text": "오프라인 관리로 인한  업무 누락 및 미처리 발생 현상 개선",
+          "bullet": true,
+          "level": 1,
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        },
+        {
+          "text": "고장신고 ~ 정비종료까지  관리 및 모니터링 가능한 시스템 구축",
+          "bullet": true,
+          "level": 1,
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 4.34,
+      "top": 3.06,
+      "width": 2.2,
+      "height": 1.06,
+      "paragraphs": [
+        {
+          "text": "모바일 QR 코드 스캔을 통한",
+          "bullet": true,
+          "level": 1,
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        },
+        {
+          "text": "신속/정확한 프로세스 체계 구축",
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        },
+        {
+          "text": "알림톡 정보 알림 기능을 통한",
+          "bullet": true,
+          "level": 1,
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        },
+        {
+          "text": "업무 편의성 지원",
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 7.34,
+      "top": 3.05,
+      "width": 2.2,
+      "height": 1.06,
+      "paragraphs": [
+        {
+          "text": "수기작업을 최소화 하고",
+          "bullet": true,
+          "level": 1,
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        },
+        {
+          "text": "편리한 UI 기능 제공",
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        },
+        {
+          "text": "풍부한 시각화 기능을 통해",
+          "bullet": true,
+          "level": 1,
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        },
+        {
+          "text": "사용자 만족도 향상",
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 0.3,
+      "top": 4.34,
+      "width": 7.44,
+      "height": 0.42,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.08
+        }
+      },
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-10": 0.22
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "구축일정"
+        }
+      ]
+    },
+    "shape-10": {
+      "left": 6.75,
+      "top": 4.54,
+      "width": 3.58,
+      "height": 0.29,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-9": 0.22
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "※ 시스템 본 가동은 진행 상황에 따라 조기 오픈 가능",
+          "font_size": 10.5,
+          "bold": true,
+          "color": "C00000"
+        }
+      ]
+    },
+    "shape-11": {
+      "left": 8.52,
+      "top": 7.22,
+      "width": 1.68,
+      "height": 0.16,
+      "placeholder_type": "FOOTER",
+      "default_font_size": 8.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.34
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "동국시스템즈"
+        }
+      ]
+    },
+    "shape-12": {
+      "left": 5.48,
+      "top": 11.77,
+      "width": 0.71,
+      "height": 0.71,
+      "overflow": {
+        "slide": {
+          "overflow_bottom": 4.98
+        }
+      },
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-13": 0.18
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "사전",
+          "alignment": "CENTER",
+          "font_name": "+mj-ea",
+          "font_size": 12.0,
+          "color": "FFFFFF",
+          "line_spacing": 12.0
+        },
+        {
+          "text": "준비",
+          "alignment": "CENTER",
+          "font_name": "+mj-ea",
+          "font_size": 12.0,
+          "color": "FFFFFF",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-13": {
+      "left": 5.82,
+      "top": 11.99,
+      "width": 0.71,
+      "height": 0.71,
+      "overflow": {
+        "slide": {
+          "overflow_bottom": 5.19
+        }
+      },
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-12": 0.18
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "시스템",
+          "alignment": "CENTER",
+          "font_name": "+mj-ea",
+          "font_size": 12.0,
+          "color": "FFFFFF"
+        },
+        {
+          "text": "개발",
+          "alignment": "CENTER",
+          "font_name": "+mj-ea",
+          "font_size": 12.0,
+          "color": "FFFFFF"
+        }
+      ]
+    },
+    "shape-14": {
+      "left": 6.91,
+      "top": 11.77,
+      "width": 0.71,
+      "height": 0.71,
+      "overflow": {
+        "slide": {
+          "overflow_bottom": 4.98
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "분석",
+          "alignment": "CENTER",
+          "font_name": "+mj-ea",
+          "font_size": 12.0,
+          "color": "FFFFFF",
+          "line_spacing": 12.0
+        },
+        {
+          "text": "설계",
+          "alignment": "CENTER",
+          "font_name": "+mj-ea",
+          "font_size": 12.0,
+          "color": "FFFFFF",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-15": {
+      "left": 7.8,
+      "top": 11.99,
+      "width": 0.71,
+      "height": 0.71,
+      "overflow": {
+        "slide": {
+          "overflow_bottom": 5.19
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "테스트",
+          "alignment": "CENTER",
+          "font_name": "+mj-ea",
+          "font_size": 12.0,
+          "color": "FFFFFF"
+        }
+      ]
+    },
+    "shape-16": {
+      "left": 8.71,
+      "top": 11.99,
+      "width": 0.71,
+      "height": 0.71,
+      "overflow": {
+        "slide": {
+          "overflow_bottom": 5.19
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "본가동",
+          "alignment": "CENTER",
+          "font_name": "+mj-ea",
+          "font_size": 12.0,
+          "color": "FFFFFF"
+        }
+      ]
+    },
+    "shape-17": {
+      "left": 10.03,
+      "top": 11.99,
+      "width": 0.71,
+      "height": 0.71,
+      "overflow": {
+        "slide": {
+          "overflow_bottom": 5.19
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "안정화",
+          "alignment": "CENTER",
+          "font_name": "+mj-ea",
+          "font_size": 12.0,
+          "color": "FFFFFF"
+        },
+        {
+          "text": "(개선)",
+          "alignment": "CENTER",
+          "font_name": "+mj-ea",
+          "font_size": 12.0,
+          "color": "FFFFFF"
+        }
+      ]
+    }
+  },
+  "slide-4": {
+    "shape-0": {
+      "left": 0.3,
+      "top": 0.15,
+      "width": 6.75,
+      "height": 0.48,
+      "placeholder_type": "BODY",
+      "default_font_size": 16.0,
+      "paragraphs": [
+        {
+          "text": "1. 시스템 구축 개요"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.3,
+      "top": 0.63,
+      "width": 10.23,
+      "height": 0.78,
+      "placeholder_type": "TITLE",
+      "default_font_size": 17.0,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-2": 2.46
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "동국제강 포항 공장 공조설비 정비관리 시스템 구축"
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 0.3,
+      "top": 1.17,
+      "width": 10.24,
+      "height": 0.96,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-1": 2.46,
+          "shape-3": 0.68,
+          "shape-4": 0.66,
+          "shape-5": 0.55
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "시스템 구축 목표"
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 1.73,
+      "top": 1.64,
+      "width": 1.38,
+      "height": 1.38,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-2": 0.68
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "공조설비 정비",
+          "alignment": "CENTER",
+          "font_name": "본고딕 Bold",
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        },
+        {
+          "text": "관리 프로세스",
+          "alignment": "CENTER",
+          "font_name": "본고딕 Bold",
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        },
+        {
+          "text": "구축",
+          "alignment": "CENTER",
+          "font_name": "본고딕 Bold",
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 4.75,
+      "top": 1.65,
+      "width": 1.38,
+      "height": 1.38,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-2": 0.66
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "모바일",
+          "alignment": "CENTER",
+          "font_name": "본고딕 Bold",
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        },
+        {
+          "text": "시스템 구현",
+          "alignment": "CENTER",
+          "font_name": "본고딕 Bold",
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 7.74,
+      "top": 1.71,
+      "width": 1.3,
+      "height": 1.3,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-2": 0.55
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "사용자 편의성",
+          "alignment": "CENTER",
+          "font_name": "본고딕 Bold",
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        },
+        {
+          "text": "향상",
+          "alignment": "CENTER",
+          "font_name": "본고딕 Bold",
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 1.29,
+      "top": 3.06,
+      "width": 2.2,
+      "height": 1.06,
+      "paragraphs": [
+        {
+          "text": "오프라인 관리로 인한  업무 누락 및 미처리 발생 현상 개선",
+          "bullet": true,
+          "level": 1,
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        },
+        {
+          "text": "고장신고 ~ 정비종료까지  관리 및 모니터링 가능한 시스템 구축",
+          "bullet": true,
+          "level": 1,
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 4.34,
+      "top": 3.06,
+      "width": 2.2,
+      "height": 1.06,
+      "paragraphs": [
+        {
+          "text": "모바일 QR 코드 스캔을 통한",
+          "bullet": true,
+          "level": 1,
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        },
+        {
+          "text": "신속/정확한 프로세스 체계 구축",
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        },
+        {
+          "text": "알림톡 정보 알림 기능을 통한",
+          "bullet": true,
+          "level": 1,
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        },
+        {
+          "text": "업무 편의성 지원",
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 7.34,
+      "top": 3.05,
+      "width": 2.2,
+      "height": 1.06,
+      "paragraphs": [
+        {
+          "text": "수기작업을 최소화 하고",
+          "bullet": true,
+          "level": 1,
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        },
+        {
+          "text": "편리한 UI 기능 제공",
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        },
+        {
+          "text": "풍부한 시각화 기능을 통해",
+          "bullet": true,
+          "level": 1,
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        },
+        {
+          "text": "사용자 만족도 향상",
+          "font_name": "+mj-ea",
+          "font_size": 10.5,
+          "line_spacing": 12.6
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 0.3,
+      "top": 4.34,
+      "width": 7.44,
+      "height": 0.42,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.08
+        }
+      },
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-10": 0.22
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "구축일정"
+        }
+      ]
+    },
+    "shape-10": {
+      "left": 6.75,
+      "top": 4.54,
+      "width": 3.58,
+      "height": 0.29,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-9": 0.22
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "※ 시스템 본 가동은 진행 상황에 따라 조기 오픈 가능",
+          "font_size": 10.5,
+          "bold": true,
+          "color": "C00000"
+        }
+      ]
+    },
+    "shape-11": {
+      "left": 8.52,
+      "top": 7.22,
+      "width": 1.68,
+      "height": 0.16,
+      "placeholder_type": "FOOTER",
+      "default_font_size": 8.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.34
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "동국시스템즈"
+        }
+      ]
+    },
+    "shape-12": {
+      "left": 5.48,
+      "top": 11.77,
+      "width": 0.71,
+      "height": 0.71,
+      "overflow": {
+        "slide": {
+          "overflow_bottom": 4.98
+        }
+      },
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-13": 0.18
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "사전",
+          "alignment": "CENTER",
+          "font_name": "+mj-ea",
+          "font_size": 12.0,
+          "color": "FFFFFF",
+          "line_spacing": 12.0
+        },
+        {
+          "text": "준비",
+          "alignment": "CENTER",
+          "font_name": "+mj-ea",
+          "font_size": 12.0,
+          "color": "FFFFFF",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-13": {
+      "left": 5.82,
+      "top": 11.99,
+      "width": 0.71,
+      "height": 0.71,
+      "overflow": {
+        "slide": {
+          "overflow_bottom": 5.19
+        }
+      },
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-12": 0.18
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "시스템",
+          "alignment": "CENTER",
+          "font_name": "+mj-ea",
+          "font_size": 12.0,
+          "color": "FFFFFF"
+        },
+        {
+          "text": "개발",
+          "alignment": "CENTER",
+          "font_name": "+mj-ea",
+          "font_size": 12.0,
+          "color": "FFFFFF"
+        }
+      ]
+    },
+    "shape-14": {
+      "left": 6.91,
+      "top": 11.77,
+      "width": 0.71,
+      "height": 0.71,
+      "overflow": {
+        "slide": {
+          "overflow_bottom": 4.98
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "분석",
+          "alignment": "CENTER",
+          "font_name": "+mj-ea",
+          "font_size": 12.0,
+          "color": "FFFFFF",
+          "line_spacing": 12.0
+        },
+        {
+          "text": "설계",
+          "alignment": "CENTER",
+          "font_name": "+mj-ea",
+          "font_size": 12.0,
+          "color": "FFFFFF",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-15": {
+      "left": 7.8,
+      "top": 11.99,
+      "width": 0.71,
+      "height": 0.71,
+      "overflow": {
+        "slide": {
+          "overflow_bottom": 5.19
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "테스트",
+          "alignment": "CENTER",
+          "font_name": "+mj-ea",
+          "font_size": 12.0,
+          "color": "FFFFFF"
+        }
+      ]
+    },
+    "shape-16": {
+      "left": 8.71,
+      "top": 11.99,
+      "width": 0.71,
+      "height": 0.71,
+      "overflow": {
+        "slide": {
+          "overflow_bottom": 5.19
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "본가동",
+          "alignment": "CENTER",
+          "font_name": "+mj-ea",
+          "font_size": 12.0,
+          "color": "FFFFFF"
+        }
+      ]
+    },
+    "shape-17": {
+      "left": 10.03,
+      "top": 11.99,
+      "width": 0.71,
+      "height": 0.71,
+      "overflow": {
+        "slide": {
+          "overflow_bottom": 5.19
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "안정화",
+          "alignment": "CENTER",
+          "font_name": "+mj-ea",
+          "font_size": 12.0,
+          "color": "FFFFFF"
+        },
+        {
+          "text": "(개선)",
+          "alignment": "CENTER",
+          "font_name": "+mj-ea",
+          "font_size": 12.0,
+          "color": "FFFFFF"
+        }
+      ]
+    }
+  },
+  "slide-5": {
+    "shape-0": {
+      "left": 0.3,
+      "top": 0.15,
+      "width": 6.75,
+      "height": 0.48,
+      "placeholder_type": "BODY",
+      "default_font_size": 16.0,
+      "paragraphs": [
+        {
+          "text": "2. 시스템 프로세스 Flow(요약)"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.11,
+      "top": 0.76,
+      "width": 1.23,
+      "height": 0.4,
+      "paragraphs": [
+        {
+          "text": "Step1.",
+          "alignment": "CENTER",
+          "font_size": 10.5,
+          "bold": true
+        },
+        {
+          "text": "고장신고&승인",
+          "alignment": "CENTER",
+          "font_size": 10.5,
+          "bold": true
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 9.08,
+      "top": 1.19,
+      "width": 1.34,
+      "height": 0.23,
+      "paragraphs": [
+        {
+          "text": "정비접수자 알림 전송",
+          "bullet": true,
+          "level": 0,
+          "space_before": 3.0,
+          "font_name": "+mn-ea",
+          "font_size": 9.0
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 1.52,
+      "top": 1.5,
+      "width": 1.34,
+      "height": 0.23,
+      "paragraphs": [
+        {
+          "text": "현장담당자 고장 발견",
+          "bullet": true,
+          "level": 0,
+          "space_before": 3.0,
+          "font_name": "+mn-ea",
+          "font_size": 9.0
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 3.03,
+      "top": 1.53,
+      "width": 1.08,
+      "height": 0.42,
+      "paragraphs": [
+        {
+          "text": "신고가능 담당자",
+          "bullet": true,
+          "level": 0,
+          "space_before": 3.0,
+          "font_name": "+mn-ea",
+          "font_size": 9.0
+        },
+        {
+          "text": "QR 스캔 실시",
+          "space_before": 3.0,
+          "font_name": "+mn-ea",
+          "font_size": 9.0
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 4.37,
+      "top": 1.64,
+      "width": 1.35,
+      "height": 0.42,
+      "paragraphs": [
+        {
+          "text": "고장신고화면",
+          "bullet": true,
+          "level": 0,
+          "space_before": 3.0,
+          "font_name": "+mn-ea",
+          "font_size": 9.0
+        },
+        {
+          "text": "고장/ Overhaul 요청",
+          "space_before": 3.0,
+          "font_name": "+mn-ea",
+          "font_size": 9.0
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 6.01,
+      "top": 1.64,
+      "width": 1.13,
+      "height": 0.42,
+      "paragraphs": [
+        {
+          "text": "관리자(승인권자)",
+          "bullet": true,
+          "level": 0,
+          "space_before": 3.0,
+          "font_name": "+mn-ea",
+          "font_size": 9.0
+        },
+        {
+          "text": "확인 및 검토",
+          "space_before": 3.0,
+          "font_name": "+mn-ea",
+          "font_size": 9.0
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 7.42,
+      "top": 1.65,
+      "width": 1.42,
+      "height": 0.42,
+      "paragraphs": [
+        {
+          "text": "승인 or 반려 처리",
+          "bullet": true,
+          "level": 0,
+          "space_before": 3.0,
+          "font_name": "+mn-ea",
+          "font_size": 9.0
+        },
+        {
+          "text": "(즉시) 방문요청일 지정",
+          "bullet": true,
+          "level": 0,
+          "space_before": 3.0,
+          "font_name": "+mn-ea",
+          "font_size": 9.0
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 9.14,
+      "top": 1.91,
+      "width": 1.25,
+      "height": 0.23,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-13": 0.04
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "반려 사유 알림 전송",
+          "bullet": true,
+          "level": 0,
+          "space_before": 3.0,
+          "font_name": "+mn-ea",
+          "font_size": 9.0
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 15.04,
+      "top": 1.82,
+      "width": 0.35,
+      "height": 0.17,
+      "overflow": {
+        "slide": {
+          "overflow_right": 4.56
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "승인",
+          "alignment": "CENTER",
+          "font_size": 5.0
+        }
+      ]
+    },
+    "shape-10": {
+      "left": 15.51,
+      "top": 1.79,
+      "width": 0.52,
+      "height": 0.17,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.08
+        },
+        "slide": {
+          "overflow_right": 5.2
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "승인",
+          "alignment": "CENTER",
+          "font_size": 10.0
+        }
+      ]
+    },
+    "shape-11": {
+      "left": 15.52,
+      "top": 1.99,
+      "width": 0.52,
+      "height": 0.17,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.08
+        },
+        "slide": {
+          "overflow_right": 5.21
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "반려",
+          "alignment": "CENTER",
+          "font_size": 10.0
+        }
+      ]
+    },
+    "shape-12": {
+      "left": 0.11,
+      "top": 2.42,
+      "width": 1.23,
+      "height": 0.4,
+      "paragraphs": [
+        {
+          "text": "Step2.",
+          "alignment": "CENTER",
+          "font_size": 10.5,
+          "bold": true
+        },
+        {
+          "text": "고장접수",
+          "alignment": "CENTER",
+          "font_size": 10.5,
+          "bold": true
+        }
+      ]
+    },
+    "shape-13": {
+      "left": 9.63,
+      "top": 2.07,
+      "width": 0.51,
+      "height": 0.56,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-8": 0.04
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "고장",
+          "font_size": 9.0
+        },
+        {
+          "text": "신고",
+          "font_size": 9.0
+        },
+        {
+          "text": "화면",
+          "font_size": 9.0
+        }
+      ]
+    },
+    "shape-14": {
+      "left": 15.04,
+      "top": 2.03,
+      "width": 0.35,
+      "height": 0.17,
+      "overflow": {
+        "slide": {
+          "overflow_right": 4.56
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "반려",
+          "alignment": "CENTER",
+          "font_size": 5.0
+        }
+      ]
+    },
+    "shape-15": {
+      "left": 4.92,
+      "top": 2.76,
+      "width": 1.36,
+      "height": 0.23,
+      "paragraphs": [
+        {
+          "text": "정비 담당자 알림 전송",
+          "bullet": true,
+          "level": 0,
+          "space_before": 3.0,
+          "font_name": "+mn-ea",
+          "font_size": 9.0
+        }
+      ]
+    },
+    "shape-16": {
+      "left": 1.63,
+      "top": 3.27,
+      "width": 1.34,
+      "height": 0.42,
+      "paragraphs": [
+        {
+          "text": "정비접수자 수리 요청",
+          "bullet": true,
+          "level": 0,
+          "space_before": 3.0,
+          "font_name": "+mn-ea",
+          "font_size": 9.0
+        },
+        {
+          "text": "리스트 내역 확인",
+          "space_before": 3.0,
+          "font_name": "+mn-ea",
+          "font_size": 9.0
+        }
+      ]
+    },
+    "shape-17": {
+      "left": 3.38,
+      "top": 3.28,
+      "width": 1.2,
+      "height": 0.42,
+      "paragraphs": [
+        {
+          "text": "정비 담당자 지정",
+          "bullet": true,
+          "level": 0,
+          "space_before": 3.0,
+          "font_name": "+mn-ea",
+          "font_size": 9.0
+        },
+        {
+          "text": "및 방문예정일 입력",
+          "space_before": 3.0,
+          "font_name": "+mn-ea",
+          "font_size": 9.0
+        }
+      ]
+    },
+    "shape-18": {
+      "left": 4.92,
+      "top": 3.51,
+      "width": 1.36,
+      "height": 0.23,
+      "paragraphs": [
+        {
+          "text": "고장 신고자 알림 전송",
+          "bullet": true,
+          "level": 0,
+          "space_before": 3.0,
+          "font_name": "+mn-ea",
+          "font_size": 9.0
+        }
+      ]
+    },
+    "shape-19": {
+      "left": 7.83,
+      "top": 3.34,
+      "width": 2.25,
+      "height": 0.42,
+      "paragraphs": [
+        {
+          "text": "정비담당자  동국제강 담당자 연락",
+          "bullet": true,
+          "level": 0,
+          "space_before": 3.0,
+          "font_name": "+mn-ea",
+          "font_size": 9.0
+        },
+        {
+          "text": "웹 화면에서 사유 등록 후 변경",
+          "space_before": 3.0,
+          "font_name": "+mn-ea",
+          "font_size": 9.0
+        }
+      ]
+    },
+    "shape-20": {
+      "left": 0.12,
+      "top": 4.03,
+      "width": 1.23,
+      "height": 0.4,
+      "paragraphs": [
+        {
+          "text": "Step3.",
+          "alignment": "CENTER",
+          "font_size": 10.5,
+          "bold": true
+        },
+        {
+          "text": "작업 시작&완료",
+          "alignment": "CENTER",
+          "font_size": 10.5,
+          "bold": true
+        }
+      ]
+    },
+    "shape-21": {
+      "left": 1.46,
+      "top": 4.93,
+      "width": 0.82,
+      "height": 0.42,
+      "paragraphs": [
+        {
+          "text": "정비담당자",
+          "bullet": true,
+          "level": 0,
+          "space_before": 3.0,
+          "font_name": "+mn-ea",
+          "font_size": 9.0
+        },
+        {
+          "text": "현장도착",
+          "space_before": 3.0,
+          "font_name": "+mn-ea",
+          "font_size": 9.0
+        }
+      ]
+    },
+    "shape-22": {
+      "left": 2.82,
+      "top": 4.96,
+      "width": 0.91,
+      "height": 0.42,
+      "paragraphs": [
+        {
+          "text": "QR 스캔으로",
+          "bullet": true,
+          "level": 0,
+          "space_before": 3.0,
+          "font_name": "+mn-ea",
+          "font_size": 9.0
+        },
+        {
+          "text": "작업대상조회",
+          "space_before": 3.0,
+          "font_name": "+mn-ea",
+          "font_size": 9.0
+        }
+      ]
+    },
+    "shape-23": {
+      "left": 4.18,
+      "top": 5.05,
+      "width": 0.94,
+      "height": 0.42,
+      "paragraphs": [
+        {
+          "text": "작업지시화면",
+          "bullet": true,
+          "level": 0,
+          "space_before": 3.0,
+          "font_name": "+mn-ea",
+          "font_size": 9.0
+        },
+        {
+          "text": "작업시작등록",
+          "space_before": 3.0,
+          "font_name": "+mn-ea",
+          "font_size": 9.0
+        }
+      ]
+    },
+    "shape-24": {
+      "left": 5.53,
+      "top": 5.04,
+      "width": 1.27,
+      "height": 0.23,
+      "paragraphs": [
+        {
+          "text": "수리/정비 작업 진행",
+          "bullet": true,
+          "level": 0,
+          "space_before": 3.0,
+          "font_name": "+mn-ea",
+          "font_size": 9.0
+        }
+      ]
+    },
+    "shape-25": {
+      "left": 7.31,
+      "top": 4.91,
+      "width": 0.91,
+      "height": 0.42,
+      "paragraphs": [
+        {
+          "text": "QR 스캔으로",
+          "bullet": true,
+          "level": 0,
+          "space_before": 3.0,
+          "font_name": "+mn-ea",
+          "font_size": 9.0
+        },
+        {
+          "text": "작업대상조회",
+          "space_before": 3.0,
+          "font_name": "+mn-ea",
+          "font_size": 9.0
+        }
+      ]
+    },
+    "shape-26": {
+      "left": 8.67,
+      "top": 5.02,
+      "width": 0.94,
+      "height": 0.42,
+      "paragraphs": [
+        {
+          "text": "작업지시화면",
+          "bullet": true,
+          "level": 0,
+          "space_before": 3.0,
+          "font_name": "+mn-ea",
+          "font_size": 9.0
+        },
+        {
+          "text": "작업완료등록",
+          "space_before": 3.0,
+          "font_name": "+mn-ea",
+          "font_size": 9.0
+        }
+      ]
+    },
+    "shape-27": {
+      "left": 13.99,
+      "top": 4.65,
+      "width": 0.71,
+      "height": 0.4,
+      "overflow": {
+        "slide": {
+          "overflow_right": 3.86
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "일정 변경",
+          "alignment": "CENTER",
+          "font_size": 9.0,
+          "bold": true
+        },
+        {
+          "text": "필요 시",
+          "alignment": "CENTER",
+          "font_size": 9.0,
+          "bold": true
+        }
+      ]
+    },
+    "shape-28": {
+      "left": 0.14,
+      "top": 5.8,
+      "width": 1.23,
+      "height": 0.4,
+      "paragraphs": [
+        {
+          "text": "Step4.",
+          "alignment": "CENTER",
+          "font_size": 10.5,
+          "bold": true
+        },
+        {
+          "text": "작업 종료&평가",
+          "alignment": "CENTER",
+          "font_size": 10.5,
+          "bold": true
+        }
+      ]
+    },
+    "shape-29": {
+      "left": 9.24,
+      "top": 5.49,
+      "width": 0.51,
+      "height": 0.58,
+      "paragraphs": [
+        {
+          "text": "작업",
+          "font_size": 9.0
+        },
+        {
+          "text": "지시",
+          "font_size": 9.0
+        },
+        {
+          "text": "화면",
+          "font_size": 9.0
+        }
+      ]
+    },
+    "shape-30": {
+      "left": 13.76,
+      "top": 5.49,
+      "width": 0.51,
+      "height": 0.58,
+      "overflow": {
+        "slide": {
+          "overflow_right": 3.44
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "작업",
+          "font_size": 9.0
+        },
+        {
+          "text": "지시화면",
+          "font_size": 9.0
+        }
+      ]
+    },
+    "shape-31": {
+      "left": 1.52,
+      "top": 6.73,
+      "width": 1.25,
+      "height": 0.23,
+      "paragraphs": [
+        {
+          "text": "작업 완료 대상 확인",
+          "bullet": true,
+          "level": 0,
+          "space_before": 3.0,
+          "font_name": "+mn-ea",
+          "font_size": 9.0
+        }
+      ]
+    },
+    "shape-32": {
+      "left": 3.11,
+      "top": 6.74,
+      "width": 1.25,
+      "height": 0.23,
+      "paragraphs": [
+        {
+          "text": "종료 처리 대상 조회",
+          "bullet": true,
+          "level": 0,
+          "space_before": 3.0,
+          "font_name": "+mn-ea",
+          "font_size": 9.0
+        }
+      ]
+    },
+    "shape-33": {
+      "left": 4.57,
+      "top": 6.78,
+      "width": 1.75,
+      "height": 0.42,
+      "paragraphs": [
+        {
+          "text": "만족도 평가 및 종료 처리",
+          "bullet": true,
+          "level": 0,
+          "space_before": 3.0,
+          "font_name": "+mn-ea",
+          "font_size": 9.0
+        },
+        {
+          "text": "(단, 평가는 필수 사항은 아님)",
+          "space_before": 3.0,
+          "font_name": "+mn-ea",
+          "font_size": 9.0
+        }
+      ]
+    },
+    "shape-34": {
+      "left": 7.14,
+      "top": 6.78,
+      "width": 2.14,
+      "height": 0.42,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-35": 0.03
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "종료 처리 화면에서 취소 사유 입력 후",
+          "bullet": true,
+          "level": 0,
+          "space_before": 3.0,
+          "font_name": "+mn-ea",
+          "font_size": 9.0
+        },
+        {
+          "text": "해당 요청 건은 종료(취소) 처리",
+          "space_before": 3.0,
+          "font_name": "+mn-ea",
+          "font_size": 9.0
+        }
+      ]
+    },
+    "shape-35": {
+      "left": 8.93,
+      "top": 6.28,
+      "width": 0.51,
+      "height": 0.58,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-34": 0.03,
+          "shape-36": 0.01
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "고장",
+          "font_size": 9.0
+        },
+        {
+          "text": "접수화면",
+          "font_size": 9.0
+        }
+      ]
+    },
+    "shape-36": {
+      "left": 9.37,
+      "top": 6.76,
+      "width": 1.34,
+      "height": 0.23,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-35": 0.01
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "정비담당자 알림 전송",
+          "bullet": true,
+          "level": 0,
+          "space_before": 3.0,
+          "font_name": "+mn-ea",
+          "font_size": 9.0
+        }
+      ]
+    },
+    "shape-37": {
+      "left": 8.52,
+      "top": 7.22,
+      "width": 1.68,
+      "height": 0.16,
+      "placeholder_type": "FOOTER",
+      "default_font_size": 8.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.34
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "동국시스템즈"
+        }
+      ]
+    },
+    "shape-38": {
+      "left": 13.62,
+      "top": 8.17,
+      "width": 0.71,
+      "height": 0.4,
+      "overflow": {
+        "slide": {
+          "overflow_right": 3.49,
+          "overflow_bottom": 1.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "승인 이후",
+          "alignment": "CENTER",
+          "font_size": 9.0,
+          "bold": true
+        },
+        {
+          "text": "취소 시",
+          "alignment": "CENTER",
+          "font_size": 9.0,
+          "bold": true
+        }
+      ]
+    }
+  },
+  "slide-6": {
+    "shape-0": {
+      "left": 0.3,
+      "top": 0.15,
+      "width": 6.75,
+      "height": 0.48,
+      "placeholder_type": "BODY",
+      "default_font_size": 16.0,
+      "paragraphs": [
+        {
+          "text": "4. 업무 R&R"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.3,
+      "top": 1.27,
+      "width": 10.24,
+      "height": 0.96,
+      "paragraphs": [
+        {
+          "text": "담당별 수행 업무 R&R"
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 8.52,
+      "top": 7.22,
+      "width": 1.68,
+      "height": 0.16,
+      "placeholder_type": "FOOTER",
+      "default_font_size": 8.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.34
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "동국시스템즈"
+        }
+      ]
+    }
+  },
+  "slide-7": {
+    "shape-0": {
+      "left": 0.3,
+      "top": 0.15,
+      "width": 6.75,
+      "height": 0.48,
+      "placeholder_type": "BODY",
+      "default_font_size": 16.0,
+      "paragraphs": [
+        {
+          "text": "4. 업무 R&R"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.3,
+      "top": 1.27,
+      "width": 10.24,
+      "height": 0.96,
+      "paragraphs": [
+        {
+          "text": "담당별 수행 업무 R&R"
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 8.52,
+      "top": 7.22,
+      "width": 1.68,
+      "height": 0.16,
+      "placeholder_type": "FOOTER",
+      "default_font_size": 8.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.34
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "동국시스템즈"
+        }
+      ]
+    }
+  },
+  "slide-8": {
+    "shape-0": {
+      "left": 0.3,
+      "top": 0.14,
+      "width": 6.75,
+      "height": 0.5,
+      "placeholder_type": "BODY",
+      "default_font_size": 16.0,
+      "paragraphs": [
+        {
+          "text": "3. 프로세스 단계별 예시 화면(대시보드)"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.3,
+      "top": 0.63,
+      "width": 10.23,
+      "height": 0.78,
+      "placeholder_type": "TITLE",
+      "default_font_size": 17.0,
+      "paragraphs": [
+        {
+          "text": "공조 설비 정비 진행 현황을 파악하는 대시보드 화면"
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 8.52,
+      "top": 7.22,
+      "width": 1.68,
+      "height": 0.16,
+      "placeholder_type": "FOOTER",
+      "default_font_size": 8.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.34
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "동국시스템즈"
+        }
+      ]
+    }
+  },
+  "slide-9": {
+    "shape-0": {
+      "left": 0.3,
+      "top": 0.14,
+      "width": 6.75,
+      "height": 0.5,
+      "placeholder_type": "BODY",
+      "default_font_size": 16.0,
+      "paragraphs": [
+        {
+          "text": "3. 프로세스 단계별 예시 화면(정비이력조회)"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.3,
+      "top": 0.63,
+      "width": 10.23,
+      "height": 0.78,
+      "placeholder_type": "TITLE",
+      "default_font_size": 17.0,
+      "paragraphs": [
+        {
+          "text": "공조 설비 단위 정비 이력 정보 조회 화면"
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 7.05,
+      "top": 3.04,
+      "width": 2.0,
+      "height": 0.49,
+      "paragraphs": [
+        {
+          "text": "설비 선택 시",
+          "alignment": "CENTER",
+          "font_size": 12.0,
+          "bold": true
+        },
+        {
+          "text": "하단에 정비 이력 조회",
+          "alignment": "CENTER",
+          "font_size": 12.0,
+          "bold": true
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 8.52,
+      "top": 7.22,
+      "width": 1.68,
+      "height": 0.16,
+      "placeholder_type": "FOOTER",
+      "default_font_size": 8.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.34
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "동국시스템즈"
+        }
+      ]
+    }
+  },
+  "slide-10": {
+    "shape-0": {
+      "left": 0.3,
+      "top": 0.14,
+      "width": 6.75,
+      "height": 0.5,
+      "placeholder_type": "BODY",
+      "default_font_size": 16.0,
+      "paragraphs": [
+        {
+          "text": "3. 프로세스 단계별 예시 화면(정비진행관리)"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.3,
+      "top": 0.63,
+      "width": 10.23,
+      "height": 0.78,
+      "placeholder_type": "TITLE",
+      "default_font_size": 17.0,
+      "paragraphs": [
+        {
+          "text": "정비 진행 대상 전체 조회 및 백업처리(고장등록/승인&반려/일정변경/종료)"
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 8.52,
+      "top": 7.22,
+      "width": 1.68,
+      "height": 0.16,
+      "placeholder_type": "FOOTER",
+      "default_font_size": 8.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.34
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "동국시스템즈"
+        }
+      ]
+    }
+  },
+  "slide-11": {
+    "shape-0": {
+      "left": 0.0,
+      "top": 3.51,
+      "width": 10.83,
+      "height": 0.36,
+      "placeholder_type": "TITLE",
+      "default_font_size": 32.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.75
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Q & A",
+          "alignment": "CENTER",
+          "font_size": 72.0
+        }
+      ]
+    }
+  },
+  "slide-12": {
+    "shape-0": {
+      "left": 0.0,
+      "top": 3.51,
+      "width": 10.83,
+      "height": 0.36,
+      "placeholder_type": "TITLE",
+      "default_font_size": 32.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.75
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "감사합니다.",
+          "alignment": "CENTER",
+          "font_size": 72.0
+        }
+      ]
+    }
+  }
+}
