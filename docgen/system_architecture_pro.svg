@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d4aa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1F4E79;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="white" />
+  
+  <!-- Left: Clients -->
+  <g transform="translate(200, 300)">
+    <rect x="0" y="0" width="300" height="480" rx="20" fill="#f8f9fa" stroke="(31, 78, 121)" stroke-width="2" />
+    <text x="150" y="50" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="(10, 22, 40)" font-weight="bold">CLIENTS</text>
+    
+    <!-- Mobile Icon -->
+    <g transform="translate(100, 100)">
+        <rect x="0" y="0" width="100" height="180" rx="10" fill="url(#grad1)" />
+        <rect x="5" y="5" width="90" height="150" rx="5" fill="white" />
+        <circle cx="50" cy="165" r="8" fill="white" />
+        <text x="50" y="195" font-family="Arial" font-size="16" text-anchor="middle" fill="(10, 22, 40)">Mobile App</text>
+    </g>
+    
+    <!-- Web Icon -->
+    <g transform="translate(60, 320)">
+        <rect x="0" y="0" width="180" height="110" rx="5" fill="url(#grad1)" />
+        <rect x="5" y="5" width="170" height="85" fill="white" />
+        <rect x="70" y="110" width="40" height="20" fill="(31, 78, 121)" />
+        <rect x="50" y="130" width="80" height="10" rx="2" fill="(31, 78, 121)" />
+        <text x="90" y="160" font-family="Arial" font-size="16" text-anchor="middle" fill="(10, 22, 40)">Web Dashboard</text>
+    </g>
+  </g>
+
+  <!-- Center: Server -->
+  <g transform="translate(700, 300)">
+    <rect x="0" y="0" width="500" height="480" rx="20" fill="#f0f4f8" stroke="(31, 78, 121)" stroke-width="2" />
+    <text x="250" y="50" font-family="Arial, sans-serif" font-size="28" text-anchor="middle" fill="(10, 22, 40)" font-weight="bold">BACKEND SERVER</text>
+    
+    <!-- Spring Boot Box -->
+    <rect x="100" y="150" width="300" height="200" rx="10" fill="(31, 78, 121)" />
+    <text x="250" y="260" font-family="Arial, sans-serif" font-size="32" text-anchor="middle" fill="white" font-weight="bold">Spring Boot</text>
+    <text x="250" y="300" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#00d4aa">API Service</text>
+  </g>
+
+  <!-- Right: Data & External -->
+  <g transform="translate(1400, 300)">
+    <rect x="0" y="0" width="300" height="480" rx="20" fill="#f8f9fa" stroke="(31, 78, 121)" stroke-width="2" />
+    <text x="150" y="50" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="(10, 22, 40)" font-weight="bold">DATA & EXT</text>
+    
+    <!-- Database Icon -->
+    <g transform="translate(100, 100)">
+        <ellipse cx="50" cy="20" rx="50" ry="20" fill="#D3D3D3" stroke="(31, 78, 121)" />
+        <rect x="0" y="20" width="100" height="100" fill="#D3D3D3" stroke="(31, 78, 121)" stroke-width="0" />
+        <path d="M0,20 v100 a50,20 0 0,0 100,0 v-100" fill="#D3D3D3" stroke="(31, 78, 121)" />
+        <ellipse cx="50" cy="120" rx="50" ry="20" fill="#D3D3D3" stroke="(31, 78, 121)" />
+        <text x="50" y="70" font-family="Arial" font-size="20" text-anchor="middle" fill="(10, 22, 40)" font-weight="bold">Tibero</text>
+    </g>
+    
+    <!-- Kakao Icon -->
+    <g transform="translate(80, 300)">
+        <path d="M20,0 h100 a20,20 0 0,1 20,20 v60 a20,20 0 0,1 -20,20 h-60 l-20,20 l0,-20 h-20 a20,20 0 0,1 -20,-20 v-60 a20,20 0 0,1 20,-20 z" fill="#F7E600" />
+        <text x="70" y="60" font-family="Arial" font-size="18" text-anchor="middle" fill="#3A1D1D" font-weight="bold">Kakao</text>
+    </g>
+  </g>
+
+  <!-- Arrows -->
+  <g stroke="(200, 200, 200)" stroke-width="4" fill="none" marker-end="url(#arrowhead)">
+    <!-- Client to Server -->
+    <line x1="500" y1="500" x2="700" y2="500" />
+    <!-- Server to DB -->
+    <line x1="1200" y1="450" x2="1400" y2="450" />
+    <!-- Server to Kakao -->
+    <line x1="1200" y1="650" x2="1400" y2="650" />
+  </g>
+  
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="(200, 200, 200)" />
+    </marker>
+  </defs>
+</svg>

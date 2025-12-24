@@ -1,0 +1,226 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>공조설비 정보관리 시스템 구축 사전 설명회</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Pretendard:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #0284c7;
+            --secondary: #4f46e5;
+            --navy: #002452;
+            --red: #C51F2A;
+            --bg: #ffffff;
+            --text-main: #0f172a;
+            --text-sub: #475569;
+        }
+
+        body {
+            font-family: 'Pretendard', 'Inter', sans-serif;
+            background-color: var(--bg);
+            color: var(--text-main);
+            overflow: hidden;
+            margin: 0;
+        }
+
+        .slide {
+            width: 100vw;
+            height: 100vh;
+            display: none;
+            padding: 4rem;
+            box-sizing: border-box;
+            position: relative;
+            background: #fff;
+        }
+
+        .slide.active {
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Hero / Title Slide */
+        .slide-title {
+            background: radial-gradient(circle at 10% 20%, rgba(2, 132, 199, 0.05) 0%, rgba(255, 255, 255, 0) 50%),
+                        radial-gradient(circle at 90% 80%, rgba(197, 31, 42, 0.05) 0%, rgba(255, 255, 255, 0) 50%);
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        /* Glassmorphism Card */
+        .glass-card {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(0, 0, 0, 0.08);
+            border-radius: 24px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .glass-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+        }
+
+        /* Typography */
+        h1 { font-size: 4.5rem; font-weight: 700; letter-spacing: -0.05em; line-height: 1.1; color: var(--navy); }
+        h2 { font-size: 2.5rem; font-weight: 600; color: var(--navy); margin-bottom: 0.5rem; }
+        .action-title { font-size: 1.5rem; color: var(--text-sub); margin-bottom: 2rem; border-left: 4px solid var(--red); padding-left: 1.5rem; line-height: 1.6; }
+        
+        /* Navigation */
+        .nav-controls {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            display: flex;
+            gap: 1rem;
+            z-index: 1000;
+        }
+
+        .nav-btn {
+            width: 3rem;
+            height: 3rem;
+            border-radius: 50%;
+            background: var(--navy);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            border: none;
+            opacity: 0.8;
+            transition: opacity 0.3s;
+        }
+
+        .nav-btn:hover { opacity: 1; }
+
+        /* Custom Elements */
+        .grid-container {
+            display: grid;
+            gap: 2rem;
+            margin-top: 1rem;
+        }
+
+        .process-flow {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            margin-top: 4rem;
+        }
+
+        .process-step {
+            flex: 1;
+            text-align: center;
+            position: relative;
+        }
+
+        .process-step::after {
+            content: '';
+            position: absolute;
+            top: 1.5rem;
+            right: -50%;
+            width: 100%;
+            height: 2px;
+            background: #e2e8f0;
+            z-index: -1;
+        }
+
+        .process-step:last-child::after { display: none; }
+
+        .step-icon {
+            width: 3rem;
+            height: 3rem;
+            border-radius: 50%;
+            background: var(--navy);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1rem;
+            font-weight: bold;
+        }
+
+        /* Table Style */
+        .custom-table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0;
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid #e2e8f0;
+        }
+
+        .custom-table th {
+            background: var(--navy);
+            color: white;
+            padding: 1rem;
+            text-align: left;
+        }
+
+        .custom-table td {
+            padding: 1rem;
+            border-bottom: 1px solid #f1f5f9;
+        }
+
+        .custom-table tr:last-child td { border-bottom: none; }
+        .custom-table tr:nth-child(even) { background: #f8fafc; }
+        
+    </style>
+</head>
+<body>
+
+    <div id="presentation">
+        <div class='slide slide-title'><h1>공조설비 정보관리 시스템 구축</h1><p class='text-2xl mt-8 text-gray-500'>사전 설명회 I 2025.12</p></div>\n<div class='slide'><h2></h2><div class='flex-grow overflow-y-auto pt-4'><div class='grid grid-cols-1 gap-4 max-w-4xl'><div class='glass-card p-6 flex justify-between items-center'><span><b class='text-blue-600 mr-4'>01</b> 프로젝트 개요</span><span class='text-gray-400'>03</span></div><div class='glass-card p-6 flex justify-between items-center'><span><b class='text-blue-600 mr-4'>02</b> 현황 및 문제점</span><span class='text-gray-400'>04-05</span></div><div class='glass-card p-6 flex justify-between items-center'><span><b class='text-blue-600 mr-4'>03</b> 시스템 구성</span><span class='text-gray-400'>06</span></div><div class='glass-card p-6 flex justify-between items-center'><span><b class='text-blue-600 mr-4'>04</b> 핵심 기능</span><span class='text-gray-400'>07-08</span></div><div class='glass-card p-6 flex justify-between items-center'><span><b class='text-blue-600 mr-4'>05</b> 업무 프로세스</span><span class='text-gray-400'>09-10</span></div><div class='glass-card p-6 flex justify-between items-center'><span><b class='text-blue-600 mr-4'>06</b> 기대 효과</span><span class='text-gray-400'>11-12</span></div><div class='glass-card p-6 flex justify-between items-center'><span><b class='text-blue-600 mr-4'>07</b> 추진 일정</span><span class='text-gray-400'>13</span></div></div></div></div>\n<div class='slide'><h2>1. 프로젝트 개요</h2><div class='action-title'>공조설비 고장신고부터 수리완료까지 전 과정을 디지털화하는 설비 정비 관리 시스템입니다.</div><div class='flex-grow overflow-y-auto pt-4'><div class='grid grid-cols-4 gap-6'><div class='glass-card p-8 text-center'><div class='text-4xl text-blue-600 mb-4'><i class='fas fa-circle-nodes'></i></div><h3 class='text-xl font-bold mb-2'>QR코드 기반</h3><p class='text-gray-500'>현장 스캔으로 즉시 고장신고</p></div><div class='glass-card p-8 text-center'><div class='text-4xl text-blue-600 mb-4'><i class='fas fa-circle-nodes'></i></div><h3 class='text-xl font-bold mb-2'>실시간 추적</h3><p class='text-gray-500'>요청→승인→수리→완료 전 과정</p></div><div class='glass-card p-8 text-center'><div class='text-4xl text-blue-600 mb-4'><i class='fas fa-circle-nodes'></i></div><h3 class='text-xl font-bold mb-2'>데이터 기반</h3><p class='text-gray-500'>고장 통계 및 정비 이력 분석</p></div><div class='glass-card p-8 text-center'><div class='text-4xl text-blue-600 mb-4'><i class='fas fa-circle-nodes'></i></div><h3 class='text-xl font-bold mb-2'>자동 알림</h3><p class='text-gray-500'>카카오톡 실시간 통보</p></div></div></div></div>\n<div class='slide'><h2>2. 현황 및 문제점</h2><div class='action-title'>전화/구두 신고로 인한 기록 누락과 수작업 대장 관리가 가장 큰 문제입니다.</div><div class='flex-grow overflow-y-auto pt-4'><table class='custom-table mt-4'><thead><tr><th>문제점</th><th>영향</th><th>심각도</th></tr></thead><tbody><tr><td>전화/구두 신고로 기록 누락</td><td>정비 이력 관리 불가</td><td>높음</td></tr><tr><td>수작업 대장 관리</td><td>실시간 현황 파악 불가</td><td>높음</td></tr><tr><td>담당자 연락 지연</td><td>수리 완료 시간 증가</td><td>중간</td></tr><tr><td>부품 재고 파악 어려움</td><td>긴급 구매 빈발</td><td>중간</td></tr></tbody></table></div></div>\n<div class='slide'><h2>2. 현황 및 문제점</h2><div class='action-title'>각 이해관계자별로 업무 수행에 어려움을 겪고 있습니다.</div><div class='flex-grow overflow-y-auto pt-4'></div></div>\n<div class='slide'><h2>3. 시스템 구성</h2><div class='action-title'>모바일 앱, 웹 관리자, 백엔드 서버 3개 컴포넌트로 구성됩니다.</div><div class='flex-grow overflow-y-auto pt-4'></div></div>\n<div class='slide'><h2>4. 핵심 기능 - 모바일 앱</h2><div class='action-title'>QR스캔으로 설비를 인식하고, 고장신고부터 수리완료까지 전 과정을 처리합니다.</div><div class='flex-grow overflow-y-auto pt-4'><div class='grid grid-cols-4 gap-6'><div class='glass-card p-8 text-center'><div class='text-4xl text-blue-600 mb-4'><i class='fas fa-circle-nodes'></i></div><h3 class='text-xl font-bold mb-2'>QR 스캔 신고</h3><p class='text-gray-500'>설비 QR코드 스캔
+→ 자동 정보 입력</p></div><div class='glass-card p-8 text-center'><div class='text-4xl text-blue-600 mb-4'><i class='fas fa-circle-nodes'></i></div><h3 class='text-xl font-bold mb-2'>고장 신고 등록</h3><p class='text-gray-500'>고장유형, 내용
+사진, 긴급여부</p></div><div class='glass-card p-8 text-center'><div class='text-4xl text-blue-600 mb-4'><i class='fas fa-circle-nodes'></i></div><h3 class='text-xl font-bold mb-2'>승인/반려</h3><p class='text-gray-500'>요청건 승인
+또는 반려 처리</p></div><div class='glass-card p-8 text-center'><div class='text-4xl text-blue-600 mb-4'><i class='fas fa-circle-nodes'></i></div><h3 class='text-xl font-bold mb-2'>수리 시작/완료</h3><p class='text-gray-500'>현장 도착 후
+QR 스캔으로 작업</p></div></div></div></div>\n<div class='slide'><h2>4. 핵심 기능 - 웹 관리자</h2><div class='action-title'>대시보드로 전체 현황을 파악하고, 설비별 이력과 기준정보를 관리합니다.</div><div class='flex-grow overflow-y-auto pt-4'><div class='grid grid-cols-4 gap-6'><div class='glass-card p-8 text-center'><div class='text-4xl text-blue-600 mb-4'><i class='fas fa-circle-nodes'></i></div><h3 class='text-xl font-bold mb-2'>종합 상황판</h3><p class='text-gray-500'>실시간 요청/진행/완료
+현황 모니터링</p></div><div class='glass-card p-8 text-center'><div class='text-4xl text-blue-600 mb-4'><i class='fas fa-circle-nodes'></i></div><h3 class='text-xl font-bold mb-2'>정비 현황 관리</h3><p class='text-gray-500'>전체 정비 요청
+검색 및 조회</p></div><div class='glass-card p-8 text-center'><div class='text-4xl text-blue-600 mb-4'><i class='fas fa-circle-nodes'></i></div><h3 class='text-xl font-bold mb-2'>설비별 이력 카드</h3><p class='text-gray-500'>과거 고장 및 수리
+이력 타임라인</p></div><div class='glass-card p-8 text-center'><div class='text-4xl text-blue-600 mb-4'><i class='fas fa-circle-nodes'></i></div><h3 class='text-xl font-bold mb-2'>기준정보 관리</h3><p class='text-gray-500'>설비, 사용자
+업체, 공통코드</p></div></div></div></div>\n<div class='slide'><h2>5. 업무 프로세스</h2><div class='action-title'>6단계 프로세스로 진행되며, 각 단계별 카카오톡 알림이 발송됩니다.</div><div class='flex-grow overflow-y-auto pt-4'><div class='process-flow'><div class='process-step'><div class='step-icon'>1</div><div class='font-bold'>수리요청</div><div class='text-sm text-gray-500'>신고자(내부)</div></div><div class='process-step'><div class='step-icon'>2</div><div class='font-bold'>승인</div><div class='text-sm text-gray-500'>승인권자(내부)</div></div><div class='process-step'><div class='step-icon'>3</div><div class='font-bold'>고장접수</div><div class='text-sm text-gray-500'>정비업체(외부)</div></div><div class='process-step'><div class='step-icon'>4</div><div class='font-bold'>수리시작</div><div class='text-sm text-gray-500'>정비업체(외부)</div></div><div class='process-step'><div class='step-icon'>5</div><div class='font-bold'>수리완료</div><div class='text-sm text-gray-500'>정비업체(외부)</div></div><div class='process-step'><div class='step-icon'>6</div><div class='font-bold'>종료</div><div class='text-sm text-gray-500'>신고자(내부)</div></div></div></div></div>\n<div class='slide'><h2>5. 업무 프로세스</h2><div class='action-title'>사용자 역할별 주요 기능과 접근 채널입니다.</div><div class='flex-grow overflow-y-auto pt-4'><table class='custom-table mt-4'><thead><tr><th>역할</th><th>주요 기능</th><th>접근 채널</th></tr></thead><tbody><tr><td>생산현장 담당자</td><td>QR스캔, 수리요청, 진행확인</td><td>Mobile</td></tr><tr><td>설비팀 과장</td><td>승인/반려, 우선순위 확인</td><td>Mobile + Web</td></tr><tr><td>정비업체 기사</td><td>접수, 작업시작/완료</td><td>Mobile</td></tr><tr><td>설비관리 팀장</td><td>대시보드, 이력조회, 통계</td><td>Web</td></tr></tbody></table></div></div>\n<div class='slide'><h2>6. 기대 효과</h2><div class='action-title'>시스템 도입으로 수리 완료 시간 50% 단축, 신고 누락 제로화가 가능합니다.</div><div class='flex-grow overflow-y-auto pt-4'></div></div>\n<div class='slide'><h2>6. 기대 효과</h2><div class='action-title'>정성적 효과로 업무 가시성 확보와 예방 정비 계획 수립이 가능해집니다.</div><div class='flex-grow overflow-y-auto pt-4'><div class='grid grid-cols-3 gap-6'><div class='glass-card p-8 text-center'><div class='text-4xl text-blue-600 mb-4'><i class='fas fa-circle-nodes'></i></div><h3 class='text-xl font-bold mb-2'>수기 대장 폐지</h3><p class='text-gray-500'>종이 문서 사용 완전 중단</p></div><div class='glass-card p-8 text-center'><div class='text-4xl text-blue-600 mb-4'><i class='fas fa-circle-nodes'></i></div><h3 class='text-xl font-bold mb-2'>업무 가시성 확보</h3><p class='text-gray-500'>정비 진행 현황 실시간 파악</p></div><div class='glass-card p-8 text-center'><div class='text-4xl text-blue-600 mb-4'><i class='fas fa-circle-nodes'></i></div><h3 class='text-xl font-bold mb-2'>예방 정비 가능</h3><p class='text-gray-500'>데이터 기반 정비 계획 수립</p></div></div></div></div>\n<div class='slide'><h2>7. 추진 일정</h2><div class='action-title'>Phase 1 MVP 8주, Phase 2 고도화 4주로 총 12주 소요 예정입니다.</div><div class='flex-grow overflow-y-auto pt-4'></div></div>\n<div class='slide'><h2>Q & A</h2><div class='flex-grow overflow-y-auto pt-4'><ul class='space-y-4 text-xl'><li class='ml-0 flex items-start'><span class='text-red-500 mr-3'>•</span>질문 및 의견을 말씀해 주십시오.</li><li class='ml-0 flex items-start'><span class='text-red-500 mr-3'>•</span></li><li class='ml-0 flex items-start'><span class='text-red-500 mr-3'>•</span>감사합니다.</li></ul></div></div>\n
+    </div>
+
+    <div class="nav-controls">
+        <button class="nav-btn" onclick="prevSlide()"><i class="fas fa-chevron-left"></i></button>
+        <button class="nav-btn" onclick="nextSlide()"><i class="fas fa-chevron-right"></i></button>
+    </div>
+
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slide');
+
+        function showSlide(index) {
+            slides.forEach(s => s.classList.remove('active'));
+            slides[index].classList.add('active');
+        }
+
+        function nextSlide() {
+            if (currentSlide < slides.length - 1) {
+                currentSlide++;
+                showSlide(currentSlide);
+            }
+        }
+
+        function prevSlide() {
+            if (currentSlide > 0) {
+                currentSlide--;
+                showSlide(currentSlide);
+            }
+        }
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight' || e.key === ' ') nextSlide();
+            if (e.key === 'ArrowLeft') prevSlide();
+        });
+
+        showSlide(currentSlide);
+    </script>
+</body>
+</html>

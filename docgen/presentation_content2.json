@@ -1,0 +1,590 @@
+{
+  "presentation": {
+    "title": "공조설비 정보관리 시스템 구축 사전 설명회",
+    "author": "작성자_동국시스템즈",
+    "date": "2025.12.24",
+    "slides": [
+      {
+        "slide_number": 1,
+        "layout_id": 1,
+        "placeholders": {
+          "title": "공조설비 정보관리 시스템 구축",
+          "subtitle": "사전 설명회 I 2025.12"
+        },
+        "design_prompt": "표지 레이아웃: 동국제강 CI 가이드를 엄격히 준수. 상단 Red-Navy 그라데이션 라인의 선명도 유지. 제목 폰트는 32pt 본고딕 Bold로 네이비(#002452) 색상 적용. 우측 Big K 디자인 요소와 텍스트 간의 시각적 밸런스 확보.",
+        "image_generation_prompt": "Clean, minimal, 3D isometric illustration of a futuristic industrial facility with HVAC systems. High-tech digital dashboard overlay, professional corporate aesthetic, soft shadows, navy and red accent colors, white background. 4k resolution, studio lighting."
+      },
+      {
+        "slide_number": 2,
+        "layout_id": 2,
+        "placeholders": {
+          "toc_items": [
+            {
+              "number": "01",
+              "title": "프로젝트 개요",
+              "pages": "03"
+            },
+            {
+              "number": "02",
+              "title": "현황 및 문제점",
+              "pages": "04-05"
+            },
+            {
+              "number": "03",
+              "title": "시스템 구성",
+              "pages": "06"
+            },
+            {
+              "number": "04",
+              "title": "핵심 기능",
+              "pages": "07-08"
+            },
+            {
+              "number": "05",
+              "title": "업무 프로세스",
+              "pages": "09-10"
+            },
+            {
+              "number": "06",
+              "title": "기대 효과",
+              "pages": "11-12"
+            },
+            {
+              "number": "07",
+              "title": "추진 일정",
+              "pages": "13"
+            }
+          ]
+        },
+        "design_prompt": "목차 레이아웃: 3열(번호-제목-페이지) 그리드 정렬을 완벽하게 맞춤. 줄간격 200% 적용으로 가독성 극대화. 우측 세로 전체 배경 이미지는 밝기 조절을 통해 텍스트 방해를 최소화함. 하이라이트 바는 네이비 그라데이션 적용.",
+        "image_generation_prompt": "A vertical, narrow 3D abstract layout showing layered architectural elements. Minimalist corporate style, glassmorphism texture, predominantly white with soft navy shadows. Ideal for a sidebar background image on a Table of Contents slide."
+      },
+      {
+        "slide_number": 3,
+        "layout_id": 4,
+        "placeholders": {
+          "main_title": "1. 프로젝트 개요",
+          "action_title": "공조설비 고장신고부터 수리완료까지 전 과정을 디지털화하는 설비 정비 관리 시스템입니다."
+        },
+        "custom_elements": [
+          {
+            "type": "icon_box_grid",
+            "data": {
+              "columns": 4,
+              "items": [
+                {
+                  "icon": "qr_code",
+                  "title": "QR코드 기반",
+                  "desc": "현장 스캔으로 즉시 고장신고"
+                },
+                {
+                  "icon": "sync",
+                  "title": "실시간 추적",
+                  "desc": "요청→승인→수리→완료 전 과정"
+                },
+                {
+                  "icon": "analytics",
+                  "title": "데이터 기반",
+                  "desc": "고장 통계 및 정비 이력 분석"
+                },
+                {
+                  "icon": "notifications",
+                  "title": "자동 알림",
+                  "desc": "카카오톡 실시간 통보"
+                }
+              ]
+            }
+          }
+        ],
+        "design_prompt": "디자인 컨셉: Apple 스타일의 미니멀 아이콘 그리드. 4개의 카드는 화이트 배경에 미세한 1px 보더(#E2E2E2)와 부드러운 그림자(Soft Shadow)를 적용. 아이콘은 Navy(#002452) 색상의 씬-라인 스타일로 통일. 카드 간 간격(Gutter)을 충분히 확보하여 리듬감 부여.",
+        "image_generation_prompt": "Four separate 3D isometric icons representing: QR Scanning, Real-time process flow, Data charts, and Smartphone notifications. Clean white material, navy outlines, soft ambient occlusion, white background."
+      },
+      {
+        "slide_number": 4,
+        "layout_id": 4,
+        "placeholders": {
+          "main_title": "2. 현황 및 문제점",
+          "action_title": "전화/구두 신고로 인한 기록 누락과 수작업 대장 관리가 가장 큰 문제입니다."
+        },
+        "custom_elements": [
+          {
+            "type": "table",
+            "data": {
+              "headers": [
+                "문제점",
+                "영향",
+                "심각도"
+              ],
+              "rows": [
+                [
+                  "전화/구두 신고로 기록 누락",
+                  "정비 이력 관리 불가",
+                  "높음"
+                ],
+                [
+                  "수작업 대장 관리",
+                  "실시간 현황 파악 불가",
+                  "높음"
+                ],
+                [
+                  "담당자 연락 지연",
+                  "수리 완료 시간 증가",
+                  "중간"
+                ],
+                [
+                  "부품 재고 파악 어려움",
+                  "긴급 구매 빈발",
+                  "중간"
+                ]
+              ],
+              "highlight_column": 2
+            }
+          }
+        ],
+        "design_prompt": "디자인 컨셉: Stripe 스타일의 데이터 테이블. 헤더는 Solid Navy 배경에 화이트 텍스트로 고정. 본문 행은 연한 회색(#F9F9F9) 지브라 패턴 적용. '심각도' 열은 텍스트 강조를 위해 '높음'은 배경색(Red #C51F2A)을 옅게 깐 배지(Badge) 형태로 시각화."
+      },
+      {
+        "slide_number": 5,
+        "layout_id": 4,
+        "placeholders": {
+          "main_title": "2. 현황 및 문제점",
+          "action_title": "각 이해관계자별로 업무 수행에 어려움을 겪고 있습니다."
+        },
+        "custom_elements": [
+          {
+            "type": "pain_point_cards",
+            "data": {
+              "columns": 4,
+              "items": [
+                {
+                  "role": "신고자",
+                  "icon": "person",
+                  "pain": "누구에게 연락?\n진행상황은?\n언제 수리?"
+                },
+                {
+                  "role": "승인권자",
+                  "icon": "approval",
+                  "pain": "수많은 전화\n우선순위 판단 어려움"
+                },
+                {
+                  "role": "정비담당자",
+                  "icon": "build",
+                  "pain": "현장 위치 파악 어려움\n정비이력 없음"
+                },
+                {
+                  "role": "관리자",
+                  "icon": "dashboard",
+                  "pain": "전체 현황 파악 불가\n통계 산출 불가"
+                }
+              ]
+            }
+          }
+        ],
+        "design_prompt": "디자인 컨셉: 4분할 페르소나 카드. 각 카드의 상단에 역할 아이콘을 네이비 원형 배경 안에 배치. 'Pain' 부분은 불릿 기호 대신 강렬한 Red(#C51F2A) 도트를 사용하여 부정적 현황을 시각적으로 강조. 가로축 정렬을 통해 4개 카드의 정보 균형 유지.",
+        "image_generation_prompt": "Four distinct 3D isometric characters representing professional personas: a field worker, a manager, a technician, and an executive. Stylized, faceless minimalist characters in a modern corporate setting. Navy and gray tones."
+      },
+      {
+        "slide_number": 6,
+        "layout_id": 4,
+        "placeholders": {
+          "main_title": "3. 시스템 구성",
+          "action_title": "모바일 앱, 웹 관리자, 백엔드 서버 3개 컴포넌트로 구성됩니다."
+        },
+        "custom_elements": [
+          {
+            "type": "architecture_diagram",
+            "data": {
+              "components": [
+                {
+                  "name": "Mobile App",
+                  "tech": "Flutter",
+                  "features": [
+                    "고장신고",
+                    "QR스캔",
+                    "작업시작/완료"
+                  ]
+                },
+                {
+                  "name": "Web Admin",
+                  "tech": "React",
+                  "features": [
+                    "대시보드",
+                    "정비진행관리",
+                    "마스터관리"
+                  ]
+                },
+                {
+                  "name": "Backend",
+                  "tech": "Spring Boot",
+                  "features": [
+                    "REST API",
+                    "비즈니스 로직",
+                    "알림 발송"
+                  ]
+                }
+              ],
+              "database": {
+                "name": "Tibero 6.x",
+                "was": "Jeus 8.x"
+              },
+              "external": "카카오톡 알림톡"
+            }
+          }
+        ],
+        "design_prompt": "디자인 컨셉: 3-Tier 레이어드 아키텍처 다이어그램. App(Top/White Layer), Backend(Middle/Sky Blue Layer), DB(Bottom/Navy Layer)로 계층화된 컬러 스키마 적용. 컴포넌트 간 연결선은 직각 형태로 깔끔하게 처리하고, 데이터 흐름을 화살표로 명확히 표시.",
+        "image_generation_prompt": "3D isometric stacked layers illustration. Top layer: smartphone app icon. Middle layer: cloud server icon. Bottom layer: database cylinder icon. Glowy data light rays connecting layers. Professional technology stack visualization."
+      },
+      {
+        "slide_number": 7,
+        "layout_id": 4,
+        "placeholders": {
+          "main_title": "4. 핵심 기능 - 모바일 앱",
+          "action_title": "QR스캔으로 설비를 인식하고, 고장신고부터 수리완료까지 전 과정을 처리합니다."
+        },
+        "custom_elements": [
+          {
+            "type": "icon_box_grid",
+            "data": {
+              "columns": 4,
+              "items": [
+                {
+                  "icon": "qr_code_scanner",
+                  "title": "QR 스캔 신고",
+                  "desc": "설비 QR코드 스캔\n→ 자동 정보 입력"
+                },
+                {
+                  "icon": "edit_note",
+                  "title": "고장 신고 등록",
+                  "desc": "고장유형, 내용\n사진, 긴급여부"
+                },
+                {
+                  "icon": "check_circle",
+                  "title": "승인/반려",
+                  "desc": "요청건 승인\n또는 반려 처리"
+                },
+                {
+                  "icon": "handyman",
+                  "title": "수리 시작/완료",
+                  "desc": "현장 도착 후\nQR 스캔으로 작업"
+                }
+              ]
+            }
+          }
+        ],
+        "design_prompt": "디자인 컨셉: 모바일 UI 프리뷰와 연계된 기능 그리드. 각 카드는 스마트폰 화면의 모서리 곡률(Corner Radius)을 차용. 아이콘은 동작을 암시하는 그래픽 요소를 가미하고, 단계별로 흐름이 느껴지도록 좌측에서 우측으로 화살표형 배치를 배경에 은은하게 적용.",
+        "image_generation_prompt": "A high-end 3D isometric smartphone floating in the air, showing a clean maintenance app interface with a large QR scan button. Soft shadows, 45-degree angle, white and sky blue palette."
+      },
+      {
+        "slide_number": 8,
+        "layout_id": 4,
+        "placeholders": {
+          "main_title": "4. 핵심 기능 - 웹 관리자",
+          "action_title": "대시보드로 전체 현황을 파악하고, 설비별 이력과 기준정보를 관리합니다."
+        },
+        "custom_elements": [
+          {
+            "type": "icon_box_grid",
+            "data": {
+              "columns": 4,
+              "items": [
+                {
+                  "icon": "dashboard",
+                  "title": "종합 상황판",
+                  "desc": "실시간 요청/진행/완료\n현황 모니터링"
+                },
+                {
+                  "icon": "list_alt",
+                  "title": "정비 현황 관리",
+                  "desc": "전체 정비 요청\n검색 및 조회"
+                },
+                {
+                  "icon": "history",
+                  "title": "설비별 이력 카드",
+                  "desc": "과거 고장 및 수리\n이력 타임라인"
+                },
+                {
+                  "icon": "settings",
+                  "title": "기준정보 관리",
+                  "desc": "설비, 사용자\n업체, 공통코드"
+                }
+              ]
+            }
+          }
+        ],
+        "design_prompt": "디자인 컨셉: 관리자 웹 대시보드의 '위젯(Widget)' 스타일 그리드. 각 항목을 대시보드의 개별 데이터 카드처럼 디자인. 상단 Blue 바를 포인트로 주어 시스템의 관리적 특징을 강조. '설비별 이력 카드' 항목은 타임라인 아이콘을 활용하여 데이터의 시간적 흐름 암시.",
+        "image_generation_prompt": "A sleek 3D isometric representation of a wide computer monitor displaying a data dashboard with charts, bars, and a clean interface. Minimalist glass textures, soft navy and white theme."
+      },
+      {
+        "slide_number": 9,
+        "layout_id": 4,
+        "placeholders": {
+          "main_title": "5. 업무 프로세스",
+          "action_title": "6단계 프로세스로 진행되며, 각 단계별 카카오톡 알림이 발송됩니다."
+        },
+        "custom_elements": [
+          {
+            "type": "process_flow",
+            "data": {
+              "steps": [
+                {
+                  "code": "10",
+                  "name": "수리요청",
+                  "actor": "신고자(내부)",
+                  "color": "#002452"
+                },
+                {
+                  "code": "20",
+                  "name": "승인",
+                  "actor": "승인권자(내부)",
+                  "color": "#2E7D32"
+                },
+                {
+                  "code": "30",
+                  "name": "고장접수",
+                  "actor": "정비업체(외부)",
+                  "color": "#F57C00"
+                },
+                {
+                  "code": "40",
+                  "name": "수리시작",
+                  "actor": "정비업체(외부)",
+                  "color": "#F57C00"
+                },
+                {
+                  "code": "50",
+                  "name": "수리완료",
+                  "actor": "정비업체(외부)",
+                  "color": "#F57C00"
+                },
+                {
+                  "code": "60",
+                  "name": "종료",
+                  "actor": "신고자(내부)",
+                  "color": "#002452"
+                }
+              ],
+              "notification": "카카오톡 알림"
+            }
+          }
+        ],
+        "design_prompt": "디자인 컨셉: 세련된 수평 프로세스 맵. 쉐브론(Chevron) 형태의 진행 바를 사용하여 방향성 제시. 내부 조직은 시그니처 Navy, 외부 업체는 차별화된 Orange 컬러로 대비를 주어 관계 구분 명확화. 단계 사이마다 '통보'를 의미하는 카카오톡 미니 아이콘을 플로팅 배치.",
+        "image_generation_prompt": "A 3D isometric roadmap path showing 6 circular nodes connected by a steady glowing line. Clean professional style, white background, navy and orange accent colors for different segments."
+      },
+      {
+        "slide_number": 10,
+        "layout_id": 4,
+        "placeholders": {
+          "main_title": "5. 업무 프로세스",
+          "action_title": "사용자 역할별 주요 기능과 접근 채널입니다."
+        },
+        "custom_elements": [
+          {
+            "type": "table",
+            "data": {
+              "headers": [
+                "역할",
+                "주요 기능",
+                "접근 채널"
+              ],
+              "rows": [
+                [
+                  "생산현장 담당자",
+                  "QR스캔, 수리요청, 진행확인",
+                  "Mobile"
+                ],
+                [
+                  "설비팀 과장",
+                  "승인/반려, 우선순위 확인",
+                  "Mobile + Web"
+                ],
+                [
+                  "정비업체 기사",
+                  "접수, 작업시작/완료",
+                  "Mobile"
+                ],
+                [
+                  "설비관리 팀장",
+                  "대시보드, 이력조회, 통계",
+                  "Web"
+                ]
+              ]
+            }
+          }
+        ],
+        "design_prompt": "디자인 컨셉: 사용자 역할 매트릭스 테이블. '역할' 열은 텍스트 볼륨을 키우고 네이비 컬러 적용. '접근 채널' 열은 단순 텍스트 대신 Mobile/Web 아이콘을 병기하여 직관성 확보. 컨텐츠 영역 전체의 여백을 넉넉히 주어 복잡함 해소."
+      },
+      {
+        "slide_number": 11,
+        "layout_id": 4,
+        "placeholders": {
+          "main_title": "6. 기대 효과",
+          "action_title": "시스템 도입으로 수리 완료 시간 50% 단축, 신고 누락 제로화가 가능합니다."
+        },
+        "custom_elements": [
+          {
+            "type": "comparison_chart",
+            "data": {
+              "chart_type": "horizontal_bar",
+              "title": "목표 KPI",
+              "items": [
+                {
+                  "label": "평균 수리 완료 시간",
+                  "as_is": 8,
+                  "to_be": 4,
+                  "unit": "시간",
+                  "change": "-50%"
+                },
+                {
+                  "label": "고장 신고 누락률",
+                  "as_is": 15,
+                  "to_be": 0,
+                  "unit": "%",
+                  "change": "-100%"
+                },
+                {
+                  "label": "정비 이력 추적률",
+                  "as_is": 40,
+                  "to_be": 100,
+                  "unit": "%",
+                  "change": "+150%"
+                },
+                {
+                  "label": "관계자 알림 도달률",
+                  "as_is": 60,
+                  "to_be": 98,
+                  "unit": "%",
+                  "change": "+63%"
+                }
+              ]
+            }
+          }
+        ],
+        "design_prompt": "디자인 컨셉: 임팩트 중심의 비포&애프터 비교 차트. As-Is 막대는 차분한 그레이, To-Be 막대는 강력한 Navy(#002452) 컬러를 사용하여 변화 의지 강조. 각 막대 우측에 변화율(%)을 Red(#C51F2A) Bold 텍스트로 노출하여 성과 부각.",
+        "image_generation_prompt": "A 3D isometric 'Upward Trend' bar chart. The final bars are tall and bright navy, representing growth and success. Minimalist corporate glass style, professional and clean."
+      },
+      {
+        "slide_number": 12,
+        "layout_id": 4,
+        "placeholders": {
+          "main_title": "6. 기대 효과",
+          "action_title": "정성적 효과로 업무 가시성 확보와 예방 정비 계획 수립이 가능해집니다."
+        },
+        "custom_elements": [
+          {
+            "type": "icon_box_grid",
+            "data": {
+              "columns": 3,
+              "items": [
+                {
+                  "icon": "cancel",
+                  "title": "수기 대장 폐지",
+                  "desc": "종이 문서 사용 완전 중단"
+                },
+                {
+                  "icon": "visibility",
+                  "title": "업무 가시성 확보",
+                  "desc": "정비 진행 현황 실시간 파악"
+                },
+                {
+                  "icon": "event_available",
+                  "title": "예방 정비 가능",
+                  "desc": "데이터 기반 정비 계획 수립"
+                }
+              ]
+            }
+          }
+        ],
+        "design_prompt": "디자인 컨셉: 세련된 인포그래픽 박스(3열). 상단에 커다란 강조 아이콘을 배치하고 배경에 옅은 컬러의 원형을 깔아 시각적 주목도 향상. 텍스트는 제목과 본문의 크기 대비를 확실히 주어 가독성 확보.",
+        "image_generation_prompt": "Three separate 3D isometric icons: A canceled paper document icon, a glowing eye icon (visibility), and a calendar with a checkmark (planning). Navy and white palette, professional minimalist style."
+      },
+      {
+        "slide_number": 13,
+        "layout_id": 4,
+        "placeholders": {
+          "main_title": "7. 추진 일정",
+          "action_title": "Phase 1 MVP 8주, Phase 2 고도화 4주로 총 12주 소요 예정입니다."
+        },
+        "custom_elements": [
+          {
+            "type": "timeline",
+            "data": {
+              "phases": [
+                {
+                  "name": "Phase 1 - MVP",
+                  "duration": "8주",
+                  "color": "#002452",
+                  "milestones": [
+                    {
+                      "week": "1-2주",
+                      "task": "개발환경 구축, DB 설계"
+                    },
+                    {
+                      "week": "3-4주",
+                      "task": "백엔드 API 개발 (Core)"
+                    },
+                    {
+                      "week": "5-6주",
+                      "task": "모바일 앱 개발 (Core)"
+                    },
+                    {
+                      "week": "7주",
+                      "task": "웹 대시보드 개발"
+                    },
+                    {
+                      "week": "8주",
+                      "task": "통합테스트, UAT"
+                    }
+                  ]
+                },
+                {
+                  "name": "Phase 2 - 고도화",
+                  "duration": "4주",
+                  "color": "#C51F2A",
+                  "milestones": [
+                    {
+                      "week": "9-10주",
+                      "task": "마스터 관리 기능"
+                    },
+                    {
+                      "week": "11주",
+                      "task": "리포트/Excel 출력"
+                    },
+                    {
+                      "week": "12주",
+                      "task": "성능 최적화, 안정화"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "design_prompt": "디자인 컨셉: 로드맵 스타일의 간트 차트. Phase 1(Navy)과 Phase 2(Red) 트랙을 수평으로 배치하고, 각 마일스톤은 세로축 타임라인 점으로 연결. 불필요한 장식을 배제하고 선과 폰트 크기만으로 프로젝트의 전역 가시성 확보.",
+        "image_generation_prompt": "A 3D isometric horizontal timeline bar showing a project's progress. Two distinct segments (Navy and Red). Modern minimalist office/tech aesthetic."
+      },
+      {
+        "slide_number": 14,
+        "layout_id": 5,
+        "placeholders": {
+          "main_title": "Q & A",
+          "body": [
+            {
+              "level": 1,
+              "text": "질문 및 의견을 말씀해 주십시오."
+            },
+            {
+              "level": 1,
+              "text": ""
+            },
+            {
+              "level": 1,
+              "text": "감사합니다."
+            }
+          ]
+        },
+        "design_prompt": "디자인 컨셉: 강렬한 마무리를 위한 중앙 정렬 레이아웃. 본문 placeholder의 여백을 상하좌우 대칭으로 맞추어 정돈된 느낌 부여. '감사합니다' 텍스트는 Navy Bold로 타이틀급의 존재감 부여.",
+        "image_generation_prompt": "A clean 3D isometric 'Thank You' 3D text or a friendly robot character giving a handshake. Blue and white, minimalist, friendly but professional corporate style."
+      }
+    ]
+  }
+}

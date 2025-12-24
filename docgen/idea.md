@@ -1,0 +1,391 @@
+## Professional PPTX Generation Architecture
+- 이 계획은 단순한 텍스트 기반 슬라이드를 넘어, 사람이 직접 디자인한 듯한 고품질(Apple/Stripe 스타일)의 PPTX를 LLM이 생성하기 위한 기술적 요구사항과 아키텍처를 정의합니다.
+
+### 참조 문서
+> **필수 참조**: 마스터 레이아웃 및 플레이스홀더 상세 정보는 반드시 아래 문서를 참조하세요.
+> - 📄 [PPT기본양식_분석보고서.md](./PPT기본양식_분석보고서.md)
+>
+> 이 문서는 지속적으로 업데이트됩니다. 레이아웃 ID, 플레이스홀더 위치, 스타일 정보는 분석보고서의 최신 내용을 따르세요.
+
+## workflow
+### 1단계: PPT 콘텐츠 구조 생성 (LLM Phase)
+
+#### 목적
+- 사용자 입력(주제, 목적, 대상 청중)을 기반으로 슬라이드별 구조화된 콘텐츠 생성
+- 각 슬라이드에 적합한 마스터 레이아웃 및 시각적 요소 유형 결정
+
+#### 입력
+- 프레젠테이션 주제/목적
+- 대상 청중 (경영진, 기술팀, 고객 등)
+- 원본 자료 (문서, 데이터, 기존 PPT 등)
+- 마스터 템플릿 (PPT기본양식.pptx)
+
+#### 마스터 레이아웃 정의
+
+| layout_id | 레이아웃명 | 용도 | 플레이스홀더 |
+|-----------|-----------|------|-------------|
+| 1 | White_Big K 버전 | 표지 슬라이드 | title, subtitle |
+| 2 | 간지 1 | 목차/Contents | toc_numbers, toc_titles, toc_pages |
+| 3 | 내지 (Action title 사용) | 본문 (Action Title + 불릿) | main_title, action_title, body |
+| 4 | 내지 (Action title, Body삭제) | 본문 (자유 콘텐츠) | main_title, action_title |
+| 5 | 내지 (Action Title 미사용) | 본문 (넓은 영역) | main_title, body |
+
+#### 레이아웃 선택 기준
+
+| 콘텐츠 유형 | 권장 layout_id | 이유 |
+|------------|----------------|------|
+| 표지 | 1 | 전용 표지 디자인, Big K 요소 |
+| 목차 | 2 | 3열 구조 (번호, 제목, 페이지) |
+| 개요/설명 (불릿 리스트) | 3 | Action Title로 핵심 메시지 + 상세 불릿 |
+| 차트/표/다이어그램 | 4 | 자유 배치 영역 확보 |
+| 단순 정보 전달 | 5 | Action Title 없이 넓은 본문 |
+| 비교/워크플로우 | 4 | 복잡한 시각 요소 배치 |
+
+#### 출력: 구조화된 JSON Schema
+```json
+{
+  "presentation": {
+    "title": "프레젠테이션 제목",
+    "author": "작성자_OOOO팀",
+    "date": "2025.12.24",
+    "slides": [
+      {
+        "slide_number": 1,
+        "layout_id": 1,
+        "placeholders": {
+          "title": "문서 제목",
+          "subtitle": "부서명 I 날짜"
+        }
+      },
+      {
+        "slide_number": 2,
+        "layout_id": 2,
+        "placeholders": {
+          "toc_items": [
+            { "number": "01", "title": "프로젝트 개요", "pages": "03-05" },
+            { "number": "02", "title": "현황 및 문제점", "pages": "06-08" }
+          ]
+        }
+      },
+      {
+        "slide_number": 3,
+        "layout_id": 3,
+        "placeholders": {
+          "main_title": "1. 프로젝트 개요",
+          "action_title": "공조설비 고장신고부터 수리완료까지 전 과정을 디지털화하는 설비 정비 관리 시스템입니다.",
+          "body": [
+            { "level": 1, "text": "QR코드 기반 즉시 고장신고" },
+            { "level": 2, "text": "현장에서 스캔만으로 빠른 신고" },
+            { "level": 1, "text": "실시간 프로세스 추적" }
+          ]
+        }
+      },
+      {
+        "slide_number": 4,
+        "layout_id": 4,
+        "placeholders": {
+          "main_title": "2. 시스템 구성도",
+          "action_title": "모바일 앱, 웹 관리자, 백엔드 서버 3개 컴포넌트로 구성됩니다."
+        },
+        "custom_elements": [
+          {
+            "type": "diagram",
+            "diagram_type": "architecture",
+            "data": { }
+          }
+        ]
+      },
+      {
+        "slide_number": 5,
+        "layout_id": 4,
+        "placeholders": {
+          "main_title": "3. 기대 효과",
+          "action_title": "시스템 도입으로 수리 완료 시간 50% 단축, 신고 누락 제로화가 가능합니다."
+        },
+        "custom_elements": [
+          {
+            "type": "chart",
+            "chart_type": "bar",
+            "data": {
+              "labels": ["수리시간", "누락률", "추적률"],
+              "series": [
+                { "name": "As-Is", "values": [8, 15, 40] },
+                { "name": "To-Be", "values": [4, 0, 100] }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
+```
+
+#### 슬라이드 유형별 레이아웃 매핑
+
+| 슬라이드 유형 | layout_id | 권장 요소 |
+|-------------|-----------|----------|
+| title (표지) | 1 | 제목, 부제목 |
+| toc (목차) | 2 | 번호, 제목, 페이지 |
+| content (불릿) | 3 | main_title, action_title, body |
+| chart | 4 | main_title, action_title + 차트 |
+| table | 4 | main_title, action_title + 표 |
+| diagram/workflow | 4 | main_title, action_title + 다이어그램 |
+| simple_content | 5 | main_title, body (넓은 영역) |
+| screen_gallery | 4 | main_title, action_title + 화면 이미지 갤러리 |
+
+### 이미지 첨부 (Screen Gallery)
+
+화면 스크린샷이나 이미지 파일을 슬라이드에 포함할 수 있습니다.
+
+#### screen_gallery 타입 정의
+
+```json
+{
+  "slide_number": 9,
+  "layout_id": 4,
+  "placeholders": {
+    "main_title": "4. 주요 화면 - 모바일 앱",
+    "action_title": "QR코드 스캔부터 수리요청까지의 직관적인 사용자 경험을 제공합니다."
+  },
+  "custom_elements": [
+    {
+      "type": "screen_gallery",
+      "data": {
+        "layout": "horizontal_3",
+        "screens": [
+          {
+            "image_path": "/path/to/screen1.png",
+            "label": "로그인",
+            "description": "사번/비밀번호 입력\n간편 로그인 지원"
+          },
+          {
+            "image_path": "/path/to/screen2.png",
+            "label": "홈 화면",
+            "description": "QR스캔 바로가기\n나의 요청 현황"
+          },
+          {
+            "image_path": "/path/to/screen3.png",
+            "label": "수리요청",
+            "description": "고장유형 선택\n사진 첨부"
+          }
+        ]
+      }
+    }
+  ]
+}
+```
+
+#### screen_gallery 레이아웃 옵션
+
+| layout 값 | 용도 | 이미지 크기 |
+|-----------|------|------------|
+| horizontal_3 | 모바일 앱 화면 3개 수평 배치 | 5cm × 8.9cm (세로형) |
+| horizontal_3_wide | 웹 화면 3개 수평 배치 | 7.8cm × 5cm (가로형) |
+
+#### 이미지 파일 지침
+- 절대 경로 사용 권장
+- PNG, JPG 형식 지원
+- 모바일 화면: 세로 비율 (약 9:16)
+- 웹 화면: 가로 비율 (약 16:9)
+- 파일이 없을 경우 플레이스홀더 박스로 대체
+
+#### LLM 프롬프트 전략
+1. **구조 분석**: 원본 자료에서 핵심 메시지, 데이터 포인트, 논리 흐름 추출
+2. **레이아웃 선택**: 각 슬라이드 콘텐츠 유형에 맞는 layout_id 결정
+3. **콘텐츠 생성**: 간결하고 임팩트 있는 텍스트 생성 (슬라이드당 최대 6줄)
+4. **데이터 구조화**: 차트/표용 데이터를 정형화된 형식으로 변환
+
+#### 품질 기준
+- 슬라이드당 핵심 메시지 1개
+- 텍스트 밀도: 최소화 (읽지 않고 '보는' 슬라이드)
+- 시각적 다양성: 연속 3장 이상 동일 layout_id 금지
+- 스토리 흐름: 도입-전개-결론 구조 유지
+- Action Title: 핵심 메시지를 1~2문장으로 요약
+
+---
+
+### 디자인 프롬프트 생성 (Design Prompt)
+
+표지(layout_id: 1)와 목차(layout_id: 2)를 제외한 모든 슬라이드에는 `design_prompt` 객체를 추가합니다.
+전문 디자이너가 직접 만든 듯한 고품질 슬라이드를 생성하기 위한 상세 지시사항입니다.
+
+#### design_prompt 구조
+
+```json
+{
+  "design_prompt": {
+    "concept": "슬라이드 디자인 컨셉 (한 문장)",
+    "layout": {
+      "grid": "그리드 배치 (예: 4열 균등 배치, 2x2 그리드)",
+      "spacing": "요소 간 간격",
+      "vertical_position": "수직 위치 (예: 슬라이드 중앙)"
+    },
+    "card_style": {
+      "background": "배경색/그라데이션",
+      "border": "테두리 스타일",
+      "border_radius": "모서리 둥글기",
+      "shadow": "그림자 효과"
+    },
+    "icon_style": {
+      "size": "아이콘 크기 (예: 48px)",
+      "style": "Material Icons Outlined",
+      "color": "색상 지정"
+    },
+    "typography": {
+      "title": "제목 폰트 스타일 (예: Bold, 16pt, 네이비)",
+      "desc": "설명 폰트 스타일 (예: Regular, 12pt, 회색)"
+    },
+    "color_scheme": {
+      "primary": "#002452 (네이비)",
+      "secondary": "#C51F2A (레드)",
+      "accent": ["#4B6580", "#E9B86E"],
+      "background": "#FFFFFF"
+    },
+    "visual_hierarchy": "시선 유도 순서 설명",
+    "animation_hint": "애니메이션 힌트 (발표 시 활용)"
+  }
+}
+```
+
+#### 슬라이드 유형별 디자인 가이드
+
+| 슬라이드 유형 | 디자인 컨셉 | 핵심 요소 |
+|-------------|------------|----------|
+| 기능 카드 (icon_box_grid) | Premium Feature Cards | 좌측 accent bar, 아이콘 강조, 미니멀 카드 |
+| 문제점 표 (table) | Problem-Solution Matrix | 헤더 네이비, 심각도 컬러 코딩 |
+| Pain Point (pain_point_cards) | User Pain Cards | 역할별 컬러, 연한 빨강 배경 |
+| 아키텍처 (diagram) | System Architecture | 3-tier 레이어, 그라데이션 박스, 연결선 |
+| 프로세스 (process_flow) | Horizontal Flow | 원형 노드, 색상으로 역할 구분, 화살표 |
+| 비교 차트 (comparison_chart) | Before/After Bars | As-Is 회색, To-Be 강조색, 변화율 뱃지 |
+| 타임라인 (timeline) | Gantt-style Timeline | Phase 바, 주차 헤더, 마일스톤 |
+
+#### 디자인 프롬프트 작성 원칙
+
+1. **구체적 수치 명시**: px, pt, cm 등 정확한 크기 지정
+2. **색상 코드 사용**: HEX 코드로 정확한 색상 지정 (#002452)
+3. **레이아웃 비율**: 퍼센트 또는 그리드 기반 배치
+4. **시각적 계층**: 정보의 중요도에 따른 크기/색상 차등
+5. **일관성 유지**: 슬라이드 간 디자인 언어 통일
+
+---
+
+### 이미지 생성 프롬프트 (Image Generation Prompt)
+
+시각적 요소가 필요한 슬라이드에는 `image_generation_prompt` 객체를 추가합니다.
+AI 이미지 생성 도구 (DALL-E, Midjourney, Gemini 등)에서 사용할 수 있는 프롬프트입니다.
+
+#### image_generation_prompt 구조
+
+```json
+{
+  "image_generation_prompt": {
+    "main_visual": {
+      "prompt": "영문 이미지 생성 프롬프트 (상세하고 구체적으로)",
+      "style": "스타일 키워드 (flat design, isometric, photorealistic 등)",
+      "size": "권장 크기 (예: 1920x1080)",
+      "negative_prompt": "제외할 요소 (optional)"
+    },
+    "icon_set": {
+      "prompt": "아이콘 세트 생성 프롬프트",
+      "style": "line art, filled, gradient 등",
+      "usage": "사용 위치 설명"
+    }
+  }
+}
+```
+
+#### 이미지 생성 프롬프트 예시
+
+**아키텍처 다이어그램용:**
+```json
+{
+  "prompt": "Clean system architecture diagram, 3-tier layout, mobile app and web admin on left connecting to central backend server, database and external API on right, navy blue and green color scheme, flat design, white background, professional enterprise software style, Korean labels",
+  "style": "flat design, technical diagram, enterprise",
+  "negative_prompt": "3D, complex, dark background, cartoon"
+}
+```
+
+**프로세스 플로우용:**
+```json
+{
+  "prompt": "Horizontal business process flow with 6 circular nodes connected by arrows, alternating navy and orange colors, small notification icons above arrows, clean infographic style, white background",
+  "style": "infographic, flat design, process flow"
+}
+```
+
+**대시보드 목업용:**
+```json
+{
+  "prompt": "Chrome browser mockup showing admin dashboard, dark navy sidebar, 4 KPI cards at top, data table in center, small charts on right, green accent colors, modern enterprise SaaS design",
+  "style": "UI screenshot, browser mockup, enterprise software"
+}
+```
+
+#### 이미지 생성 시 고려사항
+
+1. **일관된 스타일**: 모든 생성 이미지가 동일한 디자인 언어 사용
+2. **브랜드 색상**: 네이비(#002452), 레드(#C51F2A), 그린(#2E7D32) 계열
+3. **심플함 유지**: 복잡한 요소 최소화, 핵심만 표현
+4. **텍스트 최소화**: 이미지 내 텍스트는 라벨 수준만
+5. **해상도**: 최소 1920x1080 (Full HD) 권장
+
+---
+
+### 완전한 슬라이드 JSON 예시
+
+```json
+{
+  "slide_number": 3,
+  "layout_id": 4,
+  "placeholders": {
+    "main_title": "1. 프로젝트 개요",
+    "action_title": "공조설비 고장신고부터 수리완료까지 전 과정을 디지털화합니다."
+  },
+  "custom_elements": [
+    {
+      "type": "icon_box_grid",
+      "data": {
+        "columns": 4,
+        "items": [
+          { "icon": "qr_code", "title": "QR코드 기반", "desc": "현장 스캔으로 즉시 고장신고" },
+          { "icon": "sync", "title": "실시간 추적", "desc": "요청→승인→수리→완료 전 과정" },
+          { "icon": "analytics", "title": "데이터 기반", "desc": "고장 통계 및 정비 이력 분석" },
+          { "icon": "notifications", "title": "자동 알림", "desc": "카카오톡 실시간 통보" }
+        ]
+      }
+    }
+  ],
+  "design_prompt": {
+    "concept": "Premium Feature Cards - 핵심 가치를 한눈에 전달",
+    "layout": {
+      "grid": "4열 균등 배치, 카드 간 간격 24px",
+      "card_size": "width: 200px, height: 180px",
+      "vertical_position": "슬라이드 중앙 (y: 50%)"
+    },
+    "card_style": {
+      "background": "#FFFFFF with shadow (0 4px 12px rgba(0,0,0,0.08))",
+      "border": "좌측 4px accent bar",
+      "border_radius": "8px (우측만)",
+      "accent_colors": ["#002452", "#C51F2A", "#4B6580", "#E9B86E"]
+    },
+    "icon_style": {
+      "size": "48px",
+      "style": "Material Icons Outlined, 2px stroke",
+      "color": "각 카드의 accent 컬러와 동일"
+    },
+    "typography": {
+      "title": "본고딕 Bold, 16pt, #002452",
+      "desc": "본고딕 Regular, 12pt, #666666, line-height: 150%"
+    },
+    "visual_hierarchy": "아이콘 → 타이틀 → 설명 순으로 시선 유도"
+  },
+  "image_generation_prompt": {
+    "icon_set": {
+      "prompt": "Set of 4 line icons: QR code scanner, sync arrows, analytics chart, notification bell, consistent 2px stroke weight, navy blue color, 64px size each, transparent background",
+      "style": "line icon, minimal, consistent",
+      "usage": "각 카드 상단에 배치"
+    }
+  }
+}
+```

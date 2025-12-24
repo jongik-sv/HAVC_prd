@@ -1,0 +1,13 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Generated files
+*.pptx
+!PPT기본양식.pptx
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class

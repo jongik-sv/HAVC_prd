@@ -1,0 +1,1193 @@
+{
+  "presentation": {
+    "title": "공조설비 정보관리 시스템 구축 사전 설명회",
+    "author": "작성자_동국시스템즈",
+    "date": "2025.12.24",
+    "slides": [
+      {
+        "slide_number": 1,
+        "layout_id": 1,
+        "placeholders": {
+          "title": "공조설비 정보관리 시스템 구축",
+          "subtitle": "사전 설명회 I 2025.12"
+        }
+      },
+      {
+        "slide_number": 2,
+        "layout_id": 2,
+        "placeholders": {
+          "toc_items": [
+            { "number": "01", "title": "프로젝트 개요", "pages": "03" },
+            { "number": "02", "title": "현황 및 문제점", "pages": "04-05" },
+            { "number": "03", "title": "시스템 구성", "pages": "06" },
+            { "number": "04", "title": "핵심 기능 및 주요 화면", "pages": "07-12" },
+            { "number": "05", "title": "업무 프로세스", "pages": "13-14" },
+            { "number": "06", "title": "기대 효과", "pages": "15-16" },
+            { "number": "07", "title": "추진 일정", "pages": "17" }
+          ]
+        }
+      },
+      {
+        "slide_number": 3,
+        "layout_id": 4,
+        "placeholders": {
+          "main_title": "1. 프로젝트 개요",
+          "action_title": "공조설비 고장신고부터 수리완료까지 전 과정을 디지털화하는 설비 정비 관리 시스템입니다."
+        },
+        "custom_elements": [
+          {
+            "type": "icon_box_grid",
+            "data": {
+              "columns": 4,
+              "items": [
+                { "icon": "qr_code", "title": "QR코드 기반", "desc": "현장 스캔으로 즉시 고장신고" },
+                { "icon": "sync", "title": "실시간 추적", "desc": "요청→승인→수리→완료 전 과정" },
+                { "icon": "analytics", "title": "데이터 기반", "desc": "고장 통계 및 정비 이력 분석" },
+                { "icon": "notifications", "title": "자동 알림", "desc": "카카오톡 실시간 통보" }
+              ]
+            }
+          }
+        ],
+        "design_prompt": {
+          "concept": "핵심 가치를 한눈에 전달하는 Premium Feature Cards",
+          "layout": {
+            "grid": "4열 균등 배치, 카드 간 간격 24px",
+            "card_size": "width: 200px, height: 180px",
+            "vertical_position": "슬라이드 중앙에서 약간 아래 (y: 55%)"
+          },
+          "card_style": {
+            "background": "흰색 (#FFFFFF) with subtle shadow (0 4px 12px rgba(0,0,0,0.08))",
+            "border": "없음, 대신 좌측에 4px 두께의 accent 컬러 바 (각 카드별 다른 색상)",
+            "border_radius": "8px (우측만)",
+            "accent_colors": ["#002452", "#C51F2A", "#4B6580", "#E9B86E"]
+          },
+          "icon_style": {
+            "size": "48px",
+            "style": "Material Icons Outlined, 2px stroke weight",
+            "color": "각 카드의 accent 컬러와 동일",
+            "position": "카드 상단 좌측, 아이콘 아래 12px 여백"
+          },
+          "typography": {
+            "title": "본고딕 Bold, 16pt, 네이비 (#002452)",
+            "desc": "본고딕 Regular, 12pt, 회색 (#666666), 줄간격 150%"
+          },
+          "visual_hierarchy": "아이콘 → 타이틀 → 설명 순으로 시선 유도",
+          "animation_hint": "좌→우 순차 fade-in (발표 시 활용)"
+        }
+      },
+      {
+        "slide_number": 4,
+        "layout_id": 4,
+        "placeholders": {
+          "main_title": "2. 현황 및 문제점",
+          "action_title": "전화/구두 신고로 인한 기록 누락과 수작업 대장 관리가 가장 큰 문제입니다."
+        },
+        "custom_elements": [
+          {
+            "type": "table",
+            "data": {
+              "headers": ["문제점", "영향", "심각도"],
+              "rows": [
+                ["전화/구두 신고로 기록 누락", "정비 이력 관리 불가", "높음"],
+                ["수작업 대장 관리", "실시간 현황 파악 불가", "높음"],
+                ["담당자 연락 지연", "수리 완료 시간 증가", "중간"],
+                ["부품 재고 파악 어려움", "긴급 구매 빈발", "중간"]
+              ],
+              "highlight_column": 2
+            }
+          }
+        ],
+        "design_prompt": {
+          "concept": "문제의 심각성을 시각적으로 강조하는 Risk Matrix Table",
+          "layout": {
+            "table_position": "슬라이드 중앙, 좌우 마진 80px",
+            "table_width": "전체 콘텐츠 영역의 90%"
+          },
+          "table_style": {
+            "header_row": {
+              "background": "네이비 (#002452)",
+              "text_color": "흰색",
+              "font": "본고딕 Bold, 14pt",
+              "height": "48px",
+              "border_radius": "8px 8px 0 0 (상단만)"
+            },
+            "data_rows": {
+              "background": "홀수행 흰색, 짝수행 연회색 (#F8F9FA)",
+              "text_color": "#333333",
+              "font": "본고딕 Regular, 13pt",
+              "height": "52px",
+              "vertical_align": "middle"
+            },
+            "severity_column": {
+              "높음": {
+                "badge_style": "pill shape (border-radius: 16px)",
+                "background": "#C51F2A (동국 레드)",
+                "text": "흰색, Bold",
+                "icon": "⚠️ 또는 filled circle"
+              },
+              "중간": {
+                "badge_style": "pill shape",
+                "background": "#F57C00 (주황)",
+                "text": "흰색, Bold"
+              }
+            }
+          },
+          "visual_emphasis": {
+            "first_two_rows": "좌측에 빨간색 4px 바로 강조 (심각도 높음)",
+            "hover_effect_hint": "행 hover 시 약간 밝아지는 효과 (인터랙티브 발표 시)"
+          },
+          "typography": {
+            "problem_column": "Bold 처리로 문제점 강조",
+            "impact_column": "Regular, 약간 작은 폰트 (12pt)"
+          }
+        }
+      },
+      {
+        "slide_number": 5,
+        "layout_id": 4,
+        "placeholders": {
+          "main_title": "2. 현황 및 문제점",
+          "action_title": "각 이해관계자별로 업무 수행에 어려움을 겪고 있습니다."
+        },
+        "custom_elements": [
+          {
+            "type": "pain_point_cards",
+            "data": {
+              "columns": 4,
+              "items": [
+                { "role": "신고자", "icon": "person", "pain": "누구에게 연락?\n진행상황은?\n언제 수리?" },
+                { "role": "승인권자", "icon": "approval", "pain": "수많은 전화\n우선순위 판단 어려움" },
+                { "role": "정비담당자", "icon": "build", "pain": "현장 위치 파악 어려움\n정비이력 없음" },
+                { "role": "관리자", "icon": "dashboard", "pain": "전체 현황 파악 불가\n통계 산출 불가" }
+              ]
+            }
+          }
+        ],
+        "design_prompt": {
+          "concept": "Persona-based Pain Point Cards - 감정적 공감을 유도하는 디자인",
+          "layout": {
+            "grid": "4열 균등 배치",
+            "card_gap": "20px",
+            "card_size": "width: 195px, height: 220px"
+          },
+          "card_style": {
+            "background": "그라데이션 (#F8F9FA → #FFFFFF, 상→하)",
+            "border": "1px solid #E0E0E0",
+            "border_radius": "12px",
+            "shadow": "0 2px 8px rgba(0,0,0,0.06)"
+          },
+          "persona_section": {
+            "avatar_circle": {
+              "size": "56px",
+              "background": "역할별 고유 색상 (연한 톤)",
+              "icon_color": "역할별 고유 색상 (진한 톤)",
+              "colors": {
+                "신고자": { "bg": "#E3F2FD", "icon": "#1976D2" },
+                "승인권자": { "bg": "#E8F5E9", "icon": "#388E3C" },
+                "정비담당자": { "bg": "#FFF3E0", "icon": "#F57C00" },
+                "관리자": { "bg": "#F3E5F5", "icon": "#7B1FA2" }
+              }
+            },
+            "role_label": {
+              "font": "본고딕 Bold, 14pt",
+              "color": "각 역할의 진한 색상",
+              "margin_top": "12px"
+            }
+          },
+          "pain_section": {
+            "container": {
+              "background": "#FFF5F5 (연한 빨강)",
+              "border_left": "3px solid #C51F2A",
+              "padding": "12px",
+              "margin_top": "16px",
+              "border_radius": "0 8px 8px 0"
+            },
+            "text": {
+              "font": "본고딕 Regular, 11pt",
+              "color": "#C51F2A",
+              "line_height": "160%",
+              "style": "물음표(?)는 Bold로 강조"
+            }
+          },
+          "visual_storytelling": "위에서 아래로: 누구인가 → 무엇이 힘든가 순서로 스토리텔링"
+        }
+      },
+      {
+        "slide_number": 6,
+        "layout_id": 4,
+        "placeholders": {
+          "main_title": "3. 시스템 구성",
+          "action_title": "모바일 앱, 웹 관리자, 백엔드 서버 3개 컴포넌트로 구성됩니다."
+        },
+        "custom_elements": [
+          {
+            "type": "architecture_diagram",
+            "data": {
+              "components": [
+                { "name": "Mobile App", "tech": "Flutter", "features": ["고장신고", "QR스캔", "작업시작/완료"] },
+                { "name": "Web Admin", "tech": "React", "features": ["대시보드", "정비진행관리", "마스터관리"] },
+                { "name": "Backend", "tech": "Spring Boot", "features": ["REST API", "비즈니스 로직", "알림 발송"] }
+              ],
+              "database": { "name": "Tibero 6.x", "was": "Jeus 8.x" },
+              "external": "카카오톡 알림톡"
+            }
+          }
+        ],
+        "design_prompt": {
+          "concept": "Modern Tech Stack Architecture - 클린하고 전문적인 시스템 다이어그램",
+          "layout": {
+            "diagram_type": "3-Tier Horizontal Flow",
+            "flow_direction": "좌 → 우 (클라이언트 → 서버 → DB/외부)",
+            "vertical_center": true
+          },
+          "component_boxes": {
+            "client_tier": {
+              "position": "좌측 1/3 영역",
+              "boxes": [
+                {
+                  "name": "Mobile App",
+                  "style": {
+                    "width": "160px",
+                    "height": "140px",
+                    "background": "linear-gradient(135deg, #42A5F5, #1976D2)",
+                    "border_radius": "16px",
+                    "shadow": "0 4px 16px rgba(25,118,210,0.3)"
+                  },
+                  "icon": "smartphone (48px, 흰색)",
+                  "tech_badge": {
+                    "text": "Flutter",
+                    "style": "pill, 흰색 배경, 파란색 텍스트, 하단 배치"
+                  }
+                },
+                {
+                  "name": "Web Admin",
+                  "style": {
+                    "width": "160px",
+                    "height": "140px",
+                    "background": "linear-gradient(135deg, #66BB6A, #388E3C)",
+                    "border_radius": "16px",
+                    "shadow": "0 4px 16px rgba(56,142,60,0.3)"
+                  },
+                  "icon": "computer (48px, 흰색)",
+                  "tech_badge": {
+                    "text": "React",
+                    "style": "pill, 흰색 배경, 녹색 텍스트, 하단 배치"
+                  }
+                }
+              ],
+              "arrangement": "세로로 쌓기, 간격 16px"
+            },
+            "server_tier": {
+              "position": "중앙",
+              "box": {
+                "name": "Backend Server",
+                "style": {
+                  "width": "180px",
+                  "height": "200px",
+                  "background": "linear-gradient(135deg, #002452, #1A3A6E)",
+                  "border_radius": "16px"
+                },
+                "icon": "dns (56px)",
+                "tech_badge": "Spring Boot",
+                "feature_list": {
+                  "style": "작은 폰트, 흰색, 반투명 배경의 태그들"
+                }
+              }
+            },
+            "data_tier": {
+              "position": "우측",
+              "boxes": [
+                {
+                  "name": "Tibero DB",
+                  "style": "cylinder 모양 또는 DB 아이콘 강조, 회색 톤"
+                },
+                {
+                  "name": "카카오톡 API",
+                  "style": "노란색 (#FEE500) 배경, 말풍선 아이콘"
+                }
+              ]
+            }
+          },
+          "connection_arrows": {
+            "style": "둥근 모서리의 연결선, 2px 두께",
+            "color": "#B0BEC5 (회색)",
+            "arrow_head": "filled triangle",
+            "labels": {
+              "client_to_server": "REST API (HTTPS)",
+              "server_to_db": "JPA/Tibero",
+              "server_to_kakao": "알림톡 API"
+            },
+            "label_style": "작은 폰트 (10pt), 회색, 연결선 위에 배치"
+          },
+          "visual_polish": {
+            "tier_labels": "Client / Server / Data 라벨을 상단에 작은 폰트로",
+            "subtle_grid": "배경에 매우 연한 점선 그리드 (기술 느낌)",
+            "was_badge": "Jeus 8.x는 서버 박스 하단에 작은 라벨로"
+          }
+        },
+        "image_generation_prompt": {
+          "main_image": {
+            "prompt": "Clean modern system architecture diagram, 3-tier horizontal layout, left side: smartphone icon and desktop monitor icon in blue and green gradient boxes, center: large navy blue server box with Spring Boot text, right side: cylindrical database icon in gray and yellow chat bubble icon for Kakao API, connected by thin gray arrows with labels, white background, minimal flat design style, corporate presentation quality, 16:9 aspect ratio",
+            "style": "flat design, corporate, minimal",
+            "negative_prompt": "3D, realistic, complex, cluttered, dark background"
+          },
+          "alternative_approach": "SVG 또는 도형 조합으로 직접 생성 권장 - 더 정교한 제어 가능"
+        }
+      },
+      {
+        "slide_number": 7,
+        "layout_id": 4,
+        "placeholders": {
+          "main_title": "4. 핵심 기능 - 모바일 앱",
+          "action_title": "QR스캔으로 설비를 인식하고, 고장신고부터 수리완료까지 전 과정을 처리합니다."
+        },
+        "custom_elements": [
+          {
+            "type": "icon_box_grid",
+            "data": {
+              "columns": 4,
+              "items": [
+                { "icon": "qr_code_scanner", "title": "QR 스캔 신고", "desc": "설비 QR코드 스캔\n→ 자동 정보 입력" },
+                { "icon": "edit_note", "title": "고장 신고 등록", "desc": "고장유형, 내용\n사진, 긴급여부" },
+                { "icon": "check_circle", "title": "승인/반려", "desc": "요청건 승인\n또는 반려 처리" },
+                { "icon": "handyman", "title": "수리 시작/완료", "desc": "현장 도착 후\nQR 스캔으로 작업" }
+              ]
+            }
+          }
+        ],
+        "design_prompt": {
+          "concept": "Mobile App Feature Showcase - 스마트폰 목업과 함께하는 기능 소개",
+          "layout": {
+            "composition": "좌측에 스마트폰 목업, 우측에 4개 기능 카드 (2x2 그리드)",
+            "phone_mockup_area": "좌측 35%",
+            "feature_cards_area": "우측 60%"
+          },
+          "phone_mockup": {
+            "style": {
+              "type": "iPhone 스타일 프레임 (둥근 모서리)",
+              "size": "height: 320px",
+              "frame_color": "#1A1A1A",
+              "screen": "대표 앱 화면 스크린샷 또는 일러스트"
+            },
+            "screen_content": {
+              "option_a": "QR 스캔 화면 일러스트 (카메라 뷰파인더 + QR 아이콘)",
+              "option_b": "앱 메인 대시보드 와이어프레임"
+            },
+            "floating_badges": {
+              "style": "스마트폰 주변에 떠있는 작은 태그들",
+              "items": ["iOS", "Android", "Flutter"],
+              "badge_style": "pill shape, 연회색 배경"
+            }
+          },
+          "feature_cards": {
+            "grid": "2열 x 2행",
+            "card_size": "170px x 110px",
+            "card_style": {
+              "background": "#FFFFFF",
+              "border": "1px solid #E8E8E8",
+              "border_radius": "12px",
+              "shadow": "0 2px 8px rgba(0,0,0,0.05)"
+            },
+            "numbering": {
+              "style": "좌상단에 01, 02, 03, 04 숫자",
+              "font": "본고딕 Bold, 24pt, 매우 연한 회색 (#E0E0E0)",
+              "position": "카드 배경처럼 큰 숫자"
+            },
+            "icon_style": {
+              "size": "36px",
+              "container": "48px 원형, 파란색 그라데이션 배경",
+              "color": "흰색"
+            },
+            "flow_indicator": {
+              "style": "카드 사이에 연결 화살표 (→)",
+              "color": "#CCCCCC",
+              "meaning": "프로세스 순서를 시각적으로 표현"
+            }
+          }
+        },
+        "image_generation_prompt": {
+          "phone_mockup": {
+            "prompt": "Modern smartphone mockup, iPhone style with rounded corners, dark frame, screen showing QR code scanner interface with camera viewfinder and scanning animation overlay, blue accent color UI elements, clean minimal app design, white background, floating iOS and Android badges nearby, professional product mockup style, high quality render",
+            "style": "product mockup, minimal, professional",
+            "size": "height 400px, transparent background preferred"
+          },
+          "app_screens": {
+            "prompt": "Mobile app UI screens collection, 4 screens showing: 1) QR scanner with viewfinder 2) Form with dropdown and text input fields 3) Approval screen with accept/reject buttons 4) Checklist with completed items, blue and white color scheme, Korean text placeholders, flat design, clean modern mobile UI",
+            "style": "UI mockup, flat design",
+            "usage": "스마트폰 화면 내부에 삽입 또는 개별 사용"
+          }
+        }
+      },
+      {
+        "slide_number": 8,
+        "layout_id": 4,
+        "placeholders": {
+          "main_title": "4. 핵심 기능 - 웹 관리자",
+          "action_title": "대시보드로 전체 현황을 파악하고, 설비별 이력과 기준정보를 관리합니다."
+        },
+        "custom_elements": [
+          {
+            "type": "icon_box_grid",
+            "data": {
+              "columns": 4,
+              "items": [
+                { "icon": "dashboard", "title": "종합 상황판", "desc": "실시간 요청/진행/완료\n현황 모니터링" },
+                { "icon": "list_alt", "title": "정비 현황 관리", "desc": "전체 정비 요청\n검색 및 조회" },
+                { "icon": "history", "title": "설비별 이력 카드", "desc": "과거 고장 및 수리\n이력 타임라인" },
+                { "icon": "settings", "title": "기준정보 관리", "desc": "설비, 사용자\n업체, 공통코드" }
+              ]
+            }
+          }
+        ],
+        "design_prompt": {
+          "concept": "Web Dashboard Preview - 브라우저 목업과 함께하는 관리 기능 소개",
+          "layout": {
+            "composition": "상단에 브라우저 목업 (60% 높이), 하단에 4개 기능 설명",
+            "browser_area": "상단 55%",
+            "features_area": "하단 40%"
+          },
+          "browser_mockup": {
+            "style": {
+              "type": "Chrome 스타일 브라우저 프레임",
+              "width": "슬라이드 너비의 85%",
+              "frame": {
+                "top_bar": "회색 (#F1F3F4), 높이 32px",
+                "dots": "빨강/노랑/녹색 3개 점 (좌측)",
+                "address_bar": "흰색 필, URL 텍스트 표시",
+                "border_radius": "8px 8px 0 0"
+              }
+            },
+            "screen_content": {
+              "type": "대시보드 와이어프레임 또는 실제 UI 스크린샷",
+              "elements": [
+                "상단 KPI 카드 4개 (숫자 강조)",
+                "좌측 사이드바 메뉴",
+                "중앙 테이블/리스트",
+                "우측 미니 차트"
+              ],
+              "style": "실제 UI처럼 보이되, 너무 상세하지 않게 간략화"
+            }
+          },
+          "feature_strip": {
+            "layout": "4열 수평 배치",
+            "card_style": {
+              "type": "minimal card (테두리 없음)",
+              "icon": "상단 중앙, 40px, 녹색 계열 그라데이션 원형 배경",
+              "title": "Bold, 14pt, 중앙 정렬",
+              "desc": "Regular, 11pt, 회색, 중앙 정렬"
+            },
+            "connector_line": {
+              "style": "4개 카드 아래를 가로지르는 연결선",
+              "color": "연한 녹색 (#C8E6C9)",
+              "thickness": "2px, dashed"
+            }
+          }
+        },
+        "image_generation_prompt": {
+          "browser_mockup": {
+            "prompt": "Chrome browser window mockup with realistic frame, gray title bar with red yellow green dots on left, address bar showing 'hvac.dongkuk.com', inside showing admin dashboard UI: left sidebar menu in dark navy, top stats cards showing numbers, center area with data table, right side mini charts, green and navy color scheme, modern enterprise SaaS dashboard design, Korean text, clean professional look",
+            "style": "UI screenshot, browser mockup, enterprise software",
+            "size": "width 900px, include browser chrome"
+          },
+          "dashboard_wireframe": {
+            "prompt": "Clean dashboard wireframe, simplified UI layout, 4 KPI cards at top with large numbers and small labels, left navigation sidebar with menu items, main content area with sortable data table, small donut chart in corner, grayscale with green accent highlights, minimal line drawing style, presentation ready",
+            "style": "wireframe, minimal, grayscale with accent",
+            "usage": "브라우저 목업 내부 또는 단독 사용"
+          }
+        }
+      },
+      {
+        "slide_number": 9,
+        "layout_id": 4,
+        "placeholders": {
+          "main_title": "4. 주요 화면 - 모바일 앱 (수리요청)",
+          "action_title": "QR코드 스캔부터 수리요청까지의 직관적인 사용자 경험을 제공합니다."
+        },
+        "custom_elements": [
+          {
+            "type": "screen_gallery",
+            "data": {
+              "layout": "horizontal_3",
+              "screens": [
+                {
+                  "image_path": "/home/jji/project/HAVC_prd/HAVC/detail_design/MOB-LOG-001_로그인.png",
+                  "label": "로그인",
+                  "description": "사번/비밀번호 입력\n간편 로그인 지원"
+                },
+                {
+                  "image_path": "/home/jji/project/HAVC_prd/HAVC/detail_design/MOB-HOM-001_홈.png",
+                  "label": "홈 화면",
+                  "description": "QR스캔 바로가기\n나의 요청 현황"
+                },
+                {
+                  "image_path": "/home/jji/project/HAVC_prd/HAVC/detail_design/MOB-REQ-001_수리요청화면.png",
+                  "label": "수리요청",
+                  "description": "고장유형 선택\n사진 첨부"
+                }
+              ]
+            }
+          }
+        ],
+        "design_prompt": {
+          "concept": "Mobile App Screen Showcase - 아이폰 목업 프레임 내 실제 화면",
+          "layout": {
+            "grid": "3열 균등 배치",
+            "phone_mockup": "iPhone 14 스타일 베젤, 약간 기울임 (3D 느낌)",
+            "spacing": "화면 간 60px"
+          },
+          "phone_frame": {
+            "style": "검정 베젤, 라운드 코너, 노치 포함",
+            "shadow": "0 20px 40px rgba(0,0,0,0.15)",
+            "scale": "화면 높이 60% 차지"
+          },
+          "label_style": {
+            "position": "폰 아래 16px",
+            "title": "Bold 14pt, 네이비",
+            "desc": "Regular 11pt, 회색, 2줄"
+          }
+        }
+      },
+      {
+        "slide_number": 10,
+        "layout_id": 4,
+        "placeholders": {
+          "main_title": "4. 주요 화면 - 모바일 앱 (작업처리)",
+          "action_title": "정비업체가 사용하는 고장접수부터 수리완료까지의 작업 화면입니다."
+        },
+        "custom_elements": [
+          {
+            "type": "screen_gallery",
+            "data": {
+              "layout": "horizontal_3",
+              "screens": [
+                {
+                  "image_path": "/home/jji/project/HAVC_prd/HAVC/detail_design/MOB-RCV-002_고장접수처리.png",
+                  "label": "고장접수",
+                  "description": "접수 확인\n예상 수리시간 입력"
+                },
+                {
+                  "image_path": "/home/jji/project/HAVC_prd/HAVC/detail_design/MOB-STR-001_수리시작등록.png",
+                  "label": "수리시작",
+                  "description": "작업 시작 등록\n현장 도착 확인"
+                },
+                {
+                  "image_path": "/home/jji/project/HAVC_prd/HAVC/detail_design/MOB-END-001_수리완료등록.png",
+                  "label": "수리완료",
+                  "description": "작업 내용 기록\n사용 부품 등록"
+                }
+              ]
+            }
+          }
+        ],
+        "design_prompt": {
+          "concept": "Mobile App Work Flow Screens",
+          "layout": {
+            "grid": "3열 균등 배치",
+            "phone_mockup": "iPhone 스타일, 통일된 프레임"
+          },
+          "visual_flow": {
+            "arrow": "화면 사이에 chevron 화살표 (→)",
+            "color": "#E0E0E0"
+          }
+        }
+      },
+      {
+        "slide_number": 11,
+        "layout_id": 4,
+        "placeholders": {
+          "main_title": "4. 주요 화면 - 웹 관리자 (대시보드)",
+          "action_title": "실시간 현황 파악과 정비이력 관리를 위한 관리자 화면입니다."
+        },
+        "custom_elements": [
+          {
+            "type": "screen_gallery",
+            "data": {
+              "layout": "horizontal_3_wide",
+              "screens": [
+                {
+                  "image_path": "/home/jji/project/HAVC_prd/HAVC/detail_design/WEB-DSH-001_정비현황조회_대시보드.png",
+                  "label": "대시보드",
+                  "description": "KPI 현황판\n실시간 모니터링"
+                },
+                {
+                  "image_path": "/home/jji/project/HAVC_prd/HAVC/detail_design/WEB-WRK-001_정비진행조회처리.png",
+                  "label": "정비 진행 조회",
+                  "description": "전체 요청 목록\n상태별 필터링"
+                },
+                {
+                  "image_path": "/home/jji/project/HAVC_prd/HAVC/detail_design/WEB-HIS-001_정비이력조회.png",
+                  "label": "정비 이력 조회",
+                  "description": "설비별 이력 카드\n통계 분석"
+                }
+              ]
+            }
+          }
+        ],
+        "design_prompt": {
+          "concept": "Web Admin Dashboard Showcase",
+          "layout": {
+            "grid": "3열 배치, 브라우저 프레임 포함",
+            "browser_mockup": "Chrome 스타일"
+          },
+          "frame_style": {
+            "type": "축소된 브라우저 창 형태",
+            "shadow": "카드 스타일 그림자"
+          }
+        }
+      },
+      {
+        "slide_number": 12,
+        "layout_id": 4,
+        "placeholders": {
+          "main_title": "4. 주요 화면 - 웹 관리자 (기준정보)",
+          "action_title": "시스템 운영을 위한 마스터 데이터 관리 화면입니다."
+        },
+        "custom_elements": [
+          {
+            "type": "screen_gallery",
+            "data": {
+              "layout": "horizontal_3_wide",
+              "screens": [
+                {
+                  "image_path": "/home/jji/project/HAVC_prd/HAVC/detail_design/WEB-EQP-001_공조설비정보관리.png",
+                  "label": "설비 관리",
+                  "description": "공조설비 등록/수정\nQR코드 관리"
+                },
+                {
+                  "image_path": "/home/jji/project/HAVC_prd/HAVC/detail_design/WEB-USR-001_사용자관리.png",
+                  "label": "사용자 관리",
+                  "description": "계정 관리\n권한 설정"
+                },
+                {
+                  "image_path": "/home/jji/project/HAVC_prd/HAVC/detail_design/WEB-VND-001_유지보수업체정보관리.png",
+                  "label": "업체 관리",
+                  "description": "정비업체 정보\n담당 설비 배정"
+                }
+              ]
+            }
+          }
+        ],
+        "design_prompt": {
+          "concept": "Master Data Management Screens",
+          "layout": {
+            "grid": "3열 배치",
+            "style": "일관된 테이블 기반 CRUD UI"
+          }
+        }
+      },
+      {
+        "slide_number": 13,
+        "layout_id": 4,
+        "placeholders": {
+          "main_title": "5. 업무 프로세스",
+          "action_title": "6단계 프로세스로 진행되며, 각 단계별 카카오톡 알림이 발송됩니다."
+        },
+        "custom_elements": [
+          {
+            "type": "process_flow",
+            "data": {
+              "steps": [
+                { "code": "10", "name": "수리요청", "actor": "신고자(내부)", "color": "#002452" },
+                { "code": "20", "name": "승인", "actor": "승인권자(내부)", "color": "#2E7D32" },
+                { "code": "30", "name": "고장접수", "actor": "정비업체(외부)", "color": "#F57C00" },
+                { "code": "40", "name": "수리시작", "actor": "정비업체(외부)", "color": "#F57C00" },
+                { "code": "50", "name": "수리완료", "actor": "정비업체(외부)", "color": "#F57C00" },
+                { "code": "60", "name": "종료", "actor": "신고자(내부)", "color": "#002452" }
+              ],
+              "notification": "카카오톡 알림"
+            }
+          }
+        ],
+        "design_prompt": {
+          "concept": "Horizontal Process Flow - 시각적으로 명확한 단계별 워크플로우",
+          "layout": {
+            "flow_direction": "좌 → 우, 완전 수평 배치",
+            "vertical_position": "슬라이드 중앙",
+            "step_spacing": "균등 간격"
+          },
+          "step_nodes": {
+            "shape": "원형 (circle) 또는 육각형 (hexagon)",
+            "size": "직경 72px",
+            "style": {
+              "내부_사용자": {
+                "background": "네이비 그라데이션 (#002452 → #1A3A6E)",
+                "border": "none",
+                "shadow": "0 4px 12px rgba(0,36,82,0.3)"
+              },
+              "외부_사용자": {
+                "background": "주황 그라데이션 (#F57C00 → #FF9800)",
+                "shadow": "0 4px 12px rgba(245,124,0,0.3)"
+              },
+              "승인": {
+                "background": "녹색 그라데이션 (#2E7D32 → #43A047)"
+              }
+            },
+            "status_code": {
+              "position": "노드 내부 상단",
+              "font": "본고딕 Bold, 20pt, 흰색",
+              "style": "숫자만 강조 (10, 20, 30...)"
+            },
+            "step_name": {
+              "position": "노드 아래 8px",
+              "font": "본고딕 Bold, 13pt, 각 노드 색상과 동일"
+            },
+            "actor_label": {
+              "position": "step_name 아래 4px",
+              "font": "본고딕 Regular, 10pt, 회색",
+              "style": "(내부) 또는 (외부) 구분 표시"
+            }
+          },
+          "connection_arrows": {
+            "style": "chevron 스타일 화살표 (▶)",
+            "color": "#E0E0E0",
+            "size": "24px",
+            "position": "노드 사이 정중앙"
+          },
+          "notification_indicator": {
+            "style": "각 화살표 위에 작은 카카오톡 아이콘",
+            "icon": "말풍선 또는 카카오 로고",
+            "color": "#FEE500 (카카오 노란색)",
+            "size": "16px",
+            "tooltip": "알림 발송 지점 표시"
+          },
+          "actor_grouping": {
+            "style": "하단에 범례 추가",
+            "legend": [
+              { "color": "네이비", "label": "내부 사용자" },
+              { "color": "주황", "label": "외부 정비업체" }
+            ]
+          }
+        },
+        "image_generation_prompt": {
+          "process_flow_diagram": {
+            "prompt": "Horizontal business process flow diagram with 6 circular nodes connected by arrows, nodes labeled 10 20 30 40 50 60, first two nodes in navy blue, middle three nodes in orange, last node in navy blue, arrows between nodes with small yellow chat bubble icons above indicating notifications, clean flat design, white background, professional infographic style, Korean labels below each node",
+            "style": "infographic, flat design, process flow",
+            "negative_prompt": "3D, complex, messy, dark background"
+          },
+          "icon_set": {
+            "prompt": "Icon set for workflow: person silhouette icon, approval checkmark icon, wrench tool icon, clipboard icon, all in consistent line art style, navy blue and orange color scheme, 64px size each, transparent background",
+            "style": "icon set, line art, consistent",
+            "usage": "각 프로세스 노드 내부에 배치"
+          }
+        }
+      },
+      {
+        "slide_number": 14,
+        "layout_id": 4,
+        "placeholders": {
+          "main_title": "5. 업무 프로세스",
+          "action_title": "사용자 역할별 주요 기능과 접근 채널입니다."
+        },
+        "custom_elements": [
+          {
+            "type": "table",
+            "data": {
+              "headers": ["역할", "주요 기능", "접근 채널"],
+              "rows": [
+                ["생산현장 담당자", "QR스캔, 수리요청, 진행확인", "Mobile"],
+                ["설비팀 과장", "승인/반려, 우선순위 확인", "Mobile + Web"],
+                ["정비업체 기사", "접수, 작업시작/완료", "Mobile"],
+                ["설비관리 팀장", "대시보드, 이력조회, 통계", "Web"]
+              ]
+            }
+          }
+        ],
+        "design_prompt": {
+          "concept": "Role-based Access Matrix - 역할별 권한을 명확히 보여주는 매트릭스",
+          "layout": {
+            "table_position": "슬라이드 좌측 55%",
+            "visual_element": "우측에 역할 아이콘 일러스트"
+          },
+          "table_style": {
+            "header_row": {
+              "background": "#002452",
+              "text": "흰색, Bold, 14pt",
+              "height": "44px"
+            },
+            "data_rows": {
+              "height": "56px",
+              "role_column": {
+                "width": "140px",
+                "style": "좌측에 역할 아이콘 (24px) + 텍스트",
+                "icons": {
+                  "생산현장 담당자": "person (파란색)",
+                  "설비팀 과장": "supervisor_account (녹색)",
+                  "정비업체 기사": "engineering (주황색)",
+                  "설비관리 팀장": "admin_panel_settings (보라색)"
+                }
+              },
+              "function_column": {
+                "style": "기능들을 pill 태그로 표시",
+                "tag_style": {
+                  "background": "#F0F4F8",
+                  "border_radius": "12px",
+                  "padding": "4px 10px",
+                  "font": "11pt",
+                  "gap": "6px"
+                }
+              },
+              "channel_column": {
+                "width": "100px",
+                "style": "채널별 아이콘으로 표시",
+                "icons": {
+                  "Mobile": "smartphone (파란색)",
+                  "Web": "computer (녹색)",
+                  "Mobile + Web": "smartphone + computer (두 아이콘 나란히)"
+                }
+              }
+            }
+          },
+          "side_illustration": {
+            "position": "우측 40%",
+            "content": "4명의 persona 아이콘이 세로로 배치",
+            "style": {
+              "circle_size": "56px",
+              "background": "각 역할 색상의 연한 톤",
+              "connection": "점선으로 테이블 행과 연결"
+            }
+          }
+        }
+      },
+      {
+        "slide_number": 15,
+        "layout_id": 4,
+        "placeholders": {
+          "main_title": "6. 기대 효과",
+          "action_title": "시스템 도입으로 수리 완료 시간 50% 단축, 신고 누락 제로화가 가능합니다."
+        },
+        "custom_elements": [
+          {
+            "type": "comparison_chart",
+            "data": {
+              "chart_type": "horizontal_bar",
+              "title": "목표 KPI",
+              "items": [
+                { "label": "평균 수리 완료 시간", "as_is": 8, "to_be": 4, "unit": "시간", "change": "-50%" },
+                { "label": "고장 신고 누락률", "as_is": 15, "to_be": 0, "unit": "%", "change": "-100%" },
+                { "label": "정비 이력 추적률", "as_is": 40, "to_be": 100, "unit": "%", "change": "+150%" },
+                { "label": "관계자 알림 도달률", "as_is": 60, "to_be": 98, "unit": "%", "change": "+63%" }
+              ]
+            }
+          }
+        ],
+        "design_prompt": {
+          "concept": "Before/After Comparison Chart - 임팩트 있는 KPI 비교 시각화",
+          "layout": {
+            "chart_type": "Horizontal Stacked/Grouped Bar Chart",
+            "position": "슬라이드 중앙, 좌우 마진 60px"
+          },
+          "chart_design": {
+            "row_height": "64px",
+            "row_gap": "24px",
+            "structure": {
+              "label_area": "좌측 25% - KPI 이름",
+              "bar_area": "중앙 50% - As-Is/To-Be 바",
+              "change_area": "우측 15% - 변화율"
+            }
+          },
+          "bar_style": {
+            "as_is_bar": {
+              "color": "#B0BEC5 (회색)",
+              "height": "24px",
+              "border_radius": "4px",
+              "label": "바 끝에 값 표시 (8시간)"
+            },
+            "to_be_bar": {
+              "color": "개선 방향에 따라 다름",
+              "positive_change": "#00C853 (밝은 녹색) - 추적률, 도달률",
+              "negative_change": "#002452 (네이비) - 시간, 누락률 (줄어드는 게 좋은 것)",
+              "height": "24px",
+              "position": "as_is 바 아래에 배치"
+            }
+          },
+          "change_indicator": {
+            "style": {
+              "positive": {
+                "background": "#E8F5E9",
+                "text_color": "#2E7D32",
+                "icon": "arrow_upward"
+              },
+              "negative": {
+                "background": "#E3F2FD",
+                "text_color": "#1565C0",
+                "icon": "arrow_downward",
+                "note": "이 경우 감소가 긍정적 의미"
+              }
+            },
+            "format": "pill 모양, 예: ▼50% 또는 ▲150%",
+            "font": "Bold, 14pt"
+          },
+          "legend": {
+            "position": "차트 상단 우측",
+            "items": [
+              { "color": "회색", "label": "현재 (As-Is)" },
+              { "color": "색상바", "label": "목표 (To-Be)" }
+            ]
+          },
+          "emphasis": {
+            "highlight_row": "가장 임팩트 큰 항목 (신고 누락률 -100%) 강조",
+            "style": "배경에 연한 하이라이트 또는 좌측 강조 바"
+          }
+        }
+      },
+      {
+        "slide_number": 16,
+        "layout_id": 4,
+        "placeholders": {
+          "main_title": "6. 기대 효과",
+          "action_title": "정성적 효과로 업무 가시성 확보와 예방 정비 계획 수립이 가능해집니다."
+        },
+        "custom_elements": [
+          {
+            "type": "icon_box_grid",
+            "data": {
+              "columns": 3,
+              "items": [
+                { "icon": "cancel", "title": "수기 대장 폐지", "desc": "종이 문서 사용 완전 중단" },
+                { "icon": "visibility", "title": "업무 가시성 확보", "desc": "정비 진행 현황 실시간 파악" },
+                { "icon": "event_available", "title": "예방 정비 가능", "desc": "데이터 기반 정비 계획 수립" }
+              ]
+            }
+          }
+        ],
+        "design_prompt": {
+          "concept": "Qualitative Benefits - 감성적 임팩트를 주는 대형 아이콘 카드",
+          "layout": {
+            "grid": "3열 균등 배치",
+            "card_gap": "32px",
+            "card_size": "width: 260px, height: 200px",
+            "vertical_center": true
+          },
+          "card_style": {
+            "type": "elevated card with gradient accent",
+            "background": {
+              "main": "#FFFFFF",
+              "gradient_overlay": "상단에서 시작하는 미묘한 그라데이션"
+            },
+            "border_radius": "16px",
+            "shadow": "0 8px 24px rgba(0,0,0,0.1)"
+          },
+          "icon_treatment": {
+            "container": {
+              "shape": "정사각형 with rounded corners (64px)",
+              "background": "각 카드별 고유 그라데이션",
+              "colors": [
+                "linear-gradient(135deg, #FF5252, #C51F2A)",
+                "linear-gradient(135deg, #42A5F5, #1565C0)",
+                "linear-gradient(135deg, #66BB6A, #2E7D32)"
+              ]
+            },
+            "icon": {
+              "size": "32px",
+              "color": "흰색",
+              "style": "outlined, 2px stroke"
+            },
+            "position": "카드 상단 중앙, 상단에서 32px"
+          },
+          "content_style": {
+            "title": {
+              "font": "본고딕 Bold, 18pt",
+              "color": "#1A1A1A",
+              "margin_top": "20px"
+            },
+            "description": {
+              "font": "본고딕 Regular, 13pt",
+              "color": "#666666",
+              "margin_top": "8px",
+              "max_width": "200px (줄바꿈 유도)"
+            }
+          },
+          "decorative_element": {
+            "type": "하단 얇은 컬러 바",
+            "height": "4px",
+            "color": "아이콘 그라데이션과 동일",
+            "border_radius": "0 0 16px 16px"
+          }
+        }
+      },
+      {
+        "slide_number": 17,
+        "layout_id": 4,
+        "placeholders": {
+          "main_title": "7. 추진 일정",
+          "action_title": "Phase 1 MVP 8주, Phase 2 고도화 4주로 총 12주 소요 예정입니다."
+        },
+        "custom_elements": [
+          {
+            "type": "timeline",
+            "data": {
+              "phases": [
+                {
+                  "name": "Phase 1 - MVP",
+                  "duration": "8주",
+                  "color": "#002452",
+                  "milestones": [
+                    { "week": "1-2주", "task": "개발환경 구축, DB 설계" },
+                    { "week": "3-4주", "task": "백엔드 API 개발 (Core)" },
+                    { "week": "5-6주", "task": "모바일 앱 개발 (Core)" },
+                    { "week": "7주", "task": "웹 대시보드 개발" },
+                    { "week": "8주", "task": "통합테스트, UAT" }
+                  ]
+                },
+                {
+                  "name": "Phase 2 - 고도화",
+                  "duration": "4주",
+                  "color": "#C51F2A",
+                  "milestones": [
+                    { "week": "9-10주", "task": "마스터 관리 기능" },
+                    { "week": "11주", "task": "리포트/Excel 출력" },
+                    { "week": "12주", "task": "성능 최적화, 안정화" }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "design_prompt": {
+          "concept": "Gantt-style Timeline - 전문적인 프로젝트 일정 시각화",
+          "layout": {
+            "type": "Horizontal Timeline with Swimlanes",
+            "full_width": true,
+            "header_height": "60px (주차 표시)",
+            "content_height": "나머지 영역"
+          },
+          "timeline_header": {
+            "style": {
+              "background": "#F8F9FA",
+              "border_bottom": "2px solid #E0E0E0"
+            },
+            "week_columns": {
+              "count": 12,
+              "width": "균등 분할",
+              "labels": "1주, 2주, 3주... 12주",
+              "font": "본고딕 Medium, 11pt, 회색",
+              "current_week_highlight": "오늘 날짜에 해당하는 주 강조 (옵션)"
+            },
+            "month_grouping": {
+              "show": true,
+              "style": "상단에 월 라벨 (1월, 2월, 3월...)"
+            }
+          },
+          "phase_swimlanes": {
+            "phase1": {
+              "row_height": "80px",
+              "label": {
+                "text": "Phase 1\nMVP",
+                "position": "좌측 고정 영역",
+                "background": "#002452",
+                "text_color": "흰색",
+                "width": "80px"
+              },
+              "bar": {
+                "span": "1주~8주",
+                "color": "linear-gradient(90deg, #002452, #1A3A6E)",
+                "height": "40px",
+                "border_radius": "8px"
+              },
+              "milestones": {
+                "style": "바 위에 마일스톤 마커 (작은 원형)",
+                "marker_color": "흰색",
+                "labels": "바 아래에 작업 내용 표시"
+              }
+            },
+            "phase2": {
+              "row_height": "80px",
+              "label": {
+                "text": "Phase 2\n고도화",
+                "background": "#C51F2A"
+              },
+              "bar": {
+                "span": "9주~12주",
+                "color": "linear-gradient(90deg, #C51F2A, #E53935)"
+              }
+            }
+          },
+          "milestone_details": {
+            "display_style": "각 바 내부 또는 아래에 주요 작업 표시",
+            "text_style": {
+              "inside_bar": "흰색, 11pt (바가 충분히 넓을 경우)",
+              "below_bar": "회색, 10pt, 세로 정렬"
+            },
+            "key_milestone_marker": {
+              "style": "특별 마일스톤 (UAT 등)은 다이아몬드 모양으로",
+              "color": "금색 (#FFC107)"
+            }
+          },
+          "visual_polish": {
+            "today_line": "현재 날짜 위치에 빨간 세로선 (발표 시점 표시)",
+            "progress_fill": "완료된 부분은 진한 색, 미완료는 연한 색 (옵션)",
+            "grid_lines": "주차 구분 세로선, 매우 연한 회색"
+          }
+        },
+        "image_generation_prompt": {
+          "gantt_chart": {
+            "prompt": "Professional Gantt chart timeline, 12 week columns at top with week numbers, two horizontal bars: first bar spanning weeks 1-8 in navy blue gradient labeled 'Phase 1 MVP', second bar spanning weeks 9-12 in red gradient labeled 'Phase 2', milestone diamonds in gold color at key points, clean corporate style, white background with light gray grid lines, Korean month labels at top",
+            "style": "Gantt chart, corporate, clean",
+            "negative_prompt": "complex, cluttered, 3D effects"
+          },
+          "timeline_alternative": {
+            "prompt": "Horizontal timeline infographic, left to right flow, 12 milestone points marked with circles, grouped into two phases with different colors (navy and red), task labels below each point in Korean, connecting line with gradient effect, modern flat design, presentation quality",
+            "style": "timeline infographic, modern, flat",
+            "usage": "간트 차트 대신 사용 가능한 대안"
+          }
+        }
+      },
+      {
+        "slide_number": 18,
+        "layout_id": 5,
+        "placeholders": {
+          "main_title": "Q & A",
+          "body": [
+            { "level": 1, "text": "질문 및 의견을 말씀해 주십시오." },
+            { "level": 1, "text": "" },
+            { "level": 1, "text": "감사합니다." }
+          ]
+        },
+        "design_prompt": {
+          "concept": "Clean Closing Slide - 미니멀하면서 임팩트 있는 마무리",
+          "layout": {
+            "type": "center-focused",
+            "content_vertical_position": "슬라이드 중앙보다 약간 위 (40%)"
+          },
+          "main_element": {
+            "qa_text": {
+              "content": "Q & A",
+              "font": "본고딕 Bold, 72pt",
+              "color": "#002452 (네이비)",
+              "style": "letter-spacing: 8px (글자 간격 넓게)"
+            },
+            "decorative_line": {
+              "position": "Q&A 텍스트 아래 24px",
+              "style": "중앙 정렬 가로선",
+              "width": "120px",
+              "height": "4px",
+              "color": "#C51F2A (동국 레드)"
+            }
+          },
+          "sub_text": {
+            "message": "질문 및 의견을 말씀해 주십시오.",
+            "font": "본고딕 Regular, 18pt",
+            "color": "#666666",
+            "margin_top": "40px"
+          },
+          "closing_text": {
+            "message": "감사합니다.",
+            "font": "본고딕 Medium, 24pt",
+            "color": "#1A1A1A",
+            "margin_top": "24px"
+          },
+          "background_treatment": {
+            "option_a": "순수 흰색 배경 (미니멀)",
+            "option_b": "우측 하단에 매우 연한 Big K 워터마크"
+          },
+          "contact_info": {
+            "position": "하단 중앙, 바닥글 위",
+            "content": "동국시스템즈 | 담당자명 | email@dongkuk.com",
+            "font": "본고딕 Regular, 11pt, 회색",
+            "optional": true
+          }
+        }
+      }
+    ]
+  }
+}

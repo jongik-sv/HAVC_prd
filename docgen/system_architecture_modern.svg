@@ -1,0 +1,75 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1600" height="900" fill="#FFFFFF" />
+  
+  <!-- Definitions for Gradients and Shadows -->
+  <defs>
+    <linearGradient id="clientGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d4aa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00a1ff;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <stop offset="0%" style="stop-color:#00d4aa;stop-opacity:1" />
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.1" />
+    </filter>
+  </defs>
+
+  <!-- Tier Labels -->
+  <text x="300" y="100" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#666" text-anchor="middle">CLIENT TIER</text>
+  <text x="800" y="100" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#666" text-anchor="middle">SERVER TIER</text>
+  <text x="1300" y="100" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#666" text-anchor="middle">INFRASTRUCTURE</text>
+
+  <!-- Left Side: Clients -->
+  <!-- Mobile App -->
+  <rect x="200" y="250" width="200" height="150" rx="15" fill="url(#clientGrad)" filter="url(#shadow)" />
+  <path d="M280 280h40v60h-40z M285 285h30v50h-30z" fill="white" opacity="0.9" /> <!-- Phone Icon Placeholder -->
+  <circle cx="300" cy="345" r="3" fill="white" />
+  <text x="300" y="380" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">Mobile App (Flutter)</text>
+
+  <!-- Web Dashboard -->
+  <rect x="200" y="500" width="200" height="150" rx="15" fill="url(#clientGrad)" filter="url(#shadow)" />
+  <rect x="270" y="530" width="60" height="40" rx="2" fill="white" opacity="0.9" /> <!-- Desktop Icon Placeholder -->
+  <rect x="290" y="570" width="20" height="5" fill="white" opacity="0.9" />
+  <text x="300" y="630" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">Web (React/Next.js)</text>
+
+  <!-- Center: Server -->
+  <rect x="650" y="325" width="300" height="250" rx="20" fill="#0a1628" filter="url(#shadow)" />
+  <!-- Spring Boot Logo Placeholder -->
+  <circle cx="800" cy="420" r="40" fill="#6DB33F" />
+  <text x="800" y="425" font-family="Arial, sans-serif" font-size="40" font-weight="bold" fill="white" text-anchor="middle">S</text>
+  <text x="800" y="490" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white" text-anchor="middle">Spring Boot</text>
+  <text x="800" y="520" font-family="Arial, sans-serif" font-size="16" fill="#00d4aa" text-anchor="middle">RESTful API / JEUS 8</text>
+
+  <!-- Right Side: Infrastructure -->
+  <!-- Database -->
+  <path d="M1200 320c0-20 100-20 100 0v100c0 20-100 20-100 0z" fill="#E0E0E0" filter="url(#shadow)" />
+  <ellipse cx="1250" cy="320" rx="50" ry="15" fill="#BDBDBD" />
+  <text x="1250" y="445" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333" text-anchor="middle">Tibero DB</text>
+
+  <!-- Kakao API -->
+  <rect x="1200" y="530" width="100" height="80" rx="15" fill="#FEE500" filter="url(#shadow)" />
+  <path d="M1250 545c-20 0-35 12-35 25 0 8 6 15 15 20l-3 7 10-5c4 1 8 1 13 1 20 0 35-12 35-25s-15-25-35-25z" fill="#3C1E1E" /> <!-- Chat Bubble Icon -->
+  <text x="1250" y="635" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333" text-anchor="middle">Kakao API</text>
+
+  <!-- Connections (Arrows) -->
+  <!-- Client to Server -->
+  <path d="M410 325 L640 400" stroke="#999" stroke-width="2" fill="none" marker-end="url(#arrowhead)" />
+  <path d="M410 575 L640 500" stroke="#999" stroke-width="2" fill="none" marker-end="url(#arrowhead)" />
+  
+  <!-- Server to Infra -->
+  <path d="M960 450 L1190 380" stroke="#999" stroke-width="2" fill="none" marker-end="url(#arrowhead)" />
+  <path d="M960 450 L1190 570" stroke="#999" stroke-width="2" fill="none" marker-end="url(#arrowhead)" />
+
+  <!-- Arrowhead definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#999" />
+    </marker>
+  </defs>
+
+  <!-- Labels on Arrows -->
+  <text x="525" y="345" font-family="Arial, sans-serif" font-size="14" fill="#999" text-anchor="middle">HTTPS / JWT</text>
+  <text x="1075" y="405" font-family="Arial, sans-serif" font-size="14" fill="#999" text-anchor="middle">JDBC / SQL</text>
+  <text x="1075" y="540" font-family="Arial, sans-serif" font-size="14" fill="#999" text-anchor="middle">JSON / REST</text>
+
+</svg>
