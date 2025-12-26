@@ -1,0 +1,1080 @@
+{
+  "slide-0": {
+    "shape-0": {
+      "left": 0.48,
+      "top": 2.49,
+      "width": 5.9,
+      "height": 1.21,
+      "placeholder_type": "TITLE",
+      "default_font_size": 32.0,
+      "paragraphs": [
+        {
+          "text": "냉난방기 스마트 정비시스템 구축"
+        }
+      ]
+    }
+  },
+  "slide-1": {
+    "shape-0": {
+      "left": 0.94,
+      "top": 2.49,
+      "width": 0.69,
+      "height": 3.55,
+      "placeholder_type": "BODY",
+      "default_font_size": 16.0,
+      "paragraphs": [
+        {
+          "text": "01"
+        },
+        {
+          "text": "02"
+        },
+        {
+          "text": "03"
+        },
+        {
+          "text": "04"
+        },
+        {
+          "text": "05"
+        },
+        {
+          "text": "06"
+        },
+        {
+          "text": "07"
+        },
+        {
+          "text": "08"
+        },
+        {
+          "text": "09"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 1.65,
+      "top": 2.49,
+      "width": 3.77,
+      "height": 3.55,
+      "placeholder_type": "BODY",
+      "default_font_size": 16.0,
+      "paragraphs": [
+        {
+          "text": "프로젝트 개요"
+        },
+        {
+          "text": "현황 및 문제점"
+        },
+        {
+          "text": "시스템 구성"
+        },
+        {
+          "text": "핵심 기능 및 주요 화면"
+        },
+        {
+          "text": "4단계 업무 프로세스"
+        },
+        {
+          "text": "QR코드 활용 및 알림 체계"
+        },
+        {
+          "text": "백업(예외처리) 기능"
+        },
+        {
+          "text": "기대 효과"
+        },
+        {
+          "text": "추진 일정"
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 7.41,
+      "top": 2.5,
+      "width": 1.03,
+      "height": 3.42,
+      "placeholder_type": "BODY",
+      "default_font_size": 16.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.19
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "03"
+        },
+        {
+          "text": "04-05"
+        },
+        {
+          "text": "06"
+        },
+        {
+          "text": "07-12"
+        },
+        {
+          "text": "13-18"
+        },
+        {
+          "text": "19-20"
+        },
+        {
+          "text": "21"
+        },
+        {
+          "text": "22-23"
+        },
+        {
+          "text": "24"
+        }
+      ]
+    }
+  },
+  "slide-2": {
+    "shape-0": {
+      "left": 0.3,
+      "top": 0.63,
+      "width": 10.23,
+      "height": 0.78,
+      "placeholder_type": "TITLE",
+      "default_font_size": 17.0,
+      "paragraphs": [
+        {
+          "text": "1. 프로젝트 개요",
+          "font_size": 20.0,
+          "bold": true
+        },
+        {
+          "text": "공조설비 고장신고부터 수리완료까지 전 과정을 디지털화하는 스마트 정비시스템입니다.",
+          "font_size": 14.0
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 8.52,
+      "top": 7.22,
+      "width": 1.68,
+      "height": 0.16,
+      "placeholder_type": "FOOTER",
+      "default_font_size": 8.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.34
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "작성자_동국시스템즈"
+        }
+      ]
+    }
+  },
+  "slide-3": {
+    "shape-0": {
+      "left": 0.3,
+      "top": 0.63,
+      "width": 10.23,
+      "height": 0.78,
+      "placeholder_type": "TITLE",
+      "default_font_size": 17.0,
+      "paragraphs": [
+        {
+          "text": "2. 현황 및 문제점",
+          "font_size": 20.0,
+          "bold": true
+        },
+        {
+          "text": "전화/구두 신고로 인한 기록 누락과 수작업 대장 관리가 가장 큰 문제입니다.",
+          "font_size": 14.0
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 8.52,
+      "top": 7.22,
+      "width": 1.68,
+      "height": 0.16,
+      "placeholder_type": "FOOTER",
+      "default_font_size": 8.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.34
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "작성자_동국시스템즈"
+        }
+      ]
+    }
+  },
+  "slide-4": {
+    "shape-0": {
+      "left": 0.3,
+      "top": 0.63,
+      "width": 10.23,
+      "height": 0.78,
+      "placeholder_type": "TITLE",
+      "default_font_size": 17.0,
+      "paragraphs": [
+        {
+          "text": "2. 현황 및 문제점",
+          "font_size": 20.0,
+          "bold": true
+        },
+        {
+          "text": "각 이해관계자별로 업무 수행에 어려움을 겪고 있습니다.",
+          "font_size": 14.0
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 8.52,
+      "top": 7.22,
+      "width": 1.68,
+      "height": 0.16,
+      "placeholder_type": "FOOTER",
+      "default_font_size": 8.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.34
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "작성자_동국시스템즈"
+        }
+      ]
+    }
+  },
+  "slide-5": {
+    "shape-0": {
+      "left": 0.3,
+      "top": 0.63,
+      "width": 10.23,
+      "height": 0.78,
+      "placeholder_type": "TITLE",
+      "default_font_size": 17.0,
+      "paragraphs": [
+        {
+          "text": "3. 시스템 구성",
+          "font_size": 20.0,
+          "bold": true
+        },
+        {
+          "text": "모바일 앱, 웹 관리자, 백엔드 서버 3개 컴포넌트로 구성됩니다.",
+          "font_size": 14.0
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 8.52,
+      "top": 7.22,
+      "width": 1.68,
+      "height": 0.16,
+      "placeholder_type": "FOOTER",
+      "default_font_size": 8.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.34
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "작성자_동국시스템즈"
+        }
+      ]
+    }
+  },
+  "slide-6": {
+    "shape-0": {
+      "left": 0.3,
+      "top": 0.63,
+      "width": 10.23,
+      "height": 0.78,
+      "placeholder_type": "TITLE",
+      "default_font_size": 17.0,
+      "paragraphs": [
+        {
+          "text": "4. 핵심 기능 - 모바일 앱",
+          "font_size": 20.0,
+          "bold": true
+        },
+        {
+          "text": "QR스캔으로 설비를 인식하고, 고장신고부터 수리완료까지 전 과정을 처리합니다.",
+          "font_size": 14.0
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 8.52,
+      "top": 7.22,
+      "width": 1.68,
+      "height": 0.16,
+      "placeholder_type": "FOOTER",
+      "default_font_size": 8.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.34
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "작성자_동국시스템즈"
+        }
+      ]
+    }
+  },
+  "slide-7": {
+    "shape-0": {
+      "left": 0.3,
+      "top": 0.63,
+      "width": 10.23,
+      "height": 0.78,
+      "placeholder_type": "TITLE",
+      "default_font_size": 17.0,
+      "paragraphs": [
+        {
+          "text": "4. 핵심 기능 - 웹 관리자",
+          "font_size": 20.0,
+          "bold": true
+        },
+        {
+          "text": "대시보드로 전체 현황을 파악하고, 설비별 이력과 기준정보를 관리합니다.",
+          "font_size": 14.0
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 8.52,
+      "top": 7.22,
+      "width": 1.68,
+      "height": 0.16,
+      "placeholder_type": "FOOTER",
+      "default_font_size": 8.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.34
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "작성자_동국시스템즈"
+        }
+      ]
+    }
+  },
+  "slide-8": {
+    "shape-0": {
+      "left": 0.3,
+      "top": 0.63,
+      "width": 10.23,
+      "height": 0.78,
+      "placeholder_type": "TITLE",
+      "default_font_size": 17.0,
+      "paragraphs": [
+        {
+          "text": "4. 주요 화면 - 모바일 앱 (수리요청)",
+          "font_size": 20.0,
+          "bold": true
+        },
+        {
+          "text": "QR코드 스캔부터 수리요청까지의 직관적인 사용자 경험을 제공합니다.",
+          "font_size": 14.0
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 8.52,
+      "top": 7.22,
+      "width": 1.68,
+      "height": 0.16,
+      "placeholder_type": "FOOTER",
+      "default_font_size": 8.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.34
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "작성자_동국시스템즈"
+        }
+      ]
+    }
+  },
+  "slide-9": {
+    "shape-0": {
+      "left": 0.3,
+      "top": 0.63,
+      "width": 10.23,
+      "height": 0.78,
+      "placeholder_type": "TITLE",
+      "default_font_size": 17.0,
+      "paragraphs": [
+        {
+          "text": "4. 주요 화면 - 모바일 앱 (작업처리)",
+          "font_size": 20.0,
+          "bold": true
+        },
+        {
+          "text": "정비업체가 사용하는 고장접수부터 수리완료까지의 작업 화면입니다.",
+          "font_size": 14.0
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 8.52,
+      "top": 7.22,
+      "width": 1.68,
+      "height": 0.16,
+      "placeholder_type": "FOOTER",
+      "default_font_size": 8.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.34
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "작성자_동국시스템즈"
+        }
+      ]
+    }
+  },
+  "slide-10": {
+    "shape-0": {
+      "left": 0.3,
+      "top": 0.63,
+      "width": 10.23,
+      "height": 0.78,
+      "placeholder_type": "TITLE",
+      "default_font_size": 17.0,
+      "paragraphs": [
+        {
+          "text": "4. 주요 화면 - 웹 관리자 (대시보드)",
+          "font_size": 20.0,
+          "bold": true
+        },
+        {
+          "text": "실시간 현황 파악과 정비이력 관리를 위한 관리자 화면입니다.",
+          "font_size": 14.0
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 8.52,
+      "top": 7.22,
+      "width": 1.68,
+      "height": 0.16,
+      "placeholder_type": "FOOTER",
+      "default_font_size": 8.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.34
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "작성자_동국시스템즈"
+        }
+      ]
+    }
+  },
+  "slide-11": {
+    "shape-0": {
+      "left": 0.3,
+      "top": 0.63,
+      "width": 10.23,
+      "height": 0.78,
+      "placeholder_type": "TITLE",
+      "default_font_size": 17.0,
+      "paragraphs": [
+        {
+          "text": "4. 주요 화면 - 웹 관리자 (기준정보)",
+          "font_size": 20.0,
+          "bold": true
+        },
+        {
+          "text": "시스템 운영을 위한 마스터 데이터 관리 화면입니다.",
+          "font_size": 14.0
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 8.52,
+      "top": 7.22,
+      "width": 1.68,
+      "height": 0.16,
+      "placeholder_type": "FOOTER",
+      "default_font_size": 8.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.34
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "작성자_동국시스템즈"
+        }
+      ]
+    }
+  },
+  "slide-12": {
+    "shape-0": {
+      "left": 0.3,
+      "top": 0.63,
+      "width": 10.23,
+      "height": 0.78,
+      "placeholder_type": "TITLE",
+      "default_font_size": 17.0,
+      "paragraphs": [
+        {
+          "text": "5. 4단계 업무 프로세스",
+          "font_size": 20.0,
+          "bold": true
+        },
+        {
+          "text": "고장신고부터 정비완료까지 4단계(Step 1~4) 프로세스로 진행됩니다.",
+          "font_size": 14.0
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 8.52,
+      "top": 7.22,
+      "width": 1.68,
+      "height": 0.16,
+      "placeholder_type": "FOOTER",
+      "default_font_size": 8.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.34
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "작성자_동국시스템즈"
+        }
+      ]
+    }
+  },
+  "slide-13": {
+    "shape-0": {
+      "left": 0.3,
+      "top": 0.63,
+      "width": 10.23,
+      "height": 0.78,
+      "placeholder_type": "TITLE",
+      "default_font_size": 17.0,
+      "paragraphs": [
+        {
+          "text": "5. Step 1: 고장신고 & 승인",
+          "font_size": 20.0,
+          "bold": true
+        },
+        {
+          "text": "현장담당자가 QR스캔으로 고장을 신고하고, 승인권자가 검토 후 승인 또는 반려합니다.",
+          "font_size": 14.0
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.3,
+      "top": 1.57,
+      "width": 10.24,
+      "height": 0.96,
+      "placeholder_type": "BODY",
+      "default_font_size": 16.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 2.65
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "고장 신고 방법 (신고담당자 - 모바일 앱)"
+        },
+        {
+          "text": "냉난방기 고장 또는 정기정비(Overhaul) 필요 상황 발견"
+        },
+        {
+          "text": "모바일 앱 실행 후 신고 유형 선택 (고장 / Overhaul)"
+        },
+        {
+          "text": "설비에 부착된 QR코드 스캔 (1차 스캔) - 장비정보 자동 로드"
+        },
+        {
+          "text": "고장 증상과 상세 내용 작성 후 전송"
+        },
+        {
+          "text": "승인 처리 (승인권자 - 모바일 앱/웹)"
+        },
+        {
+          "text": "신고 접수 시 승인권자에게 알림 자동 발송"
+        },
+        {
+          "text": "승인 시: 방문요청일 지정, 정비접수자에게 알림 전송"
+        },
+        {
+          "text": "반려 시: 반려 사유 입력, 신고자에게 반려 알림 전송"
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 8.52,
+      "top": 7.22,
+      "width": 1.68,
+      "height": 0.16,
+      "placeholder_type": "FOOTER",
+      "default_font_size": 8.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.34
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "작성자_동국시스템즈"
+        }
+      ]
+    }
+  },
+  "slide-14": {
+    "shape-0": {
+      "left": 0.3,
+      "top": 0.63,
+      "width": 10.23,
+      "height": 0.78,
+      "placeholder_type": "TITLE",
+      "default_font_size": 17.0,
+      "paragraphs": [
+        {
+          "text": "5. Step 2: 방문예정일 등록",
+          "font_size": 20.0,
+          "bold": true
+        },
+        {
+          "text": "승인이 완료되면 정비접수자가 방문 일정을 조율하고 등록합니다.",
+          "font_size": 14.0
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 8.52,
+      "top": 7.22,
+      "width": 1.68,
+      "height": 0.16,
+      "placeholder_type": "FOOTER",
+      "default_font_size": 8.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.34
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "작성자_동국시스템즈"
+        }
+      ]
+    }
+  },
+  "slide-15": {
+    "shape-0": {
+      "left": 0.3,
+      "top": 0.63,
+      "width": 10.23,
+      "height": 0.78,
+      "placeholder_type": "TITLE",
+      "default_font_size": 17.0,
+      "paragraphs": [
+        {
+          "text": "5. Step 3: 작업 시작 & 완료",
+          "font_size": 20.0,
+          "bold": true
+        },
+        {
+          "text": "정비담당자가 현장 방문하여 QR스캔으로 작업시작/완료를 등록합니다.",
+          "font_size": 14.0
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 8.52,
+      "top": 7.22,
+      "width": 1.68,
+      "height": 0.16,
+      "placeholder_type": "FOOTER",
+      "default_font_size": 8.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.34
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "작성자_동국시스템즈"
+        }
+      ]
+    }
+  },
+  "slide-16": {
+    "shape-0": {
+      "left": 0.3,
+      "top": 0.19,
+      "width": 6.75,
+      "height": 0.4,
+      "placeholder_type": "BODY",
+      "default_font_size": 19.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 3.6
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "담당자: 관리자 (설비팀) / 사용 플랫폼: 웹 (PC)"
+        },
+        {
+          "text": "처리 절차"
+        },
+        {
+          "text": "작업 완료 알림 수신"
+        },
+        {
+          "text": "작업 완료 대상 확인"
+        },
+        {
+          "text": "종료 처리 대상 조회"
+        },
+        {
+          "text": "만족도 평가 입력 (선택사항, 필수 아님)"
+        },
+        {
+          "text": "정비 완료 처리 - 이력 데이터 자동 저장"
+        },
+        {
+          "text": "승인 이후 취소가 필요한 경우"
+        },
+        {
+          "text": "종료 처리 화면에서 취소 사유 입력"
+        },
+        {
+          "text": "해당 요청 건 종료(취소) 처리됨"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.3,
+      "top": 0.63,
+      "width": 10.23,
+      "height": 0.78,
+      "placeholder_type": "TITLE",
+      "default_font_size": 17.0,
+      "paragraphs": [
+        {
+          "text": "5. Step 4: 작업 종료 & 평가",
+          "font_size": 20.0,
+          "bold": true
+        },
+        {
+          "text": "관리자가 작업 완료를 확인하고 최종 종료 처리합니다.",
+          "font_size": 14.0
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 8.52,
+      "top": 7.22,
+      "width": 1.68,
+      "height": 0.16,
+      "placeholder_type": "FOOTER",
+      "default_font_size": 8.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.34
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "작성자_동국시스템즈"
+        }
+      ]
+    }
+  },
+  "slide-17": {
+    "shape-0": {
+      "left": 0.3,
+      "top": 0.63,
+      "width": 10.23,
+      "height": 0.78,
+      "placeholder_type": "TITLE",
+      "default_font_size": 17.0,
+      "paragraphs": [
+        {
+          "text": "5. 업무 프로세스 - 사용자별 역할",
+          "font_size": 20.0,
+          "bold": true
+        },
+        {
+          "text": "4개 역할이 각각 다른 단계에서 업무를 수행합니다.",
+          "font_size": 14.0
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 8.52,
+      "top": 7.22,
+      "width": 1.68,
+      "height": 0.16,
+      "placeholder_type": "FOOTER",
+      "default_font_size": 8.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.34
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "작성자_동국시스템즈"
+        }
+      ]
+    }
+  },
+  "slide-18": {
+    "shape-0": {
+      "left": 0.3,
+      "top": 0.63,
+      "width": 10.23,
+      "height": 0.78,
+      "placeholder_type": "TITLE",
+      "default_font_size": 17.0,
+      "paragraphs": [
+        {
+          "text": "6. QR코드 3회 스캔 체계",
+          "font_size": 20.0,
+          "bold": true
+        },
+        {
+          "text": "프로세스 전반에 걸쳐 QR코드를 3회 스캔하여 정확한 작업 추적이 가능합니다.",
+          "font_size": 14.0
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 8.52,
+      "top": 7.22,
+      "width": 1.68,
+      "height": 0.16,
+      "placeholder_type": "FOOTER",
+      "default_font_size": 8.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.34
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "작성자_동국시스템즈"
+        }
+      ]
+    }
+  },
+  "slide-19": {
+    "shape-0": {
+      "left": 0.3,
+      "top": 0.63,
+      "width": 10.23,
+      "height": 0.78,
+      "placeholder_type": "TITLE",
+      "default_font_size": 17.0,
+      "paragraphs": [
+        {
+          "text": "6. 알림 체계 - 6단계 자동 알림",
+          "font_size": 20.0,
+          "bold": true
+        },
+        {
+          "text": "각 단계별로 관련 담당자에게 카카오톡 알림이 자동 발송됩니다.",
+          "font_size": 14.0
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 8.52,
+      "top": 7.22,
+      "width": 1.68,
+      "height": 0.16,
+      "placeholder_type": "FOOTER",
+      "default_font_size": 8.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.34
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "작성자_동국시스템즈"
+        }
+      ]
+    }
+  },
+  "slide-20": {
+    "shape-0": {
+      "left": 0.3,
+      "top": 0.63,
+      "width": 10.23,
+      "height": 0.78,
+      "placeholder_type": "TITLE",
+      "default_font_size": 17.0,
+      "paragraphs": [
+        {
+          "text": "7. 백업(예외처리) 기능 5종",
+          "font_size": 20.0,
+          "bold": true
+        },
+        {
+          "text": "QR인식 불가, 앱 오류 등 예외상황에서 관리자 웹을 통해 대체 처리할 수 있습니다.",
+          "font_size": 14.0
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 8.52,
+      "top": 7.22,
+      "width": 1.68,
+      "height": 0.16,
+      "placeholder_type": "FOOTER",
+      "default_font_size": 8.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.34
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "작성자_동국시스템즈"
+        }
+      ]
+    }
+  },
+  "slide-21": {
+    "shape-0": {
+      "left": 0.3,
+      "top": 0.63,
+      "width": 10.23,
+      "height": 0.78,
+      "placeholder_type": "TITLE",
+      "default_font_size": 17.0,
+      "paragraphs": [
+        {
+          "text": "8. 기대 효과 - 정량적 KPI",
+          "font_size": 20.0,
+          "bold": true
+        },
+        {
+          "text": "시스템 도입으로 수리 완료 시간 50% 단축, 신고 누락 제로화가 가능합니다.",
+          "font_size": 14.0
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 8.52,
+      "top": 7.22,
+      "width": 1.68,
+      "height": 0.16,
+      "placeholder_type": "FOOTER",
+      "default_font_size": 8.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.34
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "작성자_동국시스템즈"
+        }
+      ]
+    }
+  },
+  "slide-22": {
+    "shape-0": {
+      "left": 0.3,
+      "top": 0.63,
+      "width": 10.23,
+      "height": 0.78,
+      "placeholder_type": "TITLE",
+      "default_font_size": 17.0,
+      "paragraphs": [
+        {
+          "text": "8. 기대 효과 - 정성적 효과",
+          "font_size": 20.0,
+          "bold": true
+        },
+        {
+          "text": "업무 가시성 확보와 예방 정비 계획 수립이 가능해집니다.",
+          "font_size": 14.0
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 8.52,
+      "top": 7.22,
+      "width": 1.68,
+      "height": 0.16,
+      "placeholder_type": "FOOTER",
+      "default_font_size": 8.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.34
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "작성자_동국시스템즈"
+        }
+      ]
+    }
+  },
+  "slide-23": {
+    "shape-0": {
+      "left": 0.3,
+      "top": 0.63,
+      "width": 10.23,
+      "height": 0.78,
+      "placeholder_type": "TITLE",
+      "default_font_size": 17.0,
+      "paragraphs": [
+        {
+          "text": "9. 추진 일정",
+          "font_size": 20.0,
+          "bold": true
+        },
+        {
+          "text": "Phase 1 MVP 8주, Phase 2 고도화 4주로 총 12주 소요 예정입니다.",
+          "font_size": 14.0
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 8.52,
+      "top": 7.22,
+      "width": 1.68,
+      "height": 0.16,
+      "placeholder_type": "FOOTER",
+      "default_font_size": 8.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.34
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "작성자_동국시스템즈"
+        }
+      ]
+    }
+  }
+}
