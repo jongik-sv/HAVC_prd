@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #ffffff; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #FFFFFF; font-family: Arial, sans-serif;
+  display: flex; flex-direction: column;
+}
+.header {
+  background: #002452; padding: 16pt 40pt;
+}
+.header-title {
+  color: #FFFFFF; font-size: 24pt; margin: 0; font-weight: bold;
+}
+.action-bar {
+  background: #F8F9FA; padding: 12pt 40pt; border-bottom: 1px solid #E0E0E0;
+}
+.action-text {
+  color: #333333; font-size: 13pt; margin: 0;
+}
+.content {
+  padding: 20pt 40pt; flex: 1; display: flex; gap: 30pt;
+}
+.table-area {
+  flex: 1;
+}
+.table-header {
+  display: flex; background: #002452; padding: 10pt 14pt;
+}
+.th { color: #FFFFFF; font-size: 12pt; font-weight: bold; }
+.th1 { flex: 1.2; }
+.th2 { flex: 2; }
+.th3 { flex: 0.8; text-align: center; }
+.table-row {
+  display: flex; padding: 12pt 14pt; border-bottom: 1px solid #E8E8E8;
+  align-items: center;
+}
+.row-odd { background: #FFFFFF; }
+.row-even { background: #F8F9FA; }
+.td { font-size: 11pt; color: #333333; }
+.td1 { flex: 1.2; display: flex; align-items: center; gap: 8pt; }
+.td2 { flex: 2; }
+.td3 { flex: 0.8; display: flex; justify-content: center; gap: 4pt; }
+.role-icon {
+  width: 20pt; height: 20pt;
+}
+.func-tag {
+  display: inline-block; background: #F0F4F8; padding: 3pt 8pt;
+  border-radius: 10pt; font-size: 9pt; margin: 2pt;
+}
+.channel-icon {
+  width: 18pt; height: 18pt;
+}
+.persona-area {
+  width: 140pt; display: flex; flex-direction: column; gap: 12pt; padding-top: 30pt;
+}
+.persona-item {
+  display: flex; align-items: center; gap: 10pt;
+}
+.persona-circle {
+  width: 40pt; height: 40pt; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+}
+.p1 { background: #E3F2FD; }
+.p2 { background: #E8F5E9; }
+.p3 { background: #FFF3E0; }
+.p4 { background: #F3E5F5; }
+.persona-icon {
+  width: 22pt; height: 22pt;
+}
+.persona-name {
+  font-size: 10pt; color: #666; margin: 0;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1 class="header-title">5. 업무 프로세스</h1>
+</div>
+<div class="action-bar">
+  <p class="action-text">사용자 역할별 주요 기능과 접근 채널입니다.</p>
+</div>
+<div class="content">
+  <div class="table-area">
+    <div class="table-header">
+      <p class="th th1">역할</p>
+      <p class="th th2">주요 기능</p>
+      <p class="th th3">채널</p>
+    </div>
+    <div class="table-row row-odd">
+      <div class="td td1">
+        <img class="role-icon" src="../icons/person_blue.png">
+        <p>생산현장 담당자</p>
+      </div>
+      <div class="td td2">
+        <span class="func-tag">QR스캔</span>
+        <span class="func-tag">수리요청</span>
+        <span class="func-tag">진행확인</span>
+      </div>
+      <div class="td td3">
+        <img class="channel-icon" src="../icons/smartphone_blue.png">
+      </div>
+    </div>
+    <div class="table-row row-even">
+      <div class="td td1">
+        <img class="role-icon" src="../icons/approval_green.png">
+        <p>설비팀 과장</p>
+      </div>
+      <div class="td td2">
+        <span class="func-tag">승인/반려</span>
+        <span class="func-tag">우선순위 확인</span>
+      </div>
+      <div class="td td3">
+        <img class="channel-icon" src="../icons/smartphone_blue.png">
+        <img class="channel-icon" src="../icons/computer_green.png">
+      </div>
+    </div>
+    <div class="table-row row-odd">
+      <div class="td td1">
+        <img class="role-icon" src="../icons/build_orange.png">
+        <p>정비업체 기사</p>
+      </div>
+      <div class="td td2">
+        <span class="func-tag">접수</span>
+        <span class="func-tag">작업시작</span>
+        <span class="func-tag">작업완료</span>
+      </div>
+      <div class="td td3">
+        <img class="channel-icon" src="../icons/smartphone_blue.png">
+      </div>
+    </div>
+    <div class="table-row row-even">
+      <div class="td td1">
+        <img class="role-icon" src="../icons/dashboard_purple.png">
+        <p>설비관리 팀장</p>
+      </div>
+      <div class="td td2">
+        <span class="func-tag">대시보드</span>
+        <span class="func-tag">이력조회</span>
+        <span class="func-tag">통계</span>
+      </div>
+      <div class="td td3">
+        <img class="channel-icon" src="../icons/computer_green.png">
+      </div>
+    </div>
+  </div>
+  <div class="persona-area">
+    <div class="persona-item">
+      <div class="persona-circle p1">
+        <img class="persona-icon" src="../icons/person_blue.png">
+      </div>
+      <p class="persona-name">생산현장</p>
+    </div>
+    <div class="persona-item">
+      <div class="persona-circle p2">
+        <img class="persona-icon" src="../icons/approval_green.png">
+      </div>
+      <p class="persona-name">승인권자</p>
+    </div>
+    <div class="persona-item">
+      <div class="persona-circle p3">
+        <img class="persona-icon" src="../icons/build_orange.png">
+      </div>
+      <p class="persona-name">정비업체</p>
+    </div>
+    <div class="persona-item">
+      <div class="persona-circle p4">
+        <img class="persona-icon" src="../icons/dashboard_purple.png">
+      </div>
+      <p class="persona-name">관리자</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

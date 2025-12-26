@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #ffffff; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #FFFFFF; font-family: Arial, sans-serif;
+  display: flex; flex-direction: column;
+}
+.header {
+  background: #002452; padding: 16pt 40pt;
+}
+.header-title {
+  color: #FFFFFF; font-size: 24pt; margin: 0; font-weight: bold;
+}
+.action-bar {
+  background: #F8F9FA; padding: 12pt 40pt; border-bottom: 1px solid #E0E0E0;
+}
+.action-text {
+  color: #333333; font-size: 13pt; margin: 0;
+}
+.content {
+  padding: 24pt 50pt; flex: 1;
+}
+.legend {
+  display: flex; justify-content: flex-end; gap: 20pt; margin-bottom: 16pt;
+}
+.legend-item {
+  display: flex; align-items: center; gap: 6pt;
+}
+.legend-bar {
+  width: 20pt; height: 10pt; border-radius: 2pt;
+}
+.legend-asis { background: #B0BEC5; }
+.legend-tobe { background: #002452; }
+.legend-text {
+  font-size: 10pt; color: #666; margin: 0;
+}
+.chart-row {
+  display: flex; align-items: center; margin-bottom: 20pt;
+}
+.kpi-label {
+  width: 140pt; font-size: 12pt; color: #333; margin: 0;
+}
+.bar-area {
+  flex: 1; display: flex; flex-direction: column; gap: 6pt;
+}
+.bar-container {
+  display: flex; align-items: center; gap: 8pt;
+}
+.bar {
+  height: 20pt; border-radius: 4pt; display: flex; align-items: center;
+  padding-left: 8pt;
+}
+.bar-asis { background: #B0BEC5; }
+.bar-tobe-good { background: #002452; }
+.bar-tobe-up { background: #00C853; }
+.bar-value {
+  font-size: 10pt; color: #FFFFFF; font-weight: bold; margin: 0;
+}
+.change-badge {
+  padding: 4pt 10pt; border-radius: 12pt; font-size: 11pt; font-weight: bold;
+  margin: 0; width: 60pt; text-align: center;
+}
+.change-down { background: #E3F2FD; color: #1565C0; }
+.change-up { background: #E8F5E9; color: #2E7D32; }
+.highlight-row {
+  background: #FFF8E1; padding: 8pt; margin: -8pt; border-radius: 8pt;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1 class="header-title">6. 기대 효과</h1>
+</div>
+<div class="action-bar">
+  <p class="action-text">시스템 도입으로 수리 완료 시간 50% 단축, 신고 누락 제로화가 가능합니다.</p>
+</div>
+<div class="content">
+  <div class="legend">
+    <div class="legend-item">
+      <div class="legend-bar legend-asis"></div>
+      <p class="legend-text">현재 (As-Is)</p>
+    </div>
+    <div class="legend-item">
+      <div class="legend-bar legend-tobe"></div>
+      <p class="legend-text">목표 (To-Be)</p>
+    </div>
+  </div>
+
+  <div class="chart-row">
+    <p class="kpi-label">평균 수리 완료 시간</p>
+    <div class="bar-area">
+      <div class="bar-container">
+        <div class="bar bar-asis" style="width: 200pt;"><p class="bar-value">8시간</p></div>
+      </div>
+      <div class="bar-container">
+        <div class="bar bar-tobe-good" style="width: 100pt;"><p class="bar-value">4시간</p></div>
+      </div>
+    </div>
+    <p class="change-badge change-down">-50%</p>
+  </div>
+
+  <div class="chart-row highlight-row">
+    <p class="kpi-label">고장 신고 누락률</p>
+    <div class="bar-area">
+      <div class="bar-container">
+        <div class="bar bar-asis" style="width: 75pt;"><p class="bar-value">15%</p></div>
+      </div>
+      <div class="bar-container">
+        <div class="bar bar-tobe-good" style="width: 4pt;"></div>
+        <p style="font-size: 10pt; color: #002452; font-weight: bold; margin: 0;">0%</p>
+      </div>
+    </div>
+    <p class="change-badge change-down">-100%</p>
+  </div>
+
+  <div class="chart-row">
+    <p class="kpi-label">정비 이력 추적률</p>
+    <div class="bar-area">
+      <div class="bar-container">
+        <div class="bar bar-asis" style="width: 100pt;"><p class="bar-value">40%</p></div>
+      </div>
+      <div class="bar-container">
+        <div class="bar bar-tobe-up" style="width: 250pt;"><p class="bar-value">100%</p></div>
+      </div>
+    </div>
+    <p class="change-badge change-up">+150%</p>
+  </div>
+
+  <div class="chart-row">
+    <p class="kpi-label">관계자 알림 도달률</p>
+    <div class="bar-area">
+      <div class="bar-container">
+        <div class="bar bar-asis" style="width: 150pt;"><p class="bar-value">60%</p></div>
+      </div>
+      <div class="bar-container">
+        <div class="bar bar-tobe-up" style="width: 245pt;"><p class="bar-value">98%</p></div>
+      </div>
+    </div>
+    <p class="change-badge change-up">+63%</p>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #ffffff; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #FFFFFF; font-family: Arial, sans-serif;
+  display: flex; flex-direction: column;
+}
+.header {
+  background: #002452; padding: 16pt 40pt;
+}
+.header-title {
+  color: #FFFFFF; font-size: 24pt; margin: 0; font-weight: bold;
+}
+.action-bar {
+  background: #F8F9FA; padding: 12pt 40pt; border-bottom: 1px solid #E0E0E0;
+}
+.action-text {
+  color: #333333; font-size: 13pt; margin: 0;
+}
+.content {
+  padding: 30pt 40pt; flex: 1; display: flex; justify-content: center; gap: 24pt;
+}
+.feature-card {
+  width: 140pt; height: 130pt; background: #FFFFFF;
+  border-radius: 0 8pt 8pt 0; box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  padding: 16pt; display: flex; flex-direction: column;
+}
+.card1 { border-left: 4pt solid #002452; }
+.card2 { border-left: 4pt solid #C51F2A; }
+.card3 { border-left: 4pt solid #4B6580; }
+.card4 { border-left: 4pt solid #E9B86E; }
+.card-icon {
+  width: 40pt; height: 40pt; margin-bottom: 10pt;
+}
+.card-title {
+  color: #002452; font-size: 14pt; font-weight: bold; margin: 0 0 6pt 0;
+}
+.card-desc {
+  color: #666666; font-size: 10pt; margin: 0; line-height: 150%;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1 class="header-title">1. 프로젝트 개요</h1>
+</div>
+<div class="action-bar">
+  <p class="action-text">공조설비 고장신고부터 수리완료까지 전 과정을 디지털화하는 설비 정비 관리 시스템입니다.</p>
+</div>
+<div class="content">
+  <div class="feature-card card1">
+    <img class="card-icon" src="../icons/qr_code.png">
+    <p class="card-title">QR코드 기반</p>
+    <p class="card-desc">현장 스캔으로 즉시 고장신고</p>
+  </div>
+  <div class="feature-card card2">
+    <img class="card-icon" src="../icons/sync.png">
+    <p class="card-title">실시간 추적</p>
+    <p class="card-desc">요청-승인-수리-완료 전 과정</p>
+  </div>
+  <div class="feature-card card3">
+    <img class="card-icon" src="../icons/analytics.png">
+    <p class="card-title">데이터 기반</p>
+    <p class="card-desc">고장 통계 및 정비 이력 분석</p>
+  </div>
+  <div class="feature-card card4">
+    <img class="card-icon" src="../icons/notifications.png">
+    <p class="card-title">자동 알림</p>
+    <p class="card-desc">카카오톡 실시간 통보</p>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #ffffff; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #FFFFFF; font-family: Arial, sans-serif;
+  display: flex; flex-direction: column;
+}
+.header {
+  background: #002452; padding: 16pt 40pt;
+}
+.header-title {
+  color: #FFFFFF; font-size: 24pt; margin: 0; font-weight: bold;
+}
+.action-bar {
+  background: #F8F9FA; padding: 12pt 40pt; border-bottom: 1px solid #E0E0E0;
+}
+.action-text {
+  color: #333333; font-size: 13pt; margin: 0;
+}
+.content {
+  padding: 30pt 50pt; flex: 1; display: flex; justify-content: center; gap: 32pt; align-items: center;
+}
+.benefit-card {
+  width: 180pt; height: 160pt; background: #FFFFFF;
+  border-radius: 16pt; box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+  padding: 24pt 16pt; text-align: center; position: relative;
+  overflow: hidden;
+}
+.icon-box {
+  width: 50pt; height: 50pt; border-radius: 10pt;
+  margin: 0 auto 16pt auto;
+  display: flex; align-items: center; justify-content: center;
+}
+.icon-box1 { background: linear-gradient(135deg, #FF5252, #C51F2A); }
+.icon-box2 { background: linear-gradient(135deg, #42A5F5, #1565C0); }
+.icon-box3 { background: linear-gradient(135deg, #66BB6A, #2E7D32); }
+.benefit-icon {
+  width: 28pt; height: 28pt;
+}
+.benefit-title {
+  font-size: 16pt; font-weight: bold; color: #1A1A1A; margin: 0 0 8pt 0;
+}
+.benefit-desc {
+  font-size: 11pt; color: #666666; margin: 0; line-height: 150%;
+}
+.card-bottom-bar {
+  position: absolute; bottom: 0; left: 0; right: 0; height: 4pt;
+}
+.bar1 { background: linear-gradient(90deg, #FF5252, #C51F2A); }
+.bar2 { background: linear-gradient(90deg, #42A5F5, #1565C0); }
+.bar3 { background: linear-gradient(90deg, #66BB6A, #2E7D32); }
+</style>
+</head>
+<body>
+<div class="header">
+  <h1 class="header-title">6. 기대 효과</h1>
+</div>
+<div class="action-bar">
+  <p class="action-text">정성적 효과로 업무 가시성 확보와 예방 정비 계획 수립이 가능해집니다.</p>
+</div>
+<div class="content">
+  <div class="benefit-card">
+    <div class="icon-box icon-box1">
+      <img class="benefit-icon" src="../icons/cancel_white.png">
+    </div>
+    <p class="benefit-title">수기 대장 폐지</p>
+    <p class="benefit-desc">종이 문서 사용<br>완전 중단</p>
+    <div class="card-bottom-bar bar1"></div>
+  </div>
+  <div class="benefit-card">
+    <div class="icon-box icon-box2">
+      <img class="benefit-icon" src="../icons/visibility_white.png">
+    </div>
+    <p class="benefit-title">업무 가시성 확보</p>
+    <p class="benefit-desc">정비 진행 현황<br>실시간 파악</p>
+    <div class="card-bottom-bar bar2"></div>
+  </div>
+  <div class="benefit-card">
+    <div class="icon-box icon-box3">
+      <img class="benefit-icon" src="../icons/event_white.png">
+    </div>
+    <p class="benefit-title">예방 정비 가능</p>
+    <p class="benefit-desc">데이터 기반<br>정비 계획 수립</p>
+    <div class="card-bottom-bar bar3"></div>
+  </div>
+</div>
+</body>
+</html>

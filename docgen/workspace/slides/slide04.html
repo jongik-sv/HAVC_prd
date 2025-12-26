@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #ffffff; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #FFFFFF; font-family: Arial, sans-serif;
+  display: flex; flex-direction: column;
+}
+.header {
+  background: #002452; padding: 16pt 40pt;
+}
+.header-title {
+  color: #FFFFFF; font-size: 24pt; margin: 0; font-weight: bold;
+}
+.action-bar {
+  background: #F8F9FA; padding: 12pt 40pt; border-bottom: 1px solid #E0E0E0;
+}
+.action-text {
+  color: #333333; font-size: 13pt; margin: 0;
+}
+.content {
+  padding: 20pt 50pt; flex: 1;
+}
+.table-container {
+  width: 100%;
+}
+.table-header {
+  display: flex; background: #002452; border-radius: 8pt 8pt 0 0; padding: 12pt 16pt;
+}
+.th { color: #FFFFFF; font-size: 13pt; font-weight: bold; }
+.th1 { flex: 2; }
+.th2 { flex: 2; }
+.th3 { flex: 1; text-align: center; }
+.table-row {
+  display: flex; padding: 14pt 16pt; border-bottom: 1px solid #E8E8E8;
+  align-items: center;
+}
+.row-odd { background: #FFFFFF; }
+.row-even { background: #F8F9FA; }
+.row-high { border-left: 4pt solid #C51F2A; }
+.td { font-size: 12pt; color: #333333; }
+.td1 { flex: 2; font-weight: bold; }
+.td2 { flex: 2; }
+.td3 { flex: 1; text-align: center; }
+.badge {
+  display: inline-block; padding: 4pt 12pt; border-radius: 16pt;
+  font-size: 11pt; font-weight: bold; color: #FFFFFF;
+}
+.badge-high { background: #C51F2A; }
+.badge-mid { background: #F57C00; }
+</style>
+</head>
+<body>
+<div class="header">
+  <h1 class="header-title">2. 현황 및 문제점</h1>
+</div>
+<div class="action-bar">
+  <p class="action-text">전화/구두 신고로 인한 기록 누락과 수작업 대장 관리가 가장 큰 문제입니다.</p>
+</div>
+<div class="content">
+  <div class="table-container">
+    <div class="table-header">
+      <p class="th th1">문제점</p>
+      <p class="th th2">영향</p>
+      <p class="th th3">심각도</p>
+    </div>
+    <div class="table-row row-odd row-high">
+      <p class="td td1">전화/구두 신고로 기록 누락</p>
+      <p class="td td2">정비 이력 관리 불가</p>
+      <p class="td td3"><span class="badge badge-high">높음</span></p>
+    </div>
+    <div class="table-row row-even row-high">
+      <p class="td td1">수작업 대장 관리</p>
+      <p class="td td2">실시간 현황 파악 불가</p>
+      <p class="td td3"><span class="badge badge-high">높음</span></p>
+    </div>
+    <div class="table-row row-odd">
+      <p class="td td1">담당자 연락 지연</p>
+      <p class="td td2">수리 완료 시간 증가</p>
+      <p class="td td3"><span class="badge badge-mid">중간</span></p>
+    </div>
+    <div class="table-row row-even">
+      <p class="td td1">부품 재고 파악 어려움</p>
+      <p class="td td2">긴급 구매 빈발</p>
+      <p class="td td3"><span class="badge badge-mid">중간</span></p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

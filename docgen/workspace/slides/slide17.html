@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #ffffff; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #FFFFFF; font-family: Arial, sans-serif;
+  display: flex; flex-direction: column;
+}
+.header {
+  background: #002452; padding: 16pt 40pt;
+}
+.header-title {
+  color: #FFFFFF; font-size: 24pt; margin: 0; font-weight: bold;
+}
+.action-bar {
+  background: #F8F9FA; padding: 12pt 40pt; border-bottom: 1px solid #E0E0E0;
+}
+.action-text {
+  color: #333333; font-size: 13pt; margin: 0;
+}
+.content {
+  padding: 20pt 30pt; flex: 1;
+}
+.timeline-header {
+  display: flex; background: #F8F9FA; border-bottom: 2pt solid #E0E0E0; margin-bottom: 16pt;
+}
+.week-label {
+  flex: 1; text-align: center; font-size: 9pt; color: #666; padding: 6pt 0;
+  border-right: 1px solid #E8E8E8; margin: 0;
+}
+.phase-row {
+  display: flex; align-items: center; margin-bottom: 20pt;
+}
+.phase-label {
+  width: 70pt; padding: 10pt; border-radius: 6pt; text-align: center;
+  color: #FFFFFF; font-size: 10pt; font-weight: bold;
+}
+.phase1-label { background: #002452; }
+.phase2-label { background: #C51F2A; }
+.phase-name {
+  font-size: 11pt; margin: 0;
+}
+.phase-duration {
+  font-size: 8pt; opacity: 0.8; margin: 2pt 0 0 0;
+}
+.timeline-area {
+  flex: 1; display: flex; padding-left: 10pt;
+}
+.week-slot {
+  flex: 1; height: 50pt; position: relative;
+}
+.bar {
+  position: absolute; top: 10pt; height: 30pt; border-radius: 6pt;
+  display: flex; align-items: center; justify-content: center;
+}
+.phase1-bar { background: linear-gradient(90deg, #002452, #1A3A6E); }
+.phase2-bar { background: linear-gradient(90deg, #C51F2A, #E53935); }
+.bar-text {
+  font-size: 8pt; color: #FFFFFF; margin: 0; text-align: center;
+}
+.milestone {
+  position: absolute; top: 5pt; width: 10pt; height: 10pt;
+  background: #FFC107; transform: rotate(45deg);
+}
+.tasks-section {
+  display: flex; gap: 20pt; margin-top: 16pt; padding-top: 16pt; border-top: 1pt dashed #E0E0E0;
+}
+.task-group {
+  flex: 1;
+}
+.task-header {
+  font-size: 11pt; font-weight: bold; margin: 0 0 8pt 0;
+}
+.task-header1 { color: #002452; }
+.task-header2 { color: #C51F2A; }
+.task-item {
+  font-size: 9pt; color: #666; margin: 4pt 0; padding-left: 10pt;
+  border-left: 2pt solid #E0E0E0;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1 class="header-title">7. 추진 일정</h1>
+</div>
+<div class="action-bar">
+  <p class="action-text">Phase 1 MVP 8주, Phase 2 고도화 4주로 총 12주 소요 예정입니다.</p>
+</div>
+<div class="content">
+  <div class="timeline-header">
+    <p class="week-label">1주</p>
+    <p class="week-label">2주</p>
+    <p class="week-label">3주</p>
+    <p class="week-label">4주</p>
+    <p class="week-label">5주</p>
+    <p class="week-label">6주</p>
+    <p class="week-label">7주</p>
+    <p class="week-label">8주</p>
+    <p class="week-label">9주</p>
+    <p class="week-label">10주</p>
+    <p class="week-label">11주</p>
+    <p class="week-label" style="border-right: none;">12주</p>
+  </div>
+
+  <div class="phase-row">
+    <div class="phase-label phase1-label">
+      <p class="phase-name">Phase 1</p>
+      <p class="phase-duration">MVP (8주)</p>
+    </div>
+    <div class="timeline-area">
+      <div class="week-slot"><div class="bar phase1-bar" style="left: 0; width: calc(800% - 10pt);"><p class="bar-text">개발환경 / DB 설계 / 백엔드 / 모바일 / 웹 / UAT</p></div></div>
+      <div class="week-slot"></div>
+      <div class="week-slot"></div>
+      <div class="week-slot"></div>
+      <div class="week-slot"></div>
+      <div class="week-slot"></div>
+      <div class="week-slot"></div>
+      <div class="week-slot"><div class="milestone" style="right: 10pt;"></div></div>
+      <div class="week-slot"></div>
+      <div class="week-slot"></div>
+      <div class="week-slot"></div>
+      <div class="week-slot"></div>
+    </div>
+  </div>
+
+  <div class="phase-row">
+    <div class="phase-label phase2-label">
+      <p class="phase-name">Phase 2</p>
+      <p class="phase-duration">고도화 (4주)</p>
+    </div>
+    <div class="timeline-area">
+      <div class="week-slot"></div>
+      <div class="week-slot"></div>
+      <div class="week-slot"></div>
+      <div class="week-slot"></div>
+      <div class="week-slot"></div>
+      <div class="week-slot"></div>
+      <div class="week-slot"></div>
+      <div class="week-slot"></div>
+      <div class="week-slot"><div class="bar phase2-bar" style="left: 0; width: calc(400% - 10pt);"><p class="bar-text">마스터관리 / 리포트 / 안정화</p></div></div>
+      <div class="week-slot"></div>
+      <div class="week-slot"></div>
+      <div class="week-slot"><div class="milestone" style="right: 10pt;"></div></div>
+    </div>
+  </div>
+
+  <div class="tasks-section">
+    <div class="task-group">
+      <p class="task-header task-header1">Phase 1 - MVP</p>
+      <p class="task-item">1-2주: 개발환경 구축, DB 설계</p>
+      <p class="task-item">3-4주: 백엔드 API 개발 (Core)</p>
+      <p class="task-item">5-6주: 모바일 앱 개발 (Core)</p>
+      <p class="task-item">7주: 웹 대시보드 개발</p>
+      <p class="task-item">8주: 통합테스트, UAT</p>
+    </div>
+    <div class="task-group">
+      <p class="task-header task-header2">Phase 2 - 고도화</p>
+      <p class="task-item">9-10주: 마스터 관리 기능</p>
+      <p class="task-item">11주: 리포트/Excel 출력</p>
+      <p class="task-item">12주: 성능 최적화, 안정화</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

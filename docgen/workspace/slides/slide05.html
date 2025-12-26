@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #ffffff; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #FFFFFF; font-family: Arial, sans-serif;
+  display: flex; flex-direction: column;
+}
+.header {
+  background: #002452; padding: 16pt 40pt;
+}
+.header-title {
+  color: #FFFFFF; font-size: 24pt; margin: 0; font-weight: bold;
+}
+.action-bar {
+  background: #F8F9FA; padding: 12pt 40pt; border-bottom: 1px solid #E0E0E0;
+}
+.action-text {
+  color: #333333; font-size: 13pt; margin: 0;
+}
+.content {
+  padding: 24pt 40pt; flex: 1; display: flex; justify-content: center; gap: 20pt;
+}
+.persona-card {
+  width: 145pt; background: linear-gradient(180deg, #F8F9FA 0%, #FFFFFF 100%);
+  border: 1px solid #E0E0E0; border-radius: 12pt; padding: 16pt;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06); text-align: center;
+}
+.avatar {
+  width: 50pt; height: 50pt; border-radius: 50%; margin: 0 auto 10pt auto;
+  display: flex; align-items: center; justify-content: center;
+}
+.avatar1 { background: #E3F2FD; }
+.avatar2 { background: #E8F5E9; }
+.avatar3 { background: #FFF3E0; }
+.avatar4 { background: #F3E5F5; }
+.avatar-icon {
+  width: 28pt; height: 28pt;
+}
+.role-label {
+  font-size: 13pt; font-weight: bold; margin: 0 0 12pt 0;
+}
+.role1 { color: #1976D2; }
+.role2 { color: #388E3C; }
+.role3 { color: #F57C00; }
+.role4 { color: #7B1FA2; }
+.pain-box {
+  background: #FFF5F5; border-left: 3pt solid #C51F2A;
+  border-radius: 0 8pt 8pt 0; padding: 10pt; text-align: left;
+}
+.pain-text {
+  color: #C51F2A; font-size: 10pt; margin: 0; line-height: 160%;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1 class="header-title">2. 현황 및 문제점</h1>
+</div>
+<div class="action-bar">
+  <p class="action-text">각 이해관계자별로 업무 수행에 어려움을 겪고 있습니다.</p>
+</div>
+<div class="content">
+  <div class="persona-card">
+    <div class="avatar avatar1">
+      <img class="avatar-icon" src="../icons/person_blue.png">
+    </div>
+    <p class="role-label role1">신고자</p>
+    <div class="pain-box">
+      <p class="pain-text">누구에게 연락?<br>진행상황은?<br>언제 수리?</p>
+    </div>
+  </div>
+  <div class="persona-card">
+    <div class="avatar avatar2">
+      <img class="avatar-icon" src="../icons/approval_green.png">
+    </div>
+    <p class="role-label role2">승인권자</p>
+    <div class="pain-box">
+      <p class="pain-text">수많은 전화<br>우선순위 판단 어려움</p>
+    </div>
+  </div>
+  <div class="persona-card">
+    <div class="avatar avatar3">
+      <img class="avatar-icon" src="../icons/build_orange.png">
+    </div>
+    <p class="role-label role3">정비담당자</p>
+    <div class="pain-box">
+      <p class="pain-text">현장 위치 파악 어려움<br>정비이력 없음</p>
+    </div>
+  </div>
+  <div class="persona-card">
+    <div class="avatar avatar4">
+      <img class="avatar-icon" src="../icons/dashboard_purple.png">
+    </div>
+    <p class="role-label role4">관리자</p>
+    <div class="pain-box">
+      <p class="pain-text">전체 현황 파악 불가<br>통계 산출 불가</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

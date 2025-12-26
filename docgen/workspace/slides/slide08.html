@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #ffffff; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #FFFFFF; font-family: Arial, sans-serif;
+  display: flex; flex-direction: column;
+}
+.header {
+  background: #002452; padding: 16pt 40pt;
+}
+.header-title {
+  color: #FFFFFF; font-size: 24pt; margin: 0; font-weight: bold;
+}
+.action-bar {
+  background: #F8F9FA; padding: 12pt 40pt; border-bottom: 1px solid #E0E0E0;
+}
+.action-text {
+  color: #333333; font-size: 13pt; margin: 0;
+}
+.content {
+  padding: 16pt 30pt; flex: 1; display: flex; flex-direction: column; gap: 16pt;
+}
+.browser-frame {
+  background: #F1F3F4; border-radius: 8pt 8pt 0 0; padding: 8pt 12pt;
+  display: flex; align-items: center; gap: 8pt;
+}
+.browser-dots {
+  display: flex; gap: 4pt;
+}
+.dot {
+  width: 8pt; height: 8pt; border-radius: 50%;
+}
+.dot-red { background: #FF5F56; }
+.dot-yellow { background: #FFBD2E; }
+.dot-green { background: #27CA40; }
+.address-bar {
+  flex: 1; background: #FFFFFF; border-radius: 4pt; padding: 4pt 10pt;
+  font-size: 9pt; color: #666;
+}
+.browser-content {
+  height: 160pt; background: #F8F9FA; border: 1px solid #E0E0E0;
+  display: flex; padding: 10pt;
+}
+.sidebar {
+  width: 40pt; background: #002452; border-radius: 4pt;
+}
+.main-area {
+  flex: 1; padding-left: 10pt; display: flex; flex-direction: column; gap: 8pt;
+}
+.kpi-row {
+  display: flex; gap: 8pt;
+}
+.kpi-card {
+  flex: 1; background: #FFFFFF; border-radius: 4pt; padding: 8pt;
+  text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+.kpi-num {
+  font-size: 16pt; font-weight: bold; color: #002452; margin: 0;
+}
+.kpi-label {
+  font-size: 7pt; color: #999; margin: 2pt 0 0 0;
+}
+.table-area {
+  flex: 1; background: #FFFFFF; border-radius: 4pt;
+}
+.features-strip {
+  display: flex; justify-content: center; gap: 24pt; padding-top: 8pt;
+}
+.feature-item {
+  text-align: center;
+}
+.feature-icon-box {
+  width: 36pt; height: 36pt; border-radius: 50%;
+  background: linear-gradient(135deg, #66BB6A, #388E3C);
+  margin: 0 auto 6pt auto;
+  display: flex; align-items: center; justify-content: center;
+}
+.feature-icon {
+  width: 20pt; height: 20pt;
+}
+.feature-title {
+  font-size: 11pt; font-weight: bold; color: #002452; margin: 0 0 2pt 0;
+}
+.feature-desc {
+  font-size: 8pt; color: #666666; margin: 0;
+}
+.connector-line {
+  border-top: 2pt dashed #C8E6C9; margin-top: 20pt;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1 class="header-title">4. 핵심 기능 - 웹 관리자</h1>
+</div>
+<div class="action-bar">
+  <p class="action-text">대시보드로 전체 현황을 파악하고, 설비별 이력과 기준정보를 관리합니다.</p>
+</div>
+<div class="content">
+  <div>
+    <div class="browser-frame">
+      <div class="browser-dots">
+        <div class="dot dot-red"></div>
+        <div class="dot dot-yellow"></div>
+        <div class="dot dot-green"></div>
+      </div>
+      <p class="address-bar">hvac.dongkuk.com</p>
+    </div>
+    <div class="browser-content">
+      <div class="sidebar"></div>
+      <div class="main-area">
+        <div class="kpi-row">
+          <div class="kpi-card">
+            <p class="kpi-num">24</p>
+            <p class="kpi-label">신규요청</p>
+          </div>
+          <div class="kpi-card">
+            <p class="kpi-num">12</p>
+            <p class="kpi-label">진행중</p>
+          </div>
+          <div class="kpi-card">
+            <p class="kpi-num">156</p>
+            <p class="kpi-label">완료</p>
+          </div>
+          <div class="kpi-card">
+            <p class="kpi-num">98%</p>
+            <p class="kpi-label">완료율</p>
+          </div>
+        </div>
+        <div class="table-area"></div>
+      </div>
+    </div>
+  </div>
+  <div class="connector-line"></div>
+  <div class="features-strip">
+    <div class="feature-item">
+      <div class="feature-icon-box">
+        <img class="feature-icon" src="../icons/dashboard_white.png">
+      </div>
+      <p class="feature-title">종합 상황판</p>
+      <p class="feature-desc">실시간 현황 모니터링</p>
+    </div>
+    <div class="feature-item">
+      <div class="feature-icon-box">
+        <img class="feature-icon" src="../icons/list_white.png">
+      </div>
+      <p class="feature-title">정비 현황 관리</p>
+      <p class="feature-desc">전체 요청 검색/조회</p>
+    </div>
+    <div class="feature-item">
+      <div class="feature-icon-box">
+        <img class="feature-icon" src="../icons/history_white.png">
+      </div>
+      <p class="feature-title">설비별 이력 카드</p>
+      <p class="feature-desc">고장/수리 타임라인</p>
+    </div>
+    <div class="feature-item">
+      <div class="feature-icon-box">
+        <img class="feature-icon" src="../icons/settings_white.png">
+      </div>
+      <p class="feature-title">기준정보 관리</p>
+      <p class="feature-desc">설비, 사용자, 업체</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
